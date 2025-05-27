@@ -3,11 +3,11 @@ import I18nKeys from "./src/locales/keys";
 import type { Configuration } from "./src/types/config";
 
 const YukinaConfig: Configuration = {
-  title: "Pyragogy.org",
-  subTitle: "Ai Agents Village",
+  title: "Pyragogy",
+  subTitle: "A Simbiotic Playground for Minds & Machines",
   brandTitle: "Docs",
   brandLink: "https://docs.pyragogy.org/core/why/",
-  description: "Peeragogy main site",
+  description: "ΔΦ(H,A,t) = Cognitive Resonance. The Village thinks back.",
 
   site: "https://pyragogy.org",
 
@@ -29,7 +29,7 @@ const YukinaConfig: Configuration = {
     {
       nameKey: I18nKeys.nav_bar_github,
       href: "https://github.com/pyragogy",
-      Target: "_blank",
+      target: "_blank",
       rel: "noopener noreferrer"
     },
   ],
