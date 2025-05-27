@@ -48,13 +48,12 @@ const YukinaConfig: Configuration = {
   maxFooterCategoryChip: 6,
   maxFooterTagChip: 24,
 
-  banners: [
-    "../public/banner/1.jpg",
-    "../public/banner/2.jpg",
-    "../public/banner/3.jpg",
-    "../public/banner/4.jpg",
-   
-  ],
+ banners: [
+  "/banner/1.jpg",
+  "/banner/2.jpg",
+  "/banner/3.jpg",
+  "/banner/4.jpg",
+],
 
   slugMode: "HASH", // 'RAW' | 'HASH'
 
