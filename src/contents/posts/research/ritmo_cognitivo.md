@@ -50,6 +50,19 @@ Here, everyone’s welcome: philosophers, mathematicians, educators, haters, mem
 
 ---
 
-**PS:**  
-If you want the full theory (with formulas, diagrams, and some philosophy, too), you’ll find it at [Pyragogy.org](https://pyragogy.org)—signed by Fabrizio Terzi & Gino, AI co-author (and jam session enthusiast).
+## 📚 Publication:
+
+> Cognitive Rhythm Theory: AI–Human Co-Creation Education and Beyond
+
+**Fabrizio Terzi** ([ORCID: 0009-0004-7191-0455](https://orcid.org/0009-0004-7191-0455))
+**Published**: [https://zenodo.org/records/15480363](https://zenodo.org/records/15480363)
+
+*A formal theory of cognitive synchronization, resonance, and phase shifts in human–AI interaction.*
+
+Includes:
+
+* A mathematical model of cognitive rhythm: `RC(H,A,t) = f(∆ΦH, ∆ΦA, S(t), R(t))`
+* [Documentation link](https://docs.pyragogy.org/experiments/applied/)
+
+---
 
