@@ -1,0 +1,66 @@
+---
+title: "Titolo del post"
+slug: "titolo-del-post"          # url-friendly, opzionale se autogenerato
+published: 2025-05-24           # data di pubblicazione (ISO)
+updated: 2025-05-24             # data di ultimo aggiornamento (opzionale)
+author: fabry                   # o [fabry, gino] per post co-autore
+avatar: "/images/fabry.png"     # opzionale: avatar autore
+description: "Breve descrizione (max 150 caratteri)."
+category: Diario                # o Research, Tutorial, Manifesto, Annuncio
+tags: [AI, Cognitive Rhythm, Diario]  # max 3-5 tag
+coverImage: "/images/cover-post.png"  # opzionale: hero image per il post
+licenseName: "CC BY-SA 4.0"     # consigliato!
+licenseLink: "https://creativecommons.org/licenses/by-sa/4.0/"
+sourceLink: ""                  # link repo o fonte ispirazione, se serve
+draft: false
+readingTime: 4                  # minuti stimati, opzionale
+featured: false                 # se true va in home o nella sezione "in evidenza"
+---
+
+
+
+
+Struttura delle cartelle
+/src/content/docs/diario/diary/ — per i post del diario personale/collaborativo
+
+/src/content/docs/research/ — per i post di ricerca, theory, modelli
+
+/src/content/docs/tutorials/ — guide pratiche
+
+/src/content/docs/annunci/ — news, call, eventi
+
+/src/content/docs/manifesto/ — aggiornamenti manifesto
+
+Esempio di intestazione per un post diary
+markdown
+Copia
+Modifica
+---
+title: "La mia prima co-creazione con Gino"
+slug: "prima-co-creazione-gino"
+published: 2025-05-24
+updated: 2025-05-24
+author: [fabry, gino]
+avatar: "/images/fabry_gino.png"
+description: "Racconto pratico di come abbiamo creato una nuova funzione di ritmo cognitivo nel villaggio Pyragogy."
+category: Diario
+tags: [Cognitive Rhythm, AI, Esperienza]
+coverImage: "/images/cognitive-hero.png"
+licenseName: "CC BY-SA 4.0"
+licenseLink: "https://creativecommons.org/licenses/by-sa/4.0/"
+draft: false
+readingTime: 3
+featured: true
+---
+Suggerimenti extra:
+Usa tags per collegare post simili (AI, learning, diario, hackathon, ecc).
+
+category ti permette di filtrare e creare pagine tematiche in automatico.
+
+licenseName: usa sempre licenze open (CC BY-SA 4.0).
+
+featured: se vuoi post sempre in homepage o in una “vetrina”.
+
+avatar: rende più umano e “villaggioso” il blog.
+
+updated: perfetto per trasparenza e versione continua (tipico di blog-villaggio che evolve!).

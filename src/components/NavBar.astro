@@ -33,25 +33,29 @@ const navCount = YukinaConfig.navigators.length;
           class="mx-auto hidden"
         />
       </button>
-      <a class="title" href="/">
-        {YukinaConfig.brandTitle}
+      <a class="title" href={YukinaConfig.brandLink} target="_blank" rel="noopener noreferrer">
+      {YukinaConfig.brandTitle}
       </a>
     </div>
-    <a class="brand-lg" href="/">
-      <div class="title space-x-2">
-        <Icon name="heroicons:home" size={32} />
-        <p>{YukinaConfig.brandTitle}</p>
-      </div>
-    </a>
+    <a class="brand-lg" href={YukinaConfig.brandLink} target="_blank" rel="noopener noreferrer">
+  <div class="title space-x-2">
+    <Icon name="heroicons:home" size={32} />
+    <p>{YukinaConfig.brandTitle}</p>
+  </div>
+</a>
     <div class="menu">
-      {
-        YukinaConfig.navigators.map((nav) => (
-          <a href={nav.href}>
-            <p>{i18n(nav.nameKey)}</p>
-          </a>
-        ))
-      }
+  {
+    YukinaConfig.navigators.map((nav) => (
+      <a
+        href={nav.href}
+        target={nav.href.startsWith("http") ? "_blank" : undefined}
+        rel={nav.href.startsWith("http") ? "noopener noreferrer" : undefined}>
+        <p>{i18n(nav.nameKey)}</p>
+      </a>
+      ))
+  }
     </div>
+
     <div class="toolbar">
       <div class="lg:hidden">
         <MobileSearchBar client:only="svelte" />
@@ -83,21 +87,26 @@ const navCount = YukinaConfig.navigators.length;
       class="mobile-menu-nav mobile-menu-nav-closed flex flex-col space-y-6 overflow-hidden text-xl font-medium text-[var(--text-color)] transition-all duration-300"
     >
       {
-        YukinaConfig.navigators.map((nav) => (
-          <li class="mt-1">
-            <a href={nav.href} class="mobile-nav-item">
-              <div class="flex flex-row items-center space-x-2">
-                <span class="text-[var(--primary-color)]">·</span>
-                <span>{i18n(nav.nameKey)}</span>
-              </div>
-              <Icon
-                name="cuida:caret-right-outline"
-                class="text-[var(--text-color-lighten)]"
-              />
-            </a>
-          </li>
-        ))
-      }
+  YukinaConfig.navigators.map((nav) => (
+    <li class="mt-1">
+      <a
+        href={nav.href}
+        class="mobile-nav-item"
+        target={nav.href.startsWith("http") ? "_blank" : undefined}
+        rel={nav.href.startsWith("http") ? "noopener noreferrer" : undefined}
+      >
+        <div class="flex flex-row items-center space-x-2">
+          <span class="text-[var(--primary-color)]">·</span>
+          <span>{i18n(nav.nameKey)}</span>
+        </div>
+        <Icon
+          name="cuida:caret-right-outline"
+          class="text-[var(--text-color-lighten)]"
+        />
+      </a>
+    </li>
+  ))
+}y
     </ul>
   </div>
 </nav>
@@ -283,7 +292,7 @@ const navCount = YukinaConfig.navigators.length;
   ) as any as SVGElement;
 
   // Record the current theme
-  let currentTheme = localStorage.getItem("theme") || "light";
+  let currentTheme = localStorage.getItem("theme") || "dark";
 
   // Set theme
   const setTheme = (theme: string) => {

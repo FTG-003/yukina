@@ -14,7 +14,7 @@ const hasTitle = title !== undefined || subTitle !== undefined;
 const hasHeaderImg = bannerImage !== undefined || slug !== undefined;
 
 let carouselImgsList = YukinaConfig.banners;
-const carouselAnimationTime = `${carouselImgsList.length * 6}s`;
+const carouselAnimationTime = `${carouselImgsList.length * 40}s`;
 ---
 
 <div id="banner" class="banner onload-animation-fade-in">
@@ -26,7 +26,7 @@ const carouselAnimationTime = `${carouselImgsList.length * 6}s`;
             {carouselImgsList.map((img, index) => (
               <li
                 class="item lozad"
-                style={{ animationDelay: `${index * 6}s` }}
+                style={{ animationDelay: `${index * 20}s` }}
                 data-background-image={img}
               />
             ))}
