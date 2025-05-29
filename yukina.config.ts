@@ -4,7 +4,7 @@ import type { Configuration } from "./src/types/config";
 
 const YukinaConfig: Configuration = {
   title: "Pyragogy",
-  subTitle: "A Simbiotic Playground for Minds & Machines",
+  subTitle: "A diary of mistakes, doubts, and small revolutions",
   brandTitle: "Docs",
   brandLink: "https://docs.pyragogy.org/core/why/",
   description: "ΔΦ(H,A,t) = Cognitive Resonance. The Village thinks back.",
@@ -49,10 +49,10 @@ const YukinaConfig: Configuration = {
   maxFooterTagChip: 24,
 
  banners: [
-  "/banner/1.jpg",
-  "/banner/2.jpg",
-  "/banner/3.jpg",
-  "/banner/4.jpg",
+  "/banner/1.webp",
+  "/banner/2.webp",
+  "/banner/3.webp",
+  "/banner/4.webp",
 ],
 
   slugMode: "HASH", // 'RAW' | 'HASH'
