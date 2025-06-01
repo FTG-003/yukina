@@ -2,6 +2,7 @@
 import YukinaConfig from "../../yukina.config";
 import GlobalStyles from "./GlobalStyles.astro";
 import ScriptSetup from "./ScriptSetup.astro";
+import { Partytown } from '@builder.io/partytown/react';
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
@@ -56,6 +57,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   href="https://fonts.bunny.net/css?family=noto-sans-sc:100,200,300,400,500,600,700,800,900|raleway:500,700"
   rel="stylesheet"
 />
+<script
+  type="text/partytown"
+  defer
+  src="https://plausible.pyragogy.org/script.js"
+  data-website-id="d8e4b316-f341-49e6-8201-112274741498"
+></script>
 
 <GlobalStyles />
 <ScriptSetup />

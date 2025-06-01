@@ -1,18 +1,10 @@
 ---
 import YukinaConfig from "../../yukina.config";
 import BaseHead from "../components/BaseHead.astro";
-import { Partytown } from '@builder.io/partytown/react';
 
 ---
 
 <html lang={YukinaConfig.locale} class="dark">
-  <Partytown debug={false} />
-  <script
-    type="text/partytown"
-    defer
-    src="https://plausible.pyragogy.org/script.js"
-    data-website-id="d8e4b316-f341-49e6-8201-112274741498"
-  ></script>
   <BaseHead />
   <body class="overflow-y-hidden bg-[var(--background-color)] text-[var(--text-color)]">
     <slot />
@@ -29,4 +21,5 @@ import { Partytown } from '@builder.io/partytown/react';
     --background-color: #0e0e0e;
     --text-color: #f1f1f1;
   }
+
 </style>
