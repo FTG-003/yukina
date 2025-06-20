@@ -9,7 +9,7 @@ bannerImage: /banner/4.webp
 cover: /banner/1.webp 
 ---
 
-## **We Did It: A New Era for Open Knowledge with Multi-Agent Orchestration**
+## **We Did It: Open Knowledge with Multi-Agent Orchestration**
 
 Sometimes an idea takes shape and, step by step, reveals unexpected potential.  
 Today, we're excited to share a result that fills us with satisfaction: we've developed an innovative workflow for generating collaborative handbooks, powered by GPT-4o and orchestrated through a multi-agent setup — with **human supervision always at the core**.
