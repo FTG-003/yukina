@@ -4,8 +4,14 @@ import Main from "../layouts/MainLayout.astro";
 import Markdown from "../components/Markdown.astro";
 import CopyRight from "../components/misc/CopyRight.astro";
 
-const aboutPost = await getEntry("specs", "about");
-const { Content } = await render(aboutPost!);
+const aboutPost = await getEntry("specs", "about", "posts");
+
+if (!aboutPost) {
+  // Puoi gestire l'errore come preferisci, ad esempio mostrando un messaggio
+  // o reindirizzando a una pagina 404.
+  throw new Error("L'entry 'about' nella collezione 'specs' non è stata trovata.");
+}
+const { Content } = await render(aboutPost);
 interface Props {
   title?: string;
   subTitle?: string;

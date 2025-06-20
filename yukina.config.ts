@@ -4,7 +4,7 @@ import type { Configuration } from "./src/types/config";
 
 const YukinaConfig: Configuration = {
   title: "Pyragogy",
-  subTitle: "A diary of mistakes, doubts, and small revolutions",
+  subTitle: "Building the conditions for minds to think otherwise",
   brandTitle: "Docs",
   brandLink: "https://docs.pyragogy.org/core/why/",
   description: "ΔΦ(H,A,t) = Cognitive Resonance. The Village thinks back.",
