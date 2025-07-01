@@ -55,6 +55,6 @@ Together, we are building a future where technology is not the center — but th
   id="n8n_workflow_embed"
   class="n8n_workflow_iframe"
   allow="clipboard-write"
-  src="https://n8n.io/workflows/4904-generate-collaborative-handbooks-with-gpt-4o-multi-agent-orchestration-and-human-review/"
+  src="https://n8n.io/workflows/4904-pyragogy-ai-driven-handbook-generator-with-multi-agent-orchestration/"
   style="width: 100%; height: 700px; border: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"
 ></iframe>
