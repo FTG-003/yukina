@@ -3,7 +3,7 @@ title: From Chatbot to Symphony – Multi-Agent Orchestration for Peer Knowledge
 published: 2025-06-20
 description: Ethical AI co-creation for open knowledge systems
 author: The Pyragogy Team
-category: Updates
+category: Announcements
 tags: [AI, Collaboration, OpenKnowledge, HumanInTheLoop, GPT4o, n8n]
 bannerImage: /banner/4.webp 
 cover: /banner/1.webp 

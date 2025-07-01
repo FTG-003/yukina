@@ -2,6 +2,7 @@ import { Target } from './node_modules/core-js-compat/shared.d';
 import I18nKeys from "./src/locales/keys";
 import type { Configuration } from "./src/types/config";
 
+
 const YukinaConfig: Configuration = {
   title: "Pyragogy",
   subTitle: "Building the conditions for minds to think otherwise",
