@@ -107,6 +107,7 @@
         for="search-bar-input-mobile"
         class="w-10 h-10 flex flex-row justify-center items-center pl-2 pr-1 hover:cursor-text text-gray-400"
       >
+        <span class="sr-only">Cerca</span>
         <Icon icon="mingcute:search-line" width={24} height={24} />
       </label>
       <input
@@ -161,3 +162,17 @@
     </div>
   </div>
 </div>
+
+<style>
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+</style>
