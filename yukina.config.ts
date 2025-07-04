@@ -6,6 +6,7 @@ const YukinaConfig: Configuration = {
   title: "Pyragogy",
   subTitle: "Explorations on cognitive co-creation and AI-human learning",
   brandTitle: "Docs",
+  brandIcon: "mingcute:book-2-line",
   brandLink: "https://docs.pyragogy.org/core/why/",
   description: "ΔΦ(H,A,t) = Cognitive Resonance. The Village thinks back.",
 
