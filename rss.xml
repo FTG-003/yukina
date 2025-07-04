@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pyragogy</title><description>ΔΦ(H,A,t) = Cognitive Resonance. The Village thinks back.</description><link>https://pyragogy.org/</link><language>en</language><item><title>Pyragogy: The Next Chapter in Learning’s Evolution</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>Pyragogy, the evolution of heutagogy, is now officially cited in academic research. This post introduces the concept and its transformative potential in Education 4.0.</description><pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;import ImageWithCaption from &apos;../../../components/ImageWithCaption.astro&apos;;&lt;/p&gt;
-&lt;p&gt;🌍 &lt;em&gt;Pyragogy: The Next Chapter in Learning’s Evolution&lt;/em&gt; 🌍&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pyragogy</title><description>ΔΦ(H,A,t) = Cognitive Resonance. The Village thinks back.</description><link>https://pyragogy.org/</link><language>en</language><item><title>The Next Chapter in Learning’s Evolution</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>Pyragogy, the evolution of heutagogy, is now officially cited in academic research. This post introduces the concept and its transformative potential in Education 4.0.</description><pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;🌍 &lt;em&gt;Pyragogy: The Next Chapter in Learning’s Evolution&lt;/em&gt; 🌍&lt;/p&gt;
 &lt;p&gt;Learning has always been a story of adaptation.&lt;br /&gt;
 From the one-room schoolhouse to hybrid classrooms,&lt;br /&gt;
 from rote memorization to heutagogical self-direction—&lt;br /&gt;
@@ -28,7 +27,12 @@ In a recent paper exploring Education 4.0, researchers &lt;strong&gt;Mynbayeva e
 — &lt;em&gt;Mynbayeva, A., et al. (2024). DOI: &lt;a href=&quot;https://doi.org/10.54919/physics/55.2024.291vr9&quot;&gt;10.54919/physics/55.2024.291vr9&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr /&gt;
-&lt;p&gt;&amp;lt;ImageWithCaption src=&quot;/banner/5.webp&quot; alt=&quot;App Piragogica&quot; caption=&quot;© unsplash.com&quot; /&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;div style=&quot;position: relative; display: inline-block;&quot;&amp;gt;
+&amp;lt;img src=&quot;/banner/5.webp&quot; alt=&quot;App Piragogica&quot; style=&quot;display: block; max-width: 100%;&quot; /&amp;gt;
+&amp;lt;div style=&quot;position: absolute; bottom: 6px; right: 10px; font-size: 10px; color: #666; font-style: italic;&quot;&amp;gt;
+© unsplash.com
+&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/p&gt;
 &lt;h2&gt;Why Pyragogy Matters&lt;/h2&gt;
 &lt;p&gt;Imagine classrooms where:&lt;/p&gt;
 &lt;p&gt;✅ AI doesn’t just “respond”—it &lt;strong&gt;anticipates&lt;/strong&gt; when a student is ready to dive deeper&lt;br /&gt;
