@@ -4,44 +4,43 @@ import Main from "../layouts/MainLayout.astro";
 import Markdown from "../components/Markdown.astro";
 import CopyRight from "../components/misc/CopyRight.astro";
 
-const aboutPost = await getEntry("specs", "about", "posts");
+const aboutPost = await getEntry("specs", "about");
+let notFound = false;
+let Content, title, subTitle, bannerImage, published;
 
 if (!aboutPost) {
-  // Fallback user-friendly invece di throw
-  export default function NotFound() {
-    return (
-      <Main title="Pagina non trovata" description="La pagina richiesta non esiste." bannerImage="/images/circolo.png">
-        <div class="article-wrapper">
-          <div class="article">
-            <h1>Pagina non trovata</h1>
-            <p>La pagina richiesta non esiste o è stata rimossa.</p>
-          </div>
-        </div>
-      </Main>
-    );
-  }
+  notFound = true;
+} else {
+  const rendered = await render(aboutPost);
+  Content = rendered.Content;
+  ({ title, subTitle, bannerImage, published } = aboutPost.data);
 }
-const { Content } = await render(aboutPost);
-interface Props {
-  title?: string;
-  subTitle?: string;
-  bannerImage?: string;
-  published?: Date;
-}
-const { title, subTitle, bannerImage, published } = Astro.props;
 ---
 
-<Main title={title} subTitle={subTitle} bannerImage={bannerImage} description="Where humans and AI dance to create knowledge together" image="/images/circolo.png">
-  <!-- <Fragment set:html={tocHTMLString} /> -->
-  <div class="article-wrapper">
-    <div class="article">
-      <Markdown>
-        <Content />
-      </Markdown>
-      {published && title && <CopyRight title={title} published={published} />}
+{notFound ? (
+  <Main title="Pagina non trovata" description="La pagina richiesta non esiste." bannerImage="/images/circolo.png">
+    <div class="article-wrapper">
+      <div class="article">
+        <h1>Pagina non trovata</h1>
+        <p>La pagina richiesta non esiste o è stata rimossa.</p>
+      </div>
     </div>
-  </div>
-</Main>
+  </Main>
+) : (
+  <Main title={title} subTitle={subTitle} bannerImage={bannerImage} description="Where humans and AI dance to create knowledge together" image="/images/circolo.png">
+    <!-- <Fragment set:html={tocHTMLString} /> -->
+    <div class="article-wrapper">
+      <div class="article">
+        {Content && (
+          <Markdown>
+            <Content />
+          </Markdown>
+        )}
+        {published && title && <CopyRight title={title} published={published} />}
+      </div>
+    </div>
+  </Main>
+)}
 
 <style>
   .article-wrapper {
