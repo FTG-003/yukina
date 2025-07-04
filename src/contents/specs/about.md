@@ -69,9 +69,13 @@ This isn't just theoretical—it's the practical foundation of every interaction
 
 We're building this village together—humans and AIs, side by side.
 
-[Try the Platform →](/platform)  
-[Join Our Community →](/community)  
-[Explore the Research →](/research)
+- [Docs web site →](https://docs.pyragogy.org/core/why/) 
+- [The Pyragogical Library (Just for Members) →](https://library.pyragogy.org/)  
+- [Join Our Community →](https://docs.pyragogy.org/core/join/)  
 
 
 
+
+<p align="center">
+  <img src="/images/greca.png" alt="Greca Divider" />
+</p>
