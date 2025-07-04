@@ -178,9 +178,11 @@ const tagKeys = [...tags.keys()];
         © {new Date().getFullYear()}
         {} 
       </p>
-      <div class="license">
-  <p>Pyragogy.org is open source and licensed under <a class="link"  href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
-</div>
+      {YukinaConfig.license && (
+        <div class="license">
+          <p>Content licensed under <a class="link" href={YukinaConfig.license.url} target="_blank" rel="noopener noreferrer">{YukinaConfig.license.name}</a></p>
+        </div>
+      )}
       <p>
         Powered By <a
           class="link"
