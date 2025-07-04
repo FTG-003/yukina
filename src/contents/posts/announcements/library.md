@@ -4,9 +4,9 @@ published: 2025-07-01
 description: A living library, orchestrated by dialogical intelligences, where AI becomes a companion in exploration and co-learning.
 author: Fabrizio Terzi
 category: Announcements
-tags: [AI, Peeragogy, CoLearning, OpenKnowledge, HumanInTheLoop, GPT4o, RAG, MultiAgent]
+tags: [ Peeragogy, RAG]
 bannerImage: /banner/library-viva.webp
-cover: /banner/1.webp 
+cover: /banner/2.webp 
 draft: false
 ---
 
