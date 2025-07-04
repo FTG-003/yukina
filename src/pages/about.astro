@@ -7,9 +7,19 @@ import CopyRight from "../components/misc/CopyRight.astro";
 const aboutPost = await getEntry("specs", "about", "posts");
 
 if (!aboutPost) {
-  // Puoi gestire l'errore come preferisci, ad esempio mostrando un messaggio
-  // o reindirizzando a una pagina 404.
-  throw new Error("L'entry 'about' nella collezione 'specs' non è stata trovata.");
+  // Fallback user-friendly invece di throw
+  export default function NotFound() {
+    return (
+      <Main title="Pagina non trovata" description="La pagina richiesta non esiste." bannerImage="/images/circolo.png">
+        <div class="article-wrapper">
+          <div class="article">
+            <h1>Pagina non trovata</h1>
+            <p>La pagina richiesta non esiste o è stata rimossa.</p>
+          </div>
+        </div>
+      </Main>
+    );
+  }
 }
 const { Content } = await render(aboutPost);
 interface Props {
@@ -21,7 +31,7 @@ interface Props {
 const { title, subTitle, bannerImage, published } = Astro.props;
 ---
 
-<Main title={title} subTitle={subTitle} bannerImage={bannerImage}>
+<Main title={title} subTitle={subTitle} bannerImage={bannerImage} description="Where humans and AI dance to create knowledge together" image="/images/circolo.png">
   <!-- <Fragment set:html={tocHTMLString} /> -->
   <div class="article-wrapper">
     <div class="article">

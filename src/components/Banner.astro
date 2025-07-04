@@ -1,6 +1,7 @@
 ---
 import YukinaConfig from "../../yukina.config";
 import { GetCoverURLForUnspecifiedEntry } from "../utils/cover";
+import { Image } from "astro:assets";
 
 export interface Props {
   title?: string;
@@ -37,10 +38,14 @@ const carouselAnimationTime = `${carouselImgsList.length * 40}s`;
     {
       hasHeaderImg && (
         <div class="cover">
-          <img
-            class="item lozad"
-            data-src={bannerImage ?? GetCoverURLForUnspecifiedEntry(slug ?? "")}
-            alt="PostCoverr"
+          <Image
+            class="item"
+            src={bannerImage ?? GetCoverURLForUnspecifiedEntry(slug ?? "")}
+            alt={title ? `Copertina per ${title}` : "Copertina del post"}
+            width={1200}
+            height={400}
+            format="webp"
+            loading="lazy"
           />
         </div>
       )

@@ -5,6 +5,7 @@ import I18nKeys from "../locales/keys";
 import { i18n } from "../locales/translation";
 import { GetCategories, GetTags } from "../utils/content";
 import SocialIcon from "./widgets/SocialIcon.astro";
+import { Image } from "astro:assets";
 
 const tags = await GetTags();
 const categories = await GetCategories();
@@ -20,10 +21,14 @@ const tagKeys = [...tags.keys()];
       style=`animation-delay: var(--onload-animation-delay);`
     >
       <a href="/about" class="avatar-wrapper">
-        <img
+        <Image
           src={YukinaConfig.avatarUrl}
-          alt="avatar"
-          class="avatar lozad select-none"
+          alt={YukinaConfig.username ? `Avatar di ${YukinaConfig.username}` : "Avatar"}
+          class="avatar select-none"
+          width={224}
+          height={224}
+          format="webp"
+          loading="lazy"
         />
       </a>
       <div class="username mt-4">
