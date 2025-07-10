@@ -5,6 +5,11 @@ import { i18n } from "../locales/translation";
 import I18nKeys from "../locales/keys";
 import { GetCategories, GetTags } from "../utils/content";
 
+export interface Props {
+  author?: string;
+}
+
+const { author } = Astro.props;
 const categories = await GetCategories();
 const tags = await GetTags();
 
@@ -42,7 +47,7 @@ const tagKeys = [...tags.keys()];
             href="/about"
             class="line-clamp-1 text-xl font-semibold text-[var(--text-color)]"
           >
-            {YukinaConfig.username}
+            {author || YukinaConfig.username}
           </a>
           <span class="mb-2 mt-1 h-1 w-8 rounded-full bg-[var(--primary-color)]"
           ></span>
@@ -54,8 +59,8 @@ const tagKeys = [...tags.keys()];
           {
             YukinaConfig.socialLinks.map((item) => (
               <li>
-                <a href={item.link} class="text-[var(--primary-color)]">
-                  <Icon name={item.icon} size={24} />
+                <a href={item.link} class="text-[var(--primary-color)]" aria-label={`Link a ${item.icon}`}>
+                  <Icon name={item.icon} size={24} aria-hidden="true" />
                 </a>
               </li>
             ))
@@ -116,9 +121,10 @@ const tagKeys = [...tags.keys()];
             <a
               href="/categories/"
               class="flex flex-row items-center space-x-1 text-[var(--primary-color)] transition-colors hover:brightness-75 dark:hover:brightness-125"
+              aria-label={`${i18n(I18nKeys.side_bar_view_more)} categorie`}
             >
             <span>{i18n(I18nKeys.side_bar_view_more)}</span>
-                <Icon name="mingcute:arrow-right-line" />
+                <Icon name="mingcute:arrow-right-line" aria-hidden="true" />
             </a>
           </div>
         )
@@ -153,9 +159,10 @@ const tagKeys = [...tags.keys()];
             <a
               href="/tags/"
               class="flex flex-row items-center space-x-1 text-[var(--primary-color)] transition-colors hover:brightness-75 dark:hover:brightness-125"
+              aria-label={`${i18n(I18nKeys.side_bar_view_more)} tag`}
             >
               <span>{i18n(I18nKeys.side_bar_view_more)}</span>
-              <Icon name="mingcute:arrow-right-line" />
+              <Icon name="mingcute:arrow-right-line" aria-hidden="true" />
             </a>
           </div>
         )

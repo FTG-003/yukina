@@ -4,6 +4,8 @@ interface Configuration {
   title: string;
   subTitle: string;
   brandTitle: string;
+  brandIcon?: string;
+  brandLink: string;
 
   description: string;
 

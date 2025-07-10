@@ -33,13 +33,13 @@ const navCount = YukinaConfig.navigators.length;
           class="mx-auto hidden"
         />
       </button>
-      <a class="title" href={YukinaConfig.brandLink} target="_blank" rel="noopener noreferrer">
+      <a class="title" href={YukinaConfig.brandLink} target="_blank" rel="noopener noreferrer" aria-label={`${YukinaConfig.brandTitle} - Link esterno`}>
       {YukinaConfig.brandTitle}
       </a>
     </div>
-    <a class="brand-lg" href={YukinaConfig.brandLink} target="_blank" rel="noopener noreferrer">
+    <a class="brand-lg" href={YukinaConfig.brandLink} target="_blank" rel="noopener noreferrer" aria-label={`${YukinaConfig.brandTitle} - Link esterno`}>
   <div class="title space-x-2">
-    <Icon name={YukinaConfig.brandIcon ?? 'heroicons:home'} size={32} />
+    <Icon name={YukinaConfig.brandIcon ?? 'heroicons:home'} size={32} aria-hidden="true" />
     <p>{YukinaConfig.brandTitle}</p>
   </div>
 </a>
@@ -49,7 +49,8 @@ const navCount = YukinaConfig.navigators.length;
       <a
         href={nav.href}
         target={nav.href.startsWith("http") ? "_blank" : undefined}
-        rel={nav.href.startsWith("http") ? "noopener noreferrer" : undefined}>
+        rel={nav.href.startsWith("http") ? "noopener noreferrer" : undefined}
+        aria-label={nav.href.startsWith("http") ? `${i18n(nav.nameKey)} - Link esterno` : i18n(nav.nameKey)}>
         <p>{i18n(nav.nameKey)}</p>
       </a>
       ))
@@ -71,21 +72,23 @@ const navCount = YukinaConfig.navigators.length;
         aria-label="RSS Feed"
         title="RSS Feed"
       >
-        <Icon name="line-md:rss" size={24} />
+        <Icon name="line-md:rss" size={24} aria-hidden="true" />
       </a>
       <div class="theme">
-        <button type="button" id="theme-switcher">
+        <button type="button" id="theme-switcher" aria-label="Cambia tema">
           <Icon
             id="theme-icon-light"
             name="line-md:moon-alt-to-sunny-outline-loop-transition"
             size={24}
             class="hidden"
+            aria-hidden="true"
           />
           <Icon
             id="theme-icon-dark"
             name="line-md:sunny-outline-to-moon-alt-loop-transition"
             size={24}
             class="hidden"
+            aria-hidden="true"
           />
         </button>
       </div>

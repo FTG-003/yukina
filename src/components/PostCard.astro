@@ -18,12 +18,14 @@ export interface Props {
   description?: string;
   image?: string;
   readingMetadata: { time: number; wordCount: number };
+  isFirst?: boolean;
 }
 
 const props = Astro.props;
 const entryID = IdToSlug(props.id);
 const contentUrl = `/posts/${entryID}`;
 const { time, wordCount } = props.readingMetadata;
+const loadingType = props.isFirst ? "eager" : "lazy";
 ---
 
 <div
@@ -32,6 +34,7 @@ const { time, wordCount } = props.readingMetadata;
   <a
     href={contentUrl}
     class="relative h-[128px] transition-all hover:brightness-75 lg:hidden"
+    aria-label={`Leggi il post: ${props.title}`}
   >
     <Image
       class="absolute left-0 top-0 h-full w-full rounded-t-3xl object-cover lg:hidden"
@@ -40,14 +43,14 @@ const { time, wordCount } = props.readingMetadata;
       width={800}
       height={400}
       format="webp"
-      loading="lazy"
+      loading={loadingType}
     />
     <div class="absolute bottom-2 w-full">
       <div class="mx-2 flex flex-row justify-between">
         <div
           class="flex flex-row items-center space-x-2 rounded-md bg-black/50 px-1.5 py-0.5 text-[var(--primary-color-lighten)] dark:text-[var(--text-color)]"
         >
-          <Icon name="cuida:calendar-outline" />
+          <Icon name="cuida:calendar-outline" aria-hidden="true" />
           <span class="select-none">
             {formatDate(props.published, YukinaConfig.locale)}
           </span>
@@ -55,7 +58,7 @@ const { time, wordCount } = props.readingMetadata;
         {
           props.category && (
             <div class="flex flex-row items-center space-x-2 rounded-md bg-black/50 px-1.5 py-0.5 text-[var(--primary-color-lighten)] dark:text-[var(--text-color)]">
-              <Icon name="dashicons:category" />
+              <Icon name="dashicons:category" aria-hidden="true" />
               <span class="max-w-28 select-none truncate">
                 {props.category}
               </span>
@@ -74,11 +77,12 @@ const { time, wordCount } = props.readingMetadata;
           class="mx-2 hidden h-6 w-1 translate-y-[1px] rounded-lg bg-[var(--primary-color)] lg:block"
         >
         </div>
-        <a href={contentUrl} class="title">
+        <a href={contentUrl} class="title" aria-label={`Leggi il post: ${props.title}`}>
           <p class="truncate">{props.title}</p>
           <Icon
             name="cuida:caret-right-outline"
             class="translate-y-[0.07rem] text-[var(--primary-color)]"
+            aria-hidden="true"
           />
         </a>
       </div>
@@ -149,8 +153,8 @@ const { time, wordCount } = props.readingMetadata;
       </div>
     </div>
     <div class="cover-container">
-      <a href={contentUrl} class="cover-wrapper">
-        <Icon class="right-icon" name="cuida:caret-right-outline" size={96} />
+      <a href={contentUrl} class="cover-wrapper" aria-label={`Leggi il post: ${props.title}`}>
+        <Icon class="right-icon" name="cuida:caret-right-outline" size={96} aria-hidden="true" />
         <Image
           class="h-[212px] w-[404px] select-none rounded-r-3xl object-cover dark:brightness-90"
           src={props.image ?? GetCoverURLForUnspecifiedEntry(entryID)}
@@ -158,7 +162,7 @@ const { time, wordCount } = props.readingMetadata;
           width={404}
           height={212}
           format="webp"
-          loading="lazy"
+          loading={loadingType}
         />
       </a>
     </div>
