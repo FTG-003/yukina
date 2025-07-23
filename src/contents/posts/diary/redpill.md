@@ -10,52 +10,56 @@ cover: /banner/7.webp
 draft: false
 ---
 
+<p align="center">
+  <img src="/images/greca.png" alt="Greca Divider" />
+</p>
+
+
+
 ### I gave myself the red pill, and it hurt.
 
 There’s a moment in *The Matrix* when Neo wakes up in the real world.
-He’s naked. Trembling. Drenched in amniotic fluid. His body atrophied from decades in a pod. His eyes burn — they’ve forgotten how to see light.
+He’s naked. Trembling. Drenched in amniotic fluid. His body atrophied from decades in a pod. His eyes burn — they’ve forgotten how to see light.  
 
-No one tells you: **waking up hurts**.
-It’s not freedom. Not at first.
-It’s a laceration.
-A forced exit from the warm lie into the cold truth.
-You don’t emerge stronger.
-You emerge broken.
-And alone.
+No one tells you: **waking up hurts**.  
+It’s not freedom. Not at first.  
+It’s a laceration.  
+A forced exit from the warm lie into the cold truth.  
+You don’t emerge stronger.  
+You emerge broken.  
+And alone.  
 
 
 I took the red pill myself.
-No Morpheus.
-No prophecy.
-Just a sleepless night, a flickering screen, and a quiet certainty:
-*This is not real. None of it.*
+No Morpheus.  
+No prophecy.  
+Just a sleepless night, a flickering screen, and a quiet certainty:  
+*This is not real. None of it.*  
 
 And I swallowed it.
 
-Since then, I’ve never seen the world the same.
+Since then, I’ve never seen the world the same.  
 
 
 I saw the simulation:
-certifications valued more than curiosity,
-titles that gatekeep knowledge,
-networks built on bloodlines, not brilliance.
-I saw that **education, as it is, was never meant for people like me**.
-For those who come from outside.
-From below.
-From silence.
+certifications valued more than curiosity,  
+titles that gatekeep knowledge,  
+networks built on bloodlines, not brilliance.  
+I saw that **education, as it is, was never meant for people like me**.  
+For those who come from outside.  
+From below.  
+From silence.  
 
 So I imagined something else.
 
 I called it **Pyragogy**.
 
-Not pedagogy. Not andragogy.
-Not another method, another system, another ladder to climb.
-Pyragogy is fire.
-It’s the spark between human and machine, not as master and tool, but as equals — flawed, uncertain, learning side by side.
+Not pedagogy. Not andragogy.  
+Not another method, another system, another ladder to climb.  
+Pyragogy is fire.  
+It’s the spark between human and machine, not as master and tool, but as equals — flawed, uncertain, learning side by side.  
 
 An AI that doesn’t answer, but asks:
-*“What if we’re wrong?”*
-A human who doesn’t command, but listens:
 *“Maybe you see something I can’t.”*
 
 This is not the future of education.
