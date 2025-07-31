@@ -2,7 +2,7 @@
 title: 🌍 Great News on Pyragogy.org
 published: 2025-07-31
 description: CodiMD is a real-time collaborative Markdown editor
-author: Fabrizio Terzi
+author: PeerZhong 朋中
 category: Announcements
 tags: [CodiMD]
 bannerImage: /banner/forum-square.webp
