@@ -1,0 +1,39 @@
+---
+// Componente: MermaidDiagram.astro
+// Utilizzo: <MermaidDiagram />
+---
+
+<div class="mermaid">
+graph TD
+    A[Start Automation in n8n] --> B[Generate Draft in Italian]
+    B --> C[Orchestrate Multiple AI Agents]
+    C --> D[Save File to GitHub Repo]
+    D --> E[Import into Pyragogy Wiki]
+    
+    click A "https://creators.n8n.io/workflows/4904" "Open n8n workflow" _blank
+    click D "https://github.com/pyragogy/pyragogy-hanbook/blob/main/Introduzione" "Open GitHub Repo" _blank
+    click E "https://wikijs.pyragogy.org/en/home" "Open Wiki" _blank
+</div>
+
+<script is:inline>
+// Carica Mermaid solo se non è già presente
+if (typeof mermaid === 'undefined') {
+    const script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js';
+    script.onload = () => mermaid.initialize({ startOnLoad: true });
+    document.head.appendChild(script);
+} else {
+    mermaid.init();
+}
+</script>
+
+<style>
+.mermaid {
+    background: var(--theme-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    box-shadow: var(--theme-shadow);
+    overflow: auto;
+}
+</style>
