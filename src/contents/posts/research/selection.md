@@ -23,7 +23,7 @@ For months, Pyragogy has lived in the wild—in conversations, workshops, experi
 
 Now, **Pyragogy has its first formal academic footprint** with our preprint published on Zenodo.
 
-➡️ **[Read the full preprint here: Zenodo Record 16961291](https://zenodo.org/records/16961291)**
+➡️ **[Read the full preprint here: Zenodo Record 16961291](https://zenodo.org/records/16962409)**
 
 ## Why This Moment Matters
 
