@@ -1,6 +1,7 @@
 ---
 import YukinaConfig from "../../yukina.config";
 import BaseHead from "../components/BaseHead.astro";
+import ScriptSetup from "../components/ScriptSetup.astro";
 
 const { title, description, image } = Astro.props;
 ---
@@ -9,6 +10,7 @@ const { title, description, image } = Astro.props;
   <BaseHead title={title} description={description} image={image} />
   <body class="overflow-y-hidden bg-[var(--background-color)] text-[var(--text-color)]">
     <slot />
+    <ScriptSetup />
   </body>
 </html>
 

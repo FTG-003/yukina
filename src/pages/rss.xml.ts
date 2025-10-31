@@ -4,13 +4,10 @@ import YukinaConfig from '../../yukina.config';
 import type { APIContext } from 'astro';
 import sanitizeHtml from 'sanitize-html';
 import MarkdownIt from 'markdown-it';
-
 const parser = new MarkdownIt();
 
 export async function GET(context: APIContext) {
   const blog = await getCollection('posts');
-  const emailLink = YukinaConfig.socialLinks.find((link) => link.link.startsWith('mailto:'));
-  const email = emailLink ? emailLink.link.replace('mailto:', '') : undefined;
 
   const items = blog
     .filter((post) => !post.data.draft)
@@ -23,7 +20,6 @@ export async function GET(context: APIContext) {
       content: sanitizeHtml(parser.render(post.body), {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img']),
       }),
-      author: email,
     }));
 
   return rss({
@@ -32,6 +28,5 @@ export async function GET(context: APIContext) {
     site: context.site!,
     items,
     customData: `<language>${YukinaConfig.locale}</language>`,
-    ...(email && { managingEditor: email, webMaster: email }),
   });
 }

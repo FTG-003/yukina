@@ -9,3 +9,15 @@
 
   chatbot: /home/blubar/yukina/src/components/ScriptSetup.astro
   Analitics: /home/blubar/yukina/src/components/BaseHead.astro
+
+  ---
+title: 
+description: 
+published: 
+author: Fabrizio Terzi
+category: Diary
+tags: [Philosophy, Diary]
+bannerImage: /banner/forum-square.webp
+cover: /banner/7.webp
+draft: false
+---
