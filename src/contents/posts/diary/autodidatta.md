@@ -1,7 +1,7 @@
 ---
-title: An Ode to Self-Learners
+title: "Learning Without Asking Permission"
 published: 2025-10-31
-description: those who learn to think without asking for permission
+description: "The freedom you earn by learning on your own"
 author: Fabrizio Terzi
 category: Diary
 tags: [Philosophy, Diary]
@@ -9,7 +9,9 @@ bannerImage: /banner/forum-square.webp
 cover: /banner/4.webp
 draft: false
 ---
-*Dear traveler,*
+
+## Learning Without Asking Permission
+*Dear Pyragogues,*
 *If you have chosen this path, you already know it is not the easiest. There will be no diplomas awaiting you, nor guaranteed applause. But every time you learn something without permission, you are stealing a piece of freedom from a system that wants to keep it hidden from you.*
 
 *Keep going. Fail. Get lost. Find your tribe. And when they ask you, “Where is your title?”, smile and reply:*
@@ -23,75 +25,158 @@ draft: false
   <img src="/images/greca.png" alt="Greca Divider" />
 </p>
 
-I want to talk to you about the hardest freedom, the one that is not given to you.
-The freedom that is conquered by **learning on your own**.
-They call it self-education, but those who have lived it know it is much more than a method: it is a form of survival.
+If you’re reading these words, you probably already know.  
+You know what it means to stay up until three in the morning not because you have to,  
+but because you followed a thread and can’t let it go.  
+No one asked you to. No one will grade you.  
+But you keep going, because in that moment learning isn’t a duty — it’s hunger.
 
-If you are reading these words, perhaps you already know.
-You know what it means to search for answers at night, to chase connections that no one has explained to you, to stay awake with a head full of questions that have no syllabus or exam.
-You know there is no one to measure your progress, no applause at the end of the course.
-Yet you continue.
-Because learning, for you, is not a duty: **it is an instinct**.
+And that’s the only thing that truly matters: **hunger.**
 
-I have seen society bow down before credentials.
-Every diploma is a pass, every certification a mark of trust.
-Yet, the more I observed that mechanism, the more I realized something was wrong.
-The system rewards **conformity, not curiosity**.
-It trains obedient minds, not living minds.
-So, I did the only thing I could: I took the reins of my own learning.
-Since then, no one has told me *how* I should think.
+---
 
-It was not easy.
-Learning alone means making a hundred mistakes, but every mistake is a brick in your mental house.
-It means giving up the comfort of authority and discovering that true security does not come from a title, but from your ability to figure things out for yourself.
-It is a freedom that makes no noise, but changes everything.
+## The System Wants You Full
 
-The true scandal of the self-learner is not that they ignore the rules—it is that **they function without permission**.
-In a world built to make you dependent, this is enough to seem dangerous.
-But the truth is simple: those who learn how to learn become ungovernable.
-And the systems that thrive on control do not like this.
+Let me say something unpopular: the educational system isn’t evil.  
+It’s worse. It’s efficient.
 
-My way of learning has become a ritual.
-Every new topic, I treat as a territory to explore: I ask myself *why it interests me*, *how it connects to what I already know*, *where it can take me*.
-I do not follow a program; I follow a thread.
-I look for connections, not chapters.
-And when I do not understand, I am not afraid.
-My compass is uncertainty: that is where true learning happens.
+It has to take thousands of people and move them all from A to B.  
+It has to certify, standardize, guarantee.  
+And to do that, it must make you predictable.  
+It must silence your hunger and replace it with programs, exams, and  
+*"this is what you need to know."*
 
-I have also learned one more thing: **no one truly learns alone**.
-We need a tribe.
-And this is where I encountered **Peeragogy**: people learning together, without hierarchies, sharing method, rhythm, and meaning.
-There are no diplomas, but there are real projects.
-There is no headmaster, but there is a common beat—the *Heartbeat*.
-There, I understood that knowledge is not taught: it is **built together**, by doing.
+The problem isn’t that it teaches you the wrong things.  
+The problem is that it teaches you to **stop searching.**
 
-Then, Artificial Intelligence arrived.
-Many fear it; I looked it in the eye.
-It is not a master, nor is it an oracle.
-It is a mirror.
-It reflects clearer questions, it forces me to think better.
-With it, I do not delegate; I dialogue.
-I use it to accelerate my reflection, not to replace it.
-It is a support, not a pilot.
+I’ve seen brilliant minds become obedient.  
+Not stupid — obedient.  
+Able to solve problems in the proper format,  
+but unable to ask whether those problems are even worth solving.
 
-Thus, **Pyragogy** was born—the next step of self-education: learning with the machine, but remaining *fully human*.
-AI amplifies my ability to search, connect, and create, but the direction remains mine.
-I decide what matters, what is true, what deserves time.
-Technology is a tool; consciousness is the craft.
+The system offers you a deal:  
+> “Follow me and you’ll be safe.  
+> You’ll get a diploma, a certificate, a proof that you can do what you say you can do.”  
 
-The traditional system offers you a comfortable deceit: it removes the effort of choice, but also the dignity of understanding.
-It frees you from the responsibility of learning, but chains you to external validation.
-I broke that chain.
-Every failure is mine.
-Every achievement, too.
-This is my freedom, and it is all that is needed.
+It’s a fair deal, for many.  
+But there’s a hidden price: **you give up deciding what is worth knowing.**
 
-If you, too, are on this path, do not look for shortcuts.
-Fail, get confused, start over.
-Find those who share your hunger and walk beside them, not behind them.
-And when someone asks you, with that skeptical smile, *“Yes, but what title do you have to speak?”*,
-look them in the eye and reply calmly:
+---
 
-> *“My knowledge is not written on a piece of paper.*
-> It is written in my mistakes, in the quality of the questions I ask,
-> and in the people I have met along the way.”
+## The Freedom No One Gives You
+
+I chose the other path.  
+Not because it’s better — just because it’s mine.
+
+Every mistake I make is mine.  
+Every dead end, every month lost chasing something that turned out useless,  
+every time I have to admit *“I don’t know”* — all mine.  
+But also every spark, every connection no syllabus would have ever shown me.  
+Every moment when I truly understand something — not because I memorized it,  
+but because I earned it.
+
+That’s my freedom: **total responsibility.**
+
+There’s no one to blame.  
+No one to ask permission from.  
+No one to tell me if I’m going in the right direction — because I decide what “right” means.
+
+It sounds heroic, but it’s frightening.  
+Every morning you wake up and ask: *what deserves my attention today?*  
+And what if I’m wrong? What if I’m wasting time?
+
+You do it anyway.  
+Because the alternative — letting someone else decide for you — is even scarier.
+
+---
+
+## Artificial Intelligence Is Not the Teacher
+
+Many people see AI and think: “Finally, a teacher available 24/7.”  
+They’re wrong.
+
+AI is not a teacher.  
+It’s a mirror that shows how precise your questions really are.  
+It’s an amplifier that makes your skills faster, but not deeper.  
+It’s a library that answers, but doesn’t know what you *should* be looking for.
+
+I use it every day.  
+But I know it’s a prosthesis, not a brain.  
+It accelerates, I choose.  
+It suggests, I verify.  
+It answers, I understand.
+
+The greatest danger isn’t that AI gives you wrong answers.  
+It’s that it gives you *right* answers so fast you forget the struggle that makes them yours —  
+the struggle that turns information into understanding.
+
+AI is a tool for those who already know how to use their own minds.  
+For everyone else, it’s just a more sophisticated way to stay on the surface.
+
+---
+
+## You Don’t Learn Alone
+
+Here’s the truth the romantic autodidacts won’t tell you: **you never really learn alone.**
+
+You need a tribe.  
+Not teachers, not students — accomplices.  
+People on the same journey, who ask questions you wouldn’t think to ask,  
+who see your blind spots, who share their failures without shame.
+
+I found my tribe in *peer learning* — call it *Pyragogy*, call it a community, whatever.  
+The name doesn’t matter. What matters is this: we learn together, but no one commands.  
+Rules emerge from doing, not from authority.  
+Projects are real, not exercises.  
+Evaluation is brutal: it works, or it doesn’t.
+
+When you find these people, everything changes.  
+You’re no longer alone with your doubts.  
+But you’re not protected either: they challenge you,  
+call you out when you’re cheating yourself, and make you better.
+
+---
+
+## The Question That Changes Everything
+
+When someone asks me, with that skeptical smile,  
+*“Yeah, but what’s your title?”* —  
+I could get angry. I could preach about the limits of credentials.  
+
+Instead, I answer with a question:  
+> “Can I actually do what I say I can do?”  
+
+That’s the only honest question. Everything else is theater.
+
+Diplomas certify that you’ve followed a path — fine.  
+In many fields, they’re necessary and right.  
+But they don’t tell me if you can think, if you can learn something new when you need to,  
+if you can build something that didn’t exist before.
+
+My knowledge isn’t written on a piece of paper.  
+It’s written in the projects I’ve built, the problems I’ve solved,  
+the people I’ve worked with.  
+It’s written in the mistakes I’ve made and the lessons I’ve kept.
+
+It’s not better than certified knowledge.  
+It’s just **harder to fake.**
+
+---
+
+## An Uncomfortable Invitation
+
+If you feel this hunger — if you recognize yourself in these words —  
+I’m not telling you to quit everything and become an autodidact.  
+I’m just saying: **you can choose.**
+
+You can choose not to wait for permission to learn something.  
+You can choose to follow a thread just because it burns inside you.  
+You can choose to build something before you’re “certified” to do it.
+
+And yes, you’ll make mistakes. You’ll get lost. You’ll doubt yourself.  
+But you’ll learn the one skill no system can teach:  
+**how to find your way when there’s no one left to tell you where to go.**
+
+The hardest freedom isn’t doing what you want.  
+It’s *wanting what you do enough to pay the price.*
+
