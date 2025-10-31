@@ -15,7 +15,7 @@ draft: false
 *Keep going. Fail. Get lost. Find your tribe. And when they ask you, “Where is your title?”, smile and reply:*
 *“My knowledge is not on a piece of paper. It resides in the things I can do, the questions I ask myself, and the people I have met along the way.”*
 
-**F.T.**
+***F.T.***
 
 ---
 

@@ -29,37 +29,35 @@
 
   // add global scroll bar
   const setupScrollBar = () => {
-    setTimeout(() => {
-      OverlayScrollbars(
-        { target: document.body, cancel: { nativeScrollbarsOverlaid: true } },
-        {
-          scrollbars: {
-            theme: "scrollbar-base scrollbar-auto py-1",
-            autoHide: "move",
-          },
+    OverlayScrollbars(
+      { target: document.body, cancel: { nativeScrollbarsOverlaid: true } },
+      {
+        scrollbars: {
+          theme: "scrollbar-base scrollbar-auto py-1",
+          autoHide: "move",
         },
-      );
-      document.body.classList.remove("overflow-y-hidden");
+      },
+    );
+    document.body.classList.remove("overflow-y-hidden");
 
-      // add scrollbar for code blocks
-      document.querySelectorAll("pre").forEach((ele) => {
-        OverlayScrollbars(ele, {
-          scrollbars: {
-            theme: "scrollbar-base scrollbar-dark px-2",
-            autoHide: "leave",
-            autoHideDelay: 500,
-            autoHideSuspend: false,
-          },
-        });
+    // add scrollbar for code blocks
+    document.querySelectorAll("pre").forEach((ele) => {
+      OverlayScrollbars(ele, {
+        scrollbars: {
+          theme: "scrollbar-base scrollbar-dark px-2",
+          autoHide: "leave",
+          autoHideDelay: 500,
+          autoHideSuspend: false,
+        },
       });
-    }, 100);
+    });
   };
 
   // init
   const setup = () => {
     setupUrlAnchor();
     setupLozad();
-    setupScrollBar();
+    // setupScrollBar();
   };
 
   document.addEventListener("DOMContentLoaded", setup);
