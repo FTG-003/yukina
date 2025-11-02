@@ -94,6 +94,7 @@
 
 .article a {
   color: var(--primary-color) !important;
+  text-decoration: underline;
 }
 
 .article hr {

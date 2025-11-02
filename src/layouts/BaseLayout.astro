@@ -7,7 +7,10 @@ const { title, description, image } = Astro.props;
 ---
 
 <html lang={YukinaConfig.locale} class="dark">
-  <BaseHead title={title} description={description} image={image} />
+  <head>
+    <BaseHead title={title} description={description} image={image} />
+    <slot name="head" />
+  </head>
   <body class="overflow-y-hidden bg-[var(--background-color)] text-[var(--text-color)]">
     <slot />
     <ScriptSetup />

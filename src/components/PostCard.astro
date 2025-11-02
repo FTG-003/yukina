@@ -99,7 +99,7 @@ const loadingType = props.isFirst ? "eager" : "lazy";
               <li class="data space-x-1.5">
                 <PostCardInfoIcon name="dashicons:category" />
                 <a
-                  class="select-none rounded-md px-1.5 py-0.5 text-[var(--text-color-lighten)] transition-all hover:bg-[var(--primary-color-lighten)] hover:text-[var(--primary-color)]"
+                  class="select-none rounded-md px-1.5 py-0.5 text-[var(--text-color-lighten)] transition-all hover:bg-[var(--primary-color-lighten)] hover:text-[var(--primary-color-darker)]"
                   href={`/categories/${IdToSlug(props.category)}`}
                 >
                   {props.category}
@@ -119,7 +119,7 @@ const loadingType = props.isFirst ? "eager" : "lazy";
                       <li class="flex select-none flex-row items-center text-[var(--text-color-lighten)]">
                         {index > 0 && <span class="pr-1">/</span>}
                         <a
-                          class="rounded-md px-1.5 py-0.5 transition-all hover:bg-[var(--primary-color-lighten)] hover:text-[var(--primary-color)]"
+                          class="rounded-md px-1.5 py-0.5 transition-all hover:bg-[var(--primary-color-lighten)] hover:text-[var(--primary-color-darker)]"
                           href={`/tags/${IdToSlug(tag)}`}
                         >
                           {tag}

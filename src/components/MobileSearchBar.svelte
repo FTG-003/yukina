@@ -5,6 +5,7 @@
 
   import I18nKeys from "../locales/keys";
   import { i18n } from "../locales/translation";
+  import { debounce } from "../utils/debounce";
 
   let searchKeyword = "";
   let searchResult: any[] = [];
@@ -81,7 +82,8 @@
     }
   };
 
-  $: search(searchKeyword);
+  const debouncedSearch = debounce(search, 300);
+  $: debouncedSearch(searchKeyword);
 </script>
 
 <div class="lg:hidden">

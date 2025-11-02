@@ -30,6 +30,11 @@ const {
 ---
 
 <Main title={title} subTitle={subTitle} bannerImage={bannerImage} author={author}>
+  <link
+    slot="head"
+    rel="stylesheet"
+    href="https://fastly.jsdelivr.net/npm/katex/dist/katex.min.css"
+  />
   <!-- <Fragment set:html={tocHTMLString} /> -->
   <div class="article-wrapper">
     <div class="article">
