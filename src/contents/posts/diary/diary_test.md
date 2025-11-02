@@ -9,9 +9,6 @@ author: Fabry
 draft: false
 ---
 
-
-
-
 # The Pyragogy Blog Begins  
 ### One Step at a Time, One Discovery at a Time
 
