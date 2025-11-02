@@ -1,4 +1,3 @@
-
 User-agent: *
 Allow: /
 Sitemap: https://pyragogy.org/sitemap-index.xml
