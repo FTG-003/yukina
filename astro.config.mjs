@@ -48,7 +48,5 @@ export default defineConfig({
       ],
     ],
   },
-  build: {
-    inlineStylesheets: 'always',
-  }
+
 });
