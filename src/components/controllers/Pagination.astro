@@ -39,12 +39,17 @@ if (props.lastPage <= maxVisiblePages) {
   style={props.style}
   class:list={[props.class]}
 >
-  <a
-    href={props.prevURL}
-    class:list={[props.prevURL ? "button" : "button-disabled"]}
-  >
-    <span>＜</span>
-  </a>
+  {
+    props.prevURL ? (
+      <a href={props.prevURL} class="button">
+        <span>＜</span>
+      </a>
+    ) : (
+      <span class="button-disabled">
+        <span>＜</span>
+      </span>
+    )
+  }
 
   <div class="flex flex-row space-x-2">
     {
@@ -63,12 +68,17 @@ if (props.lastPage <= maxVisiblePages) {
     }
   </div>
 
-  <a
-    href={props.nextURL}
-    class:list={[props.nextURL ? "button" : "button-disabled"]}
-  >
-    <span>＞</span>
-  </a>
+  {
+    props.nextURL ? (
+      <a href={props.nextURL} class="button">
+        <span>＞</span>
+      </a>
+    ) : (
+      <span class="button-disabled">
+        <span>＞</span>
+      </span>
+    )
+  }
 </div>
 <style>
   .button {

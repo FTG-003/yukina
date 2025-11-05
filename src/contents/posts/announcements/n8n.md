@@ -57,4 +57,6 @@ Together, we are building a future where technology is not the center — but th
   allow="clipboard-write"
   src="https://n8n.io/workflows/4904-pyragogy-ai-driven-handbook-generator-with-multi-agent-orchestration/"
   style="width: 100%; height: 700px; border: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"
+  title="n8n workflow embed"
+  loading="lazy"
 ></iframe>
