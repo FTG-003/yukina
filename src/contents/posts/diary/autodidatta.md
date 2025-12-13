@@ -1,14 +1,15 @@
 ---
 title: "Learning Without Asking Permission"
 published: 2025-10-31
-description: "The freedom you earn by learning on your own"
-author: Fabrizio Terzi
-category: Diary
-tags: [Philosophy, Diary]
-bannerImage: /banner/forum-square.webp
-cover: /banner/4.webp
+description: "The freedom you earn by learning on your own."
+author: "Fabrizio Terzi"
+category: "Diary"
+tags: ["Philosophy", "Diary"]
+bannerImage: "/banner/forum-square.webp"
+cover: "/banner/4.webp"
 draft: false
 ---
+
 
 ## Learning Without Asking Permission
 *Dear Pyragogues,*

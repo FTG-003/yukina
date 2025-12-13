@@ -1,5 +1,5 @@
 ---
-title: The Dance of Minds
+title: "The Dance of Minds"
 published: 2025-05-20
 description: The Cognitive Rhythm Theory
 author: Fabry & Gino
