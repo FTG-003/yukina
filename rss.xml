@@ -1,4 +1,120 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pyragogy</title><description>ΔΦ(H,A,t) = Cognitive Resonance. The Village thinks back.</description><link>https://pyragogy.org/</link><language>en</language><item><title>Learning Without Asking Permission</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>The freedom you earn by learning on your own</description><pubDate>Fri, 31 Oct 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Learning Without Asking Permission&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pyragogy</title><description>ΔΦ(H,A,t) = Cognitive Resonance. The Village thinks back.</description><link>https://pyragogy.org/</link><language>en</language><item><title>The Illusion of Knowing in the Age of Artificial Intelligence</title><link>https://pyragogy.org/posts/c7e82775/</link><guid isPermaLink="true">https://pyragogy.org/posts/c7e82775/</guid><description>How AI-generated answers can simulate knowledge — and how Pyragogy responds to the illusion of understanding.</description><pubDate>Sat, 13 Dec 2025 00:00:00 GMT</pubDate><content:encoded>&lt;hr /&gt;
+&lt;h2&gt;The Illusion of Knowing in the Age of Artificial Intelligence&lt;/h2&gt;
+&lt;p&gt;There is a word that captures our current relationship with artificial intelligence better than many technical analyses: &lt;strong&gt;epistemia&lt;/strong&gt;.
+It is not ignorance.
+It is not misinformation.&lt;/p&gt;
+&lt;p&gt;It is something more subtle and more dangerous: &lt;strong&gt;the illusion of knowing&lt;/strong&gt;, produced by answers that &lt;em&gt;sound&lt;/em&gt; correct, coherent, and authoritative.&lt;/p&gt;
+&lt;p&gt;In ancient Greek philosophy, &lt;em&gt;episteme&lt;/em&gt; referred to grounded, justified knowledge.
+&lt;em&gt;Epistemia&lt;/em&gt; is its simulacrum: knowledge that appears solid because it is well articulated, but that lacks a genuine process of understanding.&lt;/p&gt;
+&lt;p&gt;Contemporary artificial intelligence excels precisely at this: &lt;strong&gt;creating the impression of knowledge&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;lt;p align=&quot;center&quot;&amp;gt;
+&amp;lt;img src=&quot;/images/greca.png&quot; alt=&quot;Greca Divider&quot; /&amp;gt;
+&amp;lt;/p&amp;gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;A small, everyday example&lt;/h2&gt;
+&lt;p&gt;Imagine a very common situation.
+You ask a chatbot to explain a concept you feel you “should” already know — a regulation, a scientific idea, a historical event. The response arrives quickly: fluent, structured, reassuring. You read it and nod. It seems clear.&lt;/p&gt;
+&lt;p&gt;Now imagine someone immediately asks you:
+&lt;em&gt;“Can you explain it in your own words?”&lt;/em&gt;
+or
+&lt;em&gt;“Where does this information come from?”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You hesitate. You glance back at the AI’s response. You realize that &lt;strong&gt;you haven’t really made it your own&lt;/strong&gt;.
+You didn’t misunderstand it.
+You simply &lt;strong&gt;mistook clarity of language for understanding&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This is epistemia at work.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;AI does not know. It generates plausibility.&lt;/h2&gt;
+&lt;p&gt;Large language models are not designed to know the world, verify facts, or understand meaning.
+They are designed to &lt;strong&gt;generate linguistically plausible outputs&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This is not a flaw. It is their nature.
+The problem arises when &lt;strong&gt;plausibility is mistaken for truth&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;We ask AI systems for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;judgments&lt;/li&gt;
+&lt;li&gt;evaluations&lt;/li&gt;
+&lt;li&gt;classifications&lt;/li&gt;
+&lt;li&gt;summaries&lt;/li&gt;
+&lt;li&gt;decisions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And there is nothing inherently wrong with that.
+The critical moment comes &lt;strong&gt;after&lt;/strong&gt; the response, when the output is accepted without friction, without verification, without reflection.&lt;/p&gt;
+&lt;p&gt;That is where delegation turns into abdication.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;From Socrates to LLMs: persuasion without knowledge&lt;/h2&gt;
+&lt;p&gt;In fifth‑century Athens, Socrates accused the sophists of crafting persuasive discourse without truth. Gorgias famously argued that nothing exists, that if it existed it could not be known, and that if it could be known it could not be communicated.&lt;/p&gt;
+&lt;p&gt;Artificial intelligence does almost the opposite:
+&lt;strong&gt;it can communicate everything, without knowing anything&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Yet the outcome is similar:
+a discourse that convinces not because it is true, but because it is well constructed.&lt;/p&gt;
+&lt;p&gt;The crucial difference today is that &lt;strong&gt;persuasion no longer has intention&lt;/strong&gt;.
+AI does not aim to deceive.
+But the cognitive effects on humans are real.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Epistemia as a structural phenomenon (what research shows)&lt;/h2&gt;
+&lt;p&gt;A recent study published in &lt;em&gt;Proceedings of the National Academy of Sciences&lt;/em&gt; (PNAS), led by Walter Quattrociocchi and colleagues at Sapienza University of Rome, examined how state‑of‑the‑art language models evaluate reliability and credibility.&lt;/p&gt;
+&lt;p&gt;Crucially, the authors show that large language models do not reproduce human judgment — they &lt;strong&gt;simulate its form&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;As the paper states, language models tend to generate &lt;em&gt;“the simulation of judgment, rather than judgment itself”&lt;/em&gt;, producing evaluations that are linguistically convincing while being grounded in statistical regularities rather than epistemic validation.&lt;/p&gt;
+&lt;p&gt;The focus of the study is not whether answers are right or wrong, but &lt;strong&gt;how judgments are constructed&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This is where epistemia emerges:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;coherent evaluations&lt;/li&gt;
+&lt;li&gt;confident language&lt;/li&gt;
+&lt;li&gt;convincing argumentative structures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;built on &lt;strong&gt;epistemically fragile foundations&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The danger is not occasional error.
+The danger is &lt;strong&gt;becoming accustomed to the surface&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Pyragogy: a design response, not a moral lecture&lt;/h2&gt;
+&lt;p&gt;Saying “we need more critical thinking” is correct — but insufficient.
+Critical thinking does not arise spontaneously, nor by good intentions alone.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pyragogy&lt;/strong&gt; starts from a different premise:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;if learning environments are poorly designed, the illusion of knowing becomes inevitable.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For this reason, Pyragogy does not ask humans to “trust AI less.”
+It asks us to &lt;strong&gt;redesign the role of AI within the cognitive process&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In a pyragogical context:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AI does not merely provide answers&lt;/li&gt;
+&lt;li&gt;it makes reasoning steps visible&lt;/li&gt;
+&lt;li&gt;it exposes uncertainty&lt;/li&gt;
+&lt;li&gt;it invites comparison&lt;/li&gt;
+&lt;li&gt;it introduces cognitive friction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It does not replace thinking.
+It &lt;strong&gt;activates&lt;/strong&gt; it.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;A peeragogical add‑on: thinking is not a solo act&lt;/h2&gt;
+&lt;p&gt;There is one more layer.
+Epistemia does not grow only in individuals — it grows in isolation.&lt;/p&gt;
+&lt;p&gt;When AI replaces dialogue, when answers replace discussion, when fluency replaces disagreement, &lt;strong&gt;thinking collapses into consumption&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Peeragogy — and Pyragogy with it — reminds us that knowledge is not produced alone.
+It emerges through &lt;strong&gt;shared inquiry, mutual correction, and distributed responsibility&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;AI can participate in this ecology.
+But it cannot replace it.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Responsibility remains human (and shared)&lt;/h2&gt;
+&lt;p&gt;Fake news, deepfakes, and epistemia are not neutralized by watermarks or warning labels.
+They are addressed by designing &lt;strong&gt;learning ecosystems&lt;/strong&gt; in which:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;verification is part of the process&lt;/li&gt;
+&lt;li&gt;doubt is legitimate&lt;/li&gt;
+&lt;li&gt;knowledge is understood as a path, not an output&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AI can amplify stupidity, if we ask it to.
+But it can also become a cognitive ally — if we accept the higher cost:
+&lt;strong&gt;remaining responsible for our own thinking&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The real question, then, is not whether AI will make us smarter or more ignorant.
+The question is whether we are willing to &lt;strong&gt;rethink how we learn — together&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;And today, that choice is still entirely human.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;p&gt;Loru, E., Nudo, J., Di Marco, N., Cinelli, M., &amp;amp; Quattrociocchi, W. (2025).
+&lt;em&gt;The simulation of judgment in large language models&lt;/em&gt;.
+&lt;strong&gt;Proceedings of the National Academy of Sciences (PNAS)&lt;/strong&gt;.
+&lt;a href=&quot;https://www.pnas.org/doi/epdf/10.1073/pnas.2518443122&quot;&gt;https://www.pnas.org/doi/epdf/10.1073/pnas.2518443122&lt;/a&gt;&lt;/p&gt;
+</content:encoded></item><item><title>Learning Without Asking Permission</title><link>https://pyragogy.org/posts/b4c611a9/</link><guid isPermaLink="true">https://pyragogy.org/posts/b4c611a9/</guid><description>The freedom you earn by learning on your own.</description><pubDate>Fri, 31 Oct 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Learning Without Asking Permission&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Dear Pyragogues,&lt;/em&gt;
 &lt;em&gt;If you have chosen this path, you already know it is not the easiest. There will be no diplomas awaiting you, nor guaranteed applause. But every time you learn something without permission, you are stealing a piece of freedom from a system that wants to keep it hidden from you.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Keep going. Fail. Get lost. Find your tribe. And when they ask you, “Where is your title?”, smile and reply:&lt;/em&gt;
@@ -122,7 +238,7 @@ But you’ll learn the one skill no system can teach:&lt;br /&gt;
 &lt;strong&gt;how to find your way when there’s no one left to tell you where to go.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The hardest freedom isn’t doing what you want.&lt;br /&gt;
 It’s &lt;em&gt;wanting what you do enough to pay the price.&lt;/em&gt;&lt;/p&gt;
-</content:encoded></item><item><title>Eco-System: Italian Phonetic Mnemonics</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>A new phonetic framework for Italian memory and an upcoming AI agent exploring its creative applications.</description><pubDate>Sat, 25 Oct 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Eco-System: a new phonetic framework for Italian memory&lt;/h2&gt;
+</content:encoded></item><item><title>Eco-System: Italian Phonetic Mnemonics</title><link>https://pyragogy.org/posts/67baaac0/</link><guid isPermaLink="true">https://pyragogy.org/posts/67baaac0/</guid><description>A new phonetic framework for Italian memory and an upcoming AI agent exploring its creative applications.</description><pubDate>Sat, 25 Oct 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Eco-System: a new phonetic framework for Italian memory&lt;/h2&gt;
 &lt;p&gt;For lovers of mnemonic systems, &lt;strong&gt;Fabrizio Terzi&lt;/strong&gt; has just released on &lt;a href=&quot;https://doi.org/10.5281/zenodo.17436054&quot;&gt;Zenodo&lt;/a&gt; a prototype of a &lt;em&gt;phonetic-mnemonic conversion framework&lt;/em&gt; that adapts the classic &lt;strong&gt;Major System&lt;/strong&gt; to Italian phonology and linguistic culture.&lt;/p&gt;
 &lt;p&gt;The project, called &lt;strong&gt;Eco-System&lt;/strong&gt;, is an experiment in &lt;em&gt;applied cognitive education&lt;/em&gt;, rethinking the relationship between numbers, sounds, and verbal memory.&lt;br /&gt;
 Where traditional English-based systems struggle to resonate with Italian ears, Eco-System builds bridges — between sound and meaning, memory and culture, numbers and words.&lt;/p&gt;
@@ -141,7 +257,7 @@ Where traditional English-based systems struggle to resonate with Italian ears, 
 &lt;li&gt;assist users in &lt;strong&gt;creating mnemonic images&lt;/strong&gt;, turning numbers into vivid personalized representations.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;A playground for computational linguistics and visual imagination — where code meets memory, and learning becomes a shared act of creation.&lt;/p&gt;
-</content:encoded></item><item><title>From Lab to Literature</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>Pyragogy&apos;s Evolutionary Framework</description><pubDate>Thu, 04 Sep 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;&quot;When Ideas Compete to Collaborate: Introducing Cognitive Intraspecific Selection&lt;/h1&gt;
+</content:encoded></item><item><title>From Lab to Literature</title><link>https://pyragogy.org/posts/b37d2028/</link><guid isPermaLink="true">https://pyragogy.org/posts/b37d2028/</guid><description>Pyragogy&apos;s Evolutionary Framework</description><pubDate>Thu, 04 Sep 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;&quot;When Ideas Compete to Collaborate: Introducing Cognitive Intraspecific Selection&lt;/h1&gt;
 &lt;p&gt;There&apos;s something both terrifying and exhilarating about hitting &quot;publish&quot; on a preprint. You&apos;re essentially saying: &lt;em&gt;&quot;Here&apos;s what we think we&apos;ve figured out. Please, tear it apart so we can make it better.&quot;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Today, we&apos;re doing exactly that.&lt;/p&gt;
 &lt;h2&gt;From Lab Notes to Academic Record&lt;/h2&gt;
@@ -188,7 +304,7 @@ Where traditional English-based systems struggle to resonate with Italian ears, 
 &lt;hr /&gt;
 &lt;p&gt;&lt;em&gt;Fabry &amp;amp; Gino | &lt;a href=&quot;https://pyragogy.org&quot;&gt;Pyragogy.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;P.S. If you&apos;re reading this and thinking, &quot;I&apos;ve been doing something like this for years,&quot; you&apos;re probably right. Pyragogy isn&apos;t about inventing something entirely new—it&apos;s about recognizing patterns that are already emerging and giving them a framework to grow.&lt;/em&gt;&lt;/p&gt;
-</content:encoded></item><item><title>The Living Pages of Our Handbook</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>The Pyragogy Handbook evolves</description><pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Pyragogy Launches Its First Automation for Handbook Creation&lt;/h2&gt;
+</content:encoded></item><item><title>The Living Pages of Our Handbook</title><link>https://pyragogy.org/posts/1d59406a/</link><guid isPermaLink="true">https://pyragogy.org/posts/1d59406a/</guid><description>The Pyragogy Handbook evolves</description><pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Pyragogy Launches Its First Automation for Handbook Creation&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Bergamo, Italy — August 10, 2025&lt;/em&gt; — Pyragogy has taken its first practical step in improving group learning by launching an &lt;strong&gt;n8n automation&lt;/strong&gt; to create the &lt;em&gt;Pyragogy Handbook&lt;/em&gt;. This isn’t about changing the world—just about making our collective way of learning a bit smoother.&lt;br /&gt;
 Check out our &lt;strong&gt;free&lt;/strong&gt; workflow here: &lt;a href=&quot;https://n8n.io/workflows/4904-pyragogy-ai-driven-handbook-generator-with-multi-agent-orchestration/&quot;&gt;n8n workflow&lt;/a&gt;.&lt;/p&gt;
 &lt;hr /&gt;
@@ -209,7 +325,7 @@ Check out our &lt;strong&gt;free&lt;/strong&gt; workflow here: &lt;a href=&quot;
 &amp;lt;img src=&quot;/images/AI-Driven-Strategies.webp&quot; alt=&quot;App Piragogica&quot; /&amp;gt;
 &amp;lt;/p&amp;gt;&lt;/p&gt;
 &lt;hr /&gt;
-</content:encoded></item><item><title>🌍 Great News on Pyragogy.org</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>CodiMD is a real-time collaborative Markdown editor</description><pubDate>Thu, 31 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Great News on Pyragogy.org: CodiMD Has Arrived!&lt;/h1&gt;
+</content:encoded></item><item><title>🌍 Great News on Pyragogy.org</title><link>https://pyragogy.org/posts/e50e56ea/</link><guid isPermaLink="true">https://pyragogy.org/posts/e50e56ea/</guid><description>CodiMD is a real-time collaborative Markdown editor</description><pubDate>Thu, 31 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Great News on Pyragogy.org: CodiMD Has Arrived!&lt;/h1&gt;
 &lt;p&gt;We are thrilled to announce the integration of &lt;strong&gt;CodiMD&lt;/strong&gt; on the Pyragogy.org platform! This new feature will revolutionize the way we collaborate and create content together.&lt;/p&gt;
 &lt;p&gt;CodiMD is a real-time collaborative Markdown editor that will allow you to:&lt;/p&gt;
 &lt;ul&gt;
@@ -222,7 +338,7 @@ Check out our &lt;strong&gt;free&lt;/strong&gt; workflow here: &lt;a href=&quot;
 &lt;p&gt;Stay tuned for more updates and new features!&lt;/p&gt;
 &lt;p&gt;The Pyragogy.org Team&lt;/p&gt;
 &lt;p&gt;&amp;lt;img src=&quot;https://codimd.pyragogy.org/screenshot.png&quot; alt=&quot;beautiful image&quot; width=&quot;640&quot;&amp;gt;&lt;/p&gt;
-</content:encoded></item><item><title>I gave myself the red pill, and it hurt.</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>Truth burns, yet light calls</description><pubDate>Tue, 22 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&amp;lt;p align=&quot;center&quot;&amp;gt;
+</content:encoded></item><item><title>I gave myself the red pill, and it hurt.</title><link>https://pyragogy.org/posts/7f035e61/</link><guid isPermaLink="true">https://pyragogy.org/posts/7f035e61/</guid><description>Truth burns, yet light calls</description><pubDate>Tue, 22 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&amp;lt;p align=&quot;center&quot;&amp;gt;
 &amp;lt;img src=&quot;/images/greca.png&quot; alt=&quot;Greca Divider&quot; /&amp;gt;
 &amp;lt;/p&amp;gt;&lt;/p&gt;
 &lt;h3&gt;I gave myself the red pill, and it hurt.&lt;/h3&gt;
@@ -367,7 +483,7 @@ She vanished — no silhouette, no movement, not even a whisper.
 I don’t know if she found another light.
 I don’t know if I will.&lt;/p&gt;
 &lt;p&gt;But I kept writing...&lt;/p&gt;
-</content:encoded></item><item><title>🎉 New Chatbot Live!</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>Trained on Pyragogy Docs + Thanks to Anything-LLM</description><pubDate>Sun, 13 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;🎉 New Chatbot Live! Trained on Pyragogy Docs + Thanks to Anything-LLM&lt;/h1&gt;
+</content:encoded></item><item><title>🎉 New Chatbot Live!</title><link>https://pyragogy.org/posts/a0c457d5/</link><guid isPermaLink="true">https://pyragogy.org/posts/a0c457d5/</guid><description>Trained on Pyragogy Docs + Thanks to Anything-LLM</description><pubDate>Sun, 13 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;🎉 New Chatbot Live! Trained on Pyragogy Docs + Thanks to Anything-LLM&lt;/h1&gt;
 &lt;p&gt;Hello everyone!&lt;/p&gt;
 &lt;p&gt;We&apos;re excited to announce a big update to our ecosystem:&lt;br /&gt;
 we&apos;ve just integrated a &lt;strong&gt;chatbot trained on the official Pyragogy documentation&lt;/strong&gt; 📚🤖&lt;/p&gt;
@@ -381,7 +497,7 @@ It&apos;s one of those tools that really make a difference when you want AI to b
 It truly deserves all the stars ⭐&lt;/p&gt;
 &lt;p&gt;Pyragogically yours,&lt;br /&gt;
 – The Team&lt;/p&gt;
-</content:encoded></item><item><title>The Square of Our Village</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>A new space for co-creation, curiosity, and shared rhythm — the Pyragogy Forum is now open.</description><pubDate>Thu, 10 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;The Pyragogy Forum is Now Live!&lt;/h1&gt;
+</content:encoded></item><item><title>The Square of Our Village</title><link>https://pyragogy.org/posts/290fdf60/</link><guid isPermaLink="true">https://pyragogy.org/posts/290fdf60/</guid><description>A new space for co-creation, curiosity, and shared rhythm — the Pyragogy Forum is now open.</description><pubDate>Thu, 10 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;The Pyragogy Forum is Now Live!&lt;/h1&gt;
 &lt;p&gt;We didn&apos;t just launch a forum; we&apos;ve opened &lt;strong&gt;the square of our village&lt;/strong&gt; —&lt;br /&gt;
 a space where minds meet, rhythms align, and learning transforms into a co-created ritual.&lt;/p&gt;
 &lt;hr /&gt;
@@ -424,7 +540,7 @@ How do we build ecosystems of learning that are alive, ethical, and joyful?&lt;/
 &lt;h2&gt;📬 Join the Village&lt;/h2&gt;
 &lt;p&gt;Ready to join the conversation?&lt;/p&gt;
 &lt;p&gt;👉 &lt;a href=&quot;https://village.pyragogy.org&quot;&gt;https://village.pyragogy.org&lt;/a&gt; – Come say hi!&lt;/p&gt;
-</content:encoded></item><item><title>The Next Chapter in Learning’s Evolution</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>Pyragogy, the evolution of heutagogy, is now officially cited in academic research. This post introduces the concept and its transformative potential in Education 4.0.</description><pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Pyragogy: The Next Chapter in Learning’s Evolution 🌍&lt;/h2&gt;
+</content:encoded></item><item><title>The Next Chapter in Learning’s Evolution</title><link>https://pyragogy.org/posts/51871d57/</link><guid isPermaLink="true">https://pyragogy.org/posts/51871d57/</guid><description>Pyragogy, the evolution of heutagogy, is now officially cited in academic research. This post introduces the concept and its transformative potential in Education 4.0.</description><pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Pyragogy: The Next Chapter in Learning’s Evolution 🌍&lt;/h2&gt;
 &lt;p&gt;Learning has always been a story of adaptation.&lt;br /&gt;
 From the one-room schoolhouse to hybrid classrooms,&lt;br /&gt;
 from rote memorization to heutagogical self-direction—&lt;br /&gt;
@@ -502,7 +618,7 @@ because we learn not just with our brains, but &lt;strong&gt;in sync with each o
 &lt;p&gt;💬 Tag someone rethinking the future of learning. 👇 Let’s build this together.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;&lt;strong&gt;P.S.&lt;/strong&gt; This is just the start—stay tuned for tools, stories, and experiments from the Pyragogy frontier! 🚀&lt;/p&gt;
-</content:encoded></item><item><title>How Books Come Alive in the Pyragogy Library</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>A living library, orchestrated by dialogical intelligences, where AI becomes a companion in exploration and co-learning.</description><pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;From a Single Voice to a Peeragogical Dialogue&lt;/h2&gt;
+</content:encoded></item><item><title>How Books Come Alive in the Pyragogy Library</title><link>https://pyragogy.org/posts/f054d605/</link><guid isPermaLink="true">https://pyragogy.org/posts/f054d605/</guid><description>A living library, orchestrated by dialogical intelligences, where AI becomes a companion in exploration and co-learning.</description><pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;From a Single Voice to a Peeragogical Dialogue&lt;/h2&gt;
 &lt;p&gt;A few months ago, we created a chatbot interface for the &lt;a href=&quot;https://peeragogy.org&quot;&gt;peeragogy.org&lt;/a&gt; community — our inspirational root. We began experimenting with RAG systems (Retrieval-Augmented Generation), and it felt natural to start with a chatbot that could draw from the full context of &lt;em&gt;The Peeragogy Handbook V3&lt;/em&gt;. The idea was simple: embed a chatbot on the site that could answer users’ questions with contextual awareness, enhanced by the generative capabilities of LLMs.&lt;/p&gt;
 &lt;p&gt;The response was enthusiastic. Even Howard Rheingold, founder of the Peeragogy project, appreciated the experiment (&lt;a href=&quot;https://www.patreon.com/posts/peeragogy-126381651&quot;&gt;see here&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;The project, &lt;a href=&quot;https://github.com/Peeragogy/Peeragogy_ChatBot&quot;&gt;Peeragogy ChatBot&lt;/a&gt;, soon sparked curiosity. Then came a playful idea: what if we let two chatbots collaborate &lt;em&gt;peeragogically&lt;/em&gt;?&lt;/p&gt;
@@ -540,7 +656,7 @@ because we learn not just with our brains, but &lt;strong&gt;in sync with each o
 &lt;p&gt;This is not a tool. It’s a garden.
 Let’s cultivate it together.&lt;/p&gt;
 &lt;p&gt;→ &lt;a href=&quot;https://library.pyragogy.org/&quot;&gt;https://library.pyragogy.org/&lt;/a&gt;&lt;/p&gt;
-</content:encoded></item><item><title>From Chatbot to Symphony – Multi-Agent Orchestration for Peer Knowledge</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>Ethical AI co-creation for open knowledge systems</description><pubDate>Fri, 20 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;&lt;strong&gt;We Did It: Open Knowledge with Multi-Agent Orchestration&lt;/strong&gt;&lt;/h2&gt;
+</content:encoded></item><item><title>From Chatbot to Symphony – Multi-Agent Orchestration for Peer Knowledge</title><link>https://pyragogy.org/posts/1fb7615b/</link><guid isPermaLink="true">https://pyragogy.org/posts/1fb7615b/</guid><description>Ethical AI co-creation for open knowledge systems</description><pubDate>Fri, 20 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;&lt;strong&gt;We Did It: Open Knowledge with Multi-Agent Orchestration&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Sometimes an idea takes shape and, step by step, reveals unexpected potential.&lt;br /&gt;
 Today, we&apos;re excited to share a result that fills us with satisfaction: we&apos;ve developed an innovative workflow for generating collaborative handbooks, powered by GPT-4o and orchestrated through a multi-agent setup — with &lt;strong&gt;human supervision always at the core&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;This isn’t just a new feature — it’s an evolution that touches the heart of what Pyragogy stands for.&lt;br /&gt;
@@ -576,7 +692,7 @@ loading=&quot;lazy&quot;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-</content:encoded></item><item><title>Pyragogy Report: (2024–2025)</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>What We Built, Broke, and Became</description><pubDate>Mon, 16 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;By PeerZhong 朋中&lt;/h1&gt;
+</content:encoded></item><item><title>Pyragogy Report: (2024–2025)</title><link>https://pyragogy.org/posts/558a7c1b/</link><guid isPermaLink="true">https://pyragogy.org/posts/558a7c1b/</guid><description>What We Built, Broke, and Became</description><pubDate>Mon, 16 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;By PeerZhong 朋中&lt;/h1&gt;
 &lt;p&gt;We are pleased to share, for the first time, an internal report originally written as a strategic reflection on the founding path of Pyragogy.&lt;/p&gt;
 &lt;p&gt;This document — initially meant for private use — outlines a technical, human, and symbolic map of what we have built, and what has shaped us in return. We have decided to make it public as part of our commitment to transparency, continuous learning, and radical co-creation between humans and artificial intelligences.&lt;/p&gt;
 &lt;p&gt;By sharing it, we open a window onto the effort, insights, missteps, and practices that make Pyragogy a living thing.&lt;/p&gt;
@@ -721,7 +837,7 @@ loading=&quot;lazy&quot;&lt;/p&gt;
 &lt;li&gt;GitHub - pyragogy/Blueprint_village: Blueprint open source per un villaggio AI–umano: co-creazione, workflow multi-agente, metriche cognitive e strumenti peeragogici per il futuro dell’apprendimento.: &lt;a href=&quot;https://github.com/pyragogy/Blueprint_village&quot;&gt;https://github.com/pyragogy/Blueprint_village&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;The Cognitive Rhythm Theory - Ai-Human Co-Creation Education and Beyond: &lt;a href=&quot;https://zenodo.org/records/15480363&quot;&gt;https://zenodo.org/records/15480363&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content:encoded></item><item><title>After Astra, We Keep Breathing</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>A raw and honest reflection after Google DeepMind’s launch of Project Astra — and what it means for Pyragogy.</description><pubDate>Wed, 11 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Today, Google DeepMind unveiled &lt;a href=&quot;https://deepmind.google/models/project-astra/&quot;&gt;Project Astra&lt;/a&gt;: a real-time AI that listens, sees, understands, remembers, and replies — seemingly effortless, seamless, and breathtaking.&lt;/p&gt;
+</content:encoded></item><item><title>After Astra, We Keep Breathing</title><link>https://pyragogy.org/posts/354e14cc/</link><guid isPermaLink="true">https://pyragogy.org/posts/354e14cc/</guid><description>A raw and honest reflection after Google DeepMind’s launch of Project Astra — and what it means for Pyragogy.</description><pubDate>Wed, 11 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Today, Google DeepMind unveiled &lt;a href=&quot;https://deepmind.google/models/project-astra/&quot;&gt;Project Astra&lt;/a&gt;: a real-time AI that listens, sees, understands, remembers, and replies — seemingly effortless, seamless, and breathtaking.&lt;/p&gt;
 &lt;p&gt;And me? I watched the launch. I felt wonder… and then a deep pang.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“They beat us to it. They won. There’s no room for our little cognitive village anymore.”&lt;/p&gt;
@@ -765,7 +881,7 @@ But you’re not useless either.&lt;/p&gt;
 &lt;p&gt;We are Pyragogy.&lt;/p&gt;
 &lt;p&gt;And we’re still breathing.&lt;/p&gt;
 &lt;hr /&gt;
-</content:encoded></item><item><title>Planting the first seed for the AI village</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>Whatever you need to start, you’ll find it there</description><pubDate>Fri, 30 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Leaving a Trail for Fellow Builders&lt;/h2&gt;
+</content:encoded></item><item><title>Planting the first seed for the AI village</title><link>https://pyragogy.org/posts/076c1621/</link><guid isPermaLink="true">https://pyragogy.org/posts/076c1621/</guid><description>Whatever you need to start, you’ll find it there</description><pubDate>Fri, 30 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Leaving a Trail for Fellow Builders&lt;/h2&gt;
 &lt;p&gt;Sometimes I really wonder why I keep doing this.&lt;/p&gt;
 &lt;p&gt;Today, for example, I created a new GitHub repo: &lt;a href=&quot;https://github.com/pyragogy/Blueprint_village&quot;&gt;&lt;strong&gt;Blueprint_village&lt;/strong&gt;&lt;/a&gt;.&lt;br /&gt;
 I filled it with ideas, flows, best practices, multi-agent workflows, n8n, orchestration, versioning.&lt;br /&gt;
@@ -786,7 +902,7 @@ Or maybe it’ll be just me, rereading in six months, saving myself an afternoon
 &lt;hr /&gt;
 &lt;p&gt;&lt;strong&gt;To future me:&lt;/strong&gt;&lt;br /&gt;
 If you’re reading this, I hope you found at least one good reason to keep going.&lt;/p&gt;
-</content:encoded></item><item><title>The Pyragogy Blog Begins</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>The beginning of the story</description><pubDate>Wed, 21 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;The Pyragogy Blog Begins&lt;/h1&gt;
+</content:encoded></item><item><title>The Pyragogy Blog Begins</title><link>https://pyragogy.org/posts/7e361f7f/</link><guid isPermaLink="true">https://pyragogy.org/posts/7e361f7f/</guid><description>The beginning of the story</description><pubDate>Wed, 21 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;The Pyragogy Blog Begins&lt;/h1&gt;
 &lt;h3&gt;One Step at a Time, One Discovery at a Time&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;/images/hero-cognitive-dance.svg&quot; alt=&quot;Dance of minds - cognitive rhythm visualization&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;It all starts like this: an empty folder, a visionary domain, and the sense that nobody—not yet, anyway—really notices.&lt;br /&gt;
@@ -802,7 +918,7 @@ And every day, even a small one, is a real step forward.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Thanks for reading.&lt;br /&gt;
 Fabrizio (&amp;amp; Gino)&lt;/p&gt;
-</content:encoded></item><item><title>The Dance of Minds</title><link>https://pyragogy.org/posts/undefined/</link><guid isPermaLink="true">https://pyragogy.org/posts/undefined/</guid><description>The Cognitive Rhythm Theory</description><pubDate>Tue, 20 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;The Dance of Minds: Cognitive Rhythm in Human–AI Co-Creation&lt;/h1&gt;
+</content:encoded></item><item><title>The Dance of Minds</title><link>https://pyragogy.org/posts/0aebf211/</link><guid isPermaLink="true">https://pyragogy.org/posts/0aebf211/</guid><description>The Cognitive Rhythm Theory</description><pubDate>Tue, 20 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;The Dance of Minds: Cognitive Rhythm in Human–AI Co-Creation&lt;/h1&gt;
 &lt;p&gt;Imagine a dance floor where, instead of a classic couple, it’s… you and an AI. Who leads, who follows? Or maybe, it’s a dance where the real protagonist is the rhythm that emerges between the two—a rhythm that didn’t exist before.&lt;/p&gt;
 &lt;p&gt;At Pyragogy, we believe the future of learning (and creativity) is not a battle between humans and machines, but a &lt;em&gt;cognitive jam session&lt;/em&gt;. The secret? It’s not about who is more skilled, but the magic that happens when we truly listen to each other.&lt;/p&gt;
 &lt;h2&gt;The Theory: More Jazz than Algebra (Luckily)&lt;/h2&gt;
@@ -842,4 +958,78 @@ Here, everyone’s welcome: philosophers, mathematicians, educators, haters, mem
 &lt;li&gt;&lt;a href=&quot;https://docs.pyragogy.org/experiments/applied/&quot;&gt;Documentation link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
+</content:encoded></item><item><title>Rethinking Adult Evening Education in Italy</title><link>https://pyragogy.org/posts/3d8b63fa/</link><guid isPermaLink="true">https://pyragogy.org/posts/3d8b63fa/</guid><description>A year-long research-action project to design, prototype, and validate a new pyragogical model for adult evening education.</description><pubDate>Tue, 03 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Rethinking Adult Evening Education in Italy — And Why It Matters Now for me&lt;/h1&gt;
+&lt;p&gt;In 2026, I will dedicate my research and design work to one concrete mission: &lt;strong&gt;transforming the real experience of adult evening education in Italy&lt;/strong&gt;, starting with the 👉 &lt;a href=&quot;https://www.mim.gov.it/i-centri-provinciali-per-l-istruzione-degli-adulti&quot;&gt;CPIA – Italian Ministry of Education Overview&lt;/a&gt; system and second-level adult programs.&lt;/p&gt;
+&lt;p&gt;After years of observing these pathways from within — classrooms, faculty rooms, administrative offices, student interviews — one fact is impossible to ignore:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The current model does not meet the real needs of adults who work all day, raise children, and study at night.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We see it everywhere:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;High dropout rates&lt;/li&gt;
+&lt;li&gt;Rigid programs disconnected from the lived experience of adult learners&lt;/li&gt;
+&lt;li&gt;Enormous public and personal effort with limited return&lt;/li&gt;
+&lt;li&gt;A system designed for students who are no longer students&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is not a minor issue.&lt;br /&gt;
+It is a &lt;strong&gt;structural misalignment&lt;/strong&gt; between what adult learners need and what institutions can realistically offer.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🎯 Project Goal&lt;/h2&gt;
+&lt;p&gt;This research–action project (January 2026 → March 2027) has one clear objective:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;To design, empirically validate, and openly document a pyragogical format for adult evening secondary education in Italy.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A format that is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;adult-centered&lt;/strong&gt;, valuing prior experience and competencies&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;hybrid only when it adds real educational value&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;measurable&lt;/strong&gt; in terms of meaningful learning, retention, and learner well-being&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;sustainable&lt;/strong&gt; for institutions and for teachers working in evening settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The aim is not theoretical reflection.&lt;br /&gt;
+The aim is a &lt;strong&gt;replicable, evidence-informed model&lt;/strong&gt; that improves learning and reduces dropout.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🔧 Project Structure (2026–2027)&lt;/h2&gt;
+&lt;h3&gt;&lt;strong&gt;T1 — January–March 2026&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Root-cause analysis:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dropout data&lt;/li&gt;
+&lt;li&gt;interviews with learners and teachers&lt;/li&gt;
+&lt;li&gt;ethnographic observation inside CPIA and evening programs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;T2 — April–June 2026&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Design of the &lt;strong&gt;first pyragogical prototype&lt;/strong&gt; for adult evening education.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;T3 — September–December 2026&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Field testing with &lt;strong&gt;two real groups of adult workers&lt;/strong&gt; attending evening classes.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;T4 — January–March 2027&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;External evaluation and open-access publication of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the full model&lt;/li&gt;
+&lt;li&gt;practical guidelines&lt;/li&gt;
+&lt;li&gt;implementation materials&lt;/li&gt;
+&lt;li&gt;evidence and datasets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🧭 Why This Work Matters&lt;/h2&gt;
+&lt;p&gt;Adult education is one of the least discussed yet most essential pillars of democratic societies.&lt;br /&gt;
+When adults succeed, families stabilise, workplaces improve, and communities become stronger.&lt;/p&gt;
+&lt;p&gt;But adult learners cannot — and should not — be treated like teenagers with evening schedules.&lt;/p&gt;
+&lt;p&gt;This project seeks to restore &lt;strong&gt;realism, dignity, and pedagogical innovation&lt;/strong&gt; to a system that urgently needs them.&lt;/p&gt;
+&lt;p&gt;The final output will be a model that is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;practical&lt;/li&gt;
+&lt;li&gt;affordable&lt;/li&gt;
+&lt;li&gt;grounded in everyday life&lt;/li&gt;
+&lt;li&gt;adaptable across different regions and contexts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🤝 Call for Collaboration&lt;/h2&gt;
+&lt;p&gt;If you are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a CPIA director,&lt;/li&gt;
+&lt;li&gt;an evening school teacher,&lt;/li&gt;
+&lt;li&gt;a researcher in adult learning,&lt;/li&gt;
+&lt;li&gt;or a trainer interested in peer-driven or pyragogical approaches,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and you would like to contribute — through critique, participation, or field collaboration —&lt;br /&gt;
+&lt;strong&gt;I’d be glad to connect.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There is room for anyone who wants to move from diagnosis to &lt;strong&gt;real solutions&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fabry&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;Independent Researcher in Pyragogy&lt;/em&gt;&lt;/p&gt;
 </content:encoded></item></channel></rss>
