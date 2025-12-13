@@ -10,6 +10,8 @@ interface Props {
 }
 const { title, description, image } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+// Usa l'immagine fornita o un fallback di default (assicurati che /og-image.png esista in public/)
+const ogImage = new URL(image || '/og-image.png', Astro.site);
 ---
 
 <!-- Global Metadata -->
@@ -34,14 +36,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title ?? YukinaConfig.title} />
 <meta property="og:description" content={description ?? YukinaConfig.description} />
-<meta property="og:image" content={image ? new URL(image, Astro.site) : undefined} />
+<meta property="og:image" content={ogImage} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={Astro.url} />
 <meta property="twitter:title" content={title ?? YukinaConfig.title} />
 <meta property="twitter:description" content={description ?? YukinaConfig.description} />
-<meta property="twitter:image" content={image ? new URL(image, Astro.site) : undefined} />
+<meta property="twitter:image" content={ogImage} />
 
 <!-- RSS AutoDiscovery -->
 <link
