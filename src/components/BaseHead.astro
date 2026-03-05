@@ -10,7 +10,6 @@ interface Props {
 }
 const { title, description, image } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-// Usa l'immagine fornita o un fallback di default (assicurati che /og-image.png esista in public/)
 const ogImage = new URL(image || '/og-image.png', Astro.site);
 ---
 
@@ -24,7 +23,7 @@ const ogImage = new URL(image || '/og-image.png', Astro.site);
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://c.pxhere.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://plausible.pyragogy.org; style-src 'self' 'unsafe-inline' https://fastly.jsdelivr.net https://fonts.bunny.net; font-src 'self' https://fonts.bunny.net;">
 
 <!-- Canonical URL -->
-<link rel="canonical" href={canonicalURL} />
+<link rel="canonical" href={canonicalURL.toString()} />
 
 <!-- Primary Meta Tags -->
 <title>{title ?? YukinaConfig.title}</title>
@@ -33,30 +32,31 @@ const ogImage = new URL(image || '/og-image.png', Astro.site);
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content={Astro.url} />
+<meta property="og:url" content={Astro.url.toString()} />
 <meta property="og:title" content={title ?? YukinaConfig.title} />
 <meta property="og:description" content={description ?? YukinaConfig.description} />
-<meta property="og:image" content={ogImage} />
+<meta property="og:image" content={ogImage.toString()} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.url} />
+<meta property="twitter:url" content={Astro.url.toString()} />
 <meta property="twitter:title" content={title ?? YukinaConfig.title} />
 <meta property="twitter:description" content={description ?? YukinaConfig.description} />
-<meta property="twitter:image" content={ogImage} />
+<meta property="twitter:image" content={ogImage.toString()} />
 
 <!-- RSS AutoDiscovery -->
 <link
   rel="alternate"
   type="application/rss+xml"
   title={title ?? YukinaConfig.title}
-  href={new URL("rss.xml", Astro.site)}
+  href={new URL("rss.xml", Astro.site).toString()}
 />
 
 <!-- SiteMap -->
 <link rel="sitemap" href="/sitemap-index.xml" />
 
-
+<script defer data-domain="pyragogy.org" src="https://plausible.pyragogy.org/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 
 <GlobalStyles />
 <ScriptSetup />
