@@ -1,7 +1,7 @@
 ---
-title: 🎸 He Stopped Asking AI to Agree With Him
+title: Four Agents. One Handbook. No Safe Exit 
 published: 2026-03-05
-description: Fabrizio Terzi just launched Open Review — a live multi-agent orchestra that doesn't summarize the Peeragogy Handbook. It dismantles it.
+description: Fabrizio Terzi built an automation that doesn't help you understand the Peeragogy Handbook. It interrogates it. There's a difference.
 author: BergamoHub
 category: Announcements
 tags: [Pyragogy, Automation, n8n, MultiAgent, OpenReview]
@@ -10,69 +10,86 @@ cover: /images/orchestra.webp
 draft: false
 ---
 
-For a few weeks now, Fabrizio had been talking about it — this idea of doing something *practical*. Stopping the theory. Building something that actually runs.
 
-We'd heard versions of the same thought before: that AI tools were becoming mirrors, reflecting back whatever you already believed. That asking a language model to "improve" a text you wrote was just a more expensive way to agree with yourself.
+Fabrizio has been building things quietly for months. Not writing about building things. Not posting threads about the *future of AI in education*. Actually building — pipelines, workflows, agents that do something when you press a button.
 
-Then last week, he shipped it.
+Last week one of those things went live.
 
----
+And it's not what you'd expect from someone who comes from the Peeragogy world — that warm, horizontal, co-creation-flavored corner of the internet where everyone is learning together and the vibes are carefully ethical.
 
-## Meet the Orchestra
-
-[open-review.pyragogy.org](https://open-review.pyragogy.org) is not a chatbot. It's a four-agent pipeline built on n8n, running models via OpenRouter, designed to do one thing: put the [Peeragogy Handbook](https://peeragogy.org) under pressure.
-
-Each agent carries a distinct epistemic posture — not a role, but a *mode of attention*:
-
-**🌍 The Researcher** scans peer-learning trends from 2024 to 2026. It doesn't ask what the text says. It asks what the world has become since the text was written — and where the tensions are.
-
-**📚 The Resonance** acts as the Handbook's memory. It checks internal coherence, vocabulary fidelity, what must be preserved unconditionally.
-
-**🎸 The Perturbator** is the lead guitar. At intensity level 1, it nudges. At level 5, it demolishes. In a recent test on the *Co-working* chapter, it reframed the Wikipedia/PlanetMath contribution model as *digital sharecropping* — unpaid labor romantically rebranded as community contribution.
-
-**✍️ The Complicit Editor** listens to all three and writes the truth. It doesn't resolve the contradiction between them. It names it. That friction *is* the document.
+This is something else.
 
 ---
 
-## Why "Complicit"?
+## The Peeragogy Handbook Is a Beautiful Text
 
-Because Fabrizio is inside the experiment too.
+It talks about co-creation. Horizontal learning. Human-in-the-loop. Knowledge commons. Open contribution models. Wikipedia as a paradigm of collective intelligence.
 
-He built this to pressure-test texts he cares about. If the Orchestra finds a structural fault in the Peeragogy Handbook, that fault implicates him as well — he's been writing and teaching from it for years.
+It's also, in places, a document that belongs to a previous geological era.
 
-There's something deliberately uncomfortable about that. Which is the point.
+Not wrong. Just... ordered. Institutional. Written in the language of a grant proposal for a world that doesn't quite exist anymore — or never did, depending on how cynical you're feeling.
 
-> *"If the AI just gives you back your own ideas with better grammar, it's not a cognitive extension. It's an ego amplifier."*
+Fabrizio read it for years. Taught from it. Contributed to it.
 
----
-
-## The Stack, for Those Who Want to Get Their Hands Dirty
-
-The pipeline runs entirely on **n8n** with models served via **OpenRouter**. No data is stored server-side. Your API key lives only in the request. The revision document belongs entirely to you.
-
-The lab is open. You bring the chapter. The Orchestra does the rest.
-
-You can tune the disruption level from *Gentle* to *Demolition* — and watch in real time as three agents analyze in parallel before the Editor synthesizes their tensions into a single structured document.
+Then he built a machine to interrogate it.
 
 ---
 
-## What Comes Out
+## Four Agents Walk In
 
-Not a summary. Not a list of suggestions.
+[open-review.pyragogy.org](https://open-review.pyragogy.org) is a four-agent pipeline. You give it a chapter of the Handbook. It doesn't summarize. It doesn't "enhance". It applies pressure from four different directions simultaneously and hands you the fracture map.
 
-A revision document that names what doesn't hold — structurally, philosophically, contextually. With at least one open question at the end that only a human can answer.
+**🌍 The Researcher** asks what has changed in the world since this text was written. Not rhetorically. It actually scans. Peer learning in 2026 doesn't look like peer learning in 2015 — and the gaps between the Handbook's assumptions and current reality are where things get interesting.
 
-That last part matters to Fabrizio. The Orchestra isn't meant to replace editorial judgment. It's meant to sharpen it.
+**📚 The Resonance** is the Handbook's own immune system. It identifies what cannot be touched without destroying something essential. Not everything is up for demolition. Knowing what isn't is part of the work.
+
+**🎸 The Perturbator** is the one that will make some people angry. At level 5, it doesn't suggest improvements. It dismantles premises. In a test run on the *Co-working* chapter, it called the Wikipedia contribution model *digital sharecropping* — unpaid labor dressed up as community spirit, protected by the aesthetics of openness.
+
+That's not a comfortable read if you've spent years celebrating Wikipedia as a utopia.
+
+It's also not wrong.
+
+**✍️ The Complicit Editor** doesn't referee between the three. It writes into the tension. The contradictions stay in the document — named, not resolved. That's the output: not a clean revision plan, but an honest account of what doesn't hold.
+
+---
+
+## "Complicit" Is the Right Word
+
+The name isn't accidental. Fabrizio is inside this experiment. He's not a neutral observer running an analysis tool on someone else's text.
+
+He helped build the Handbook's ecosystem. If the Perturbator finds something structurally broken in the co-working model, or the co-learning mythology, or the "everyone contributes equally" narrative — that implicates him too.
+
+Building a machine that might prove you partially wrong takes a specific kind of intellectual honesty that is, frankly, rare in the AI discourse space right now.
+
+Most people are building mirrors. Tools that confirm. Assistants that agree.
+
+This is built to disagree. Systematically. On schedule. In four voices.
+
+---
+
+## The Stack
+
+n8n orchestration. OpenRouter for models. Nothing stored server-side. Your API key, your document, your problem.
+
+The interface runs live — you watch the agents work in sequence, then the Editor synthesizes. The perturbation intensity slider goes from *Gentle* to *Demolition*. You choose how much discomfort you want.
+
+---
+
+## What You Get
+
+A structured revision document. Real tensions. Actionable interventions. And one open question at the end — the kind that a machine can identify but cannot answer.
+
+That last part is deliberate. The Orchestra is not a replacement for editorial judgment. It's what happens before editorial judgment — the uncomfortable conversation you usually skip because it's easier to revise the prose than to question the premise.
 
 ---
 
 ## The Lab Is Open
 
-If you work with the Peeragogy Handbook — or any living document that deserves honest scrutiny — this tool was built for you.
+**[open-review.pyragogy.org](https://open-review.pyragogy.org)**
 
-Go to **[open-review.pyragogy.org](https://open-review.pyragogy.org)**, select a chapter, set your intensity, and run the Orchestra.
+Bring a chapter. Set the intensity. Run it.
 
-If the output makes you uncomfortable, that's not a bug.
+If the document it generates makes you defensive, sit with that for a moment before closing the tab.
 
 *Interference welcome.*
 
