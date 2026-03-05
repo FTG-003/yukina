@@ -10,8 +10,7 @@ const YukinaConfig: Configuration = {
   brandLink: "https://docs.pyragogy.org/core/why/",
   description: "ΔΦ(H,A,t) = Cognitive Resonance. The Village thinks back.",
 
-  site: "https://pyragogy.org",
-
+  site: "https://www.pyragogy.org",
   locale: "en", // set for website language and date format
 
   navigators: [
