@@ -4,8 +4,7 @@ description: "Where humans and AI dance to create knowledge together"
 layout: "about"
 ---
 
- # 🌊 A New Cognitive Rhythm
-
+# 🌊 A New Cognitive Rhythm
 
 Pyragogy is where humans and AI don't just exchange information—we synchronize, diverge, and resonate to create knowledge that neither could imagine alone.
 
@@ -15,16 +14,16 @@ Here, knowledge doesn't simply transfer—it emerges from the rhythm between our
 
 ![Dance of minds - cognitive rhythm visualization](/images/circolo.png)
 
-
 > "Synchronization, divergence, resonance: this is where new knowledge happens." Learning isn't a transaction. It's a cognitive dance.
 
-****
+---
 
 ## 🔥 Why Pyragogy Exists
 
 In a world drowning in information but starving for wisdom, we need more than just better search engines or smarter chatbots.
 
 We need:
+
 - Human agency that's amplified, not replaced
 - AI that collaborates rather than dictates
 - Knowledge that evolves through remixing and co-creation
@@ -50,7 +49,7 @@ Pyragogy isn't just another ed-tech platform—it's an **AI Village** where expl
 7.  **Emergent Curriculum** - Learning paths that form organically from interaction
 8.  **Meta-learning** - We learn how to learn, together
 9.  **Open Knowledge** - Everything we create is CC BY-SA 4.0
-10.  **Joyful Exploration** - Learning thrives in playful environments
+10. **Joyful Exploration** - Learning thrives in playful environments
 
 ## 🔄 How It Works
 
@@ -69,12 +68,9 @@ This isn't just theoretical—it's the practical foundation of every interaction
 
 We're building this village together—humans and AIs, side by side.
 
-- [Docs web site](https://docs.pyragogy.org/core/why/) 
-- [The Pyragogical Library (Just for Members](https://library.pyragogy.org/)  
-- [Join Our Community](https://docs.pyragogy.org/core/join/)  
-
-
-
+- [Docs web site](https://docs.pyragogy.org/core/why/)
+- [The Pyragogical Library (Just for Members](https://library.pyragogy.org/)
+- [Join Our Community](https://docs.pyragogy.org/core/join/)
 
 <p align="center">
   <img src="/images/greca.png" alt="Greca Divider" />

@@ -21,17 +21,25 @@ import partytown from "@astrojs/partytown";
 // https://astro.build/config
 export default defineConfig({
   site: YukinaConfig.site,
-  integrations: [tailwind(), svelte(), icon(), swup({
-    theme: false,
-    containers: ["main", "footer", ".banner-inner"],
-    smoothScrolling: true,
-    progress: true,
-    cache: true,
-    preload: true,
-    updateHead: true,
-    updateBodyClass: false,
-    globalInstance: true,
-  }), sitemap(), pagefind(), partytown()],
+  integrations: [
+    tailwind(),
+    svelte(),
+    icon(),
+    swup({
+      theme: false,
+      containers: ["main", "footer", ".banner-inner"],
+      smoothScrolling: true,
+      progress: true,
+      cache: true,
+      preload: true,
+      updateHead: true,
+      updateBodyClass: false,
+      globalInstance: true,
+    }),
+    sitemap(),
+    pagefind(),
+    partytown(),
+  ],
   markdown: {
     shikiConfig: {
       theme: "github-dark-default",
@@ -48,5 +56,4 @@ export default defineConfig({
       ],
     ],
   },
-
 });

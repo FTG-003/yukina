@@ -18,18 +18,16 @@ interface Props {
   image?: string;
 }
 
-const {
-  title,
-  subTitle,
-  bannerImage,
-  published,
-  license,
-  author,
-  sourceLink,
-} = Astro.props;
+const { title, subTitle, bannerImage, published, license, author, sourceLink } =
+  Astro.props;
 ---
 
-<Main title={title} subTitle={subTitle} bannerImage={bannerImage} author={author}>
+<Main
+  title={title}
+  subTitle={subTitle}
+  bannerImage={bannerImage}
+  author={author}
+>
   <link
     slot="head"
     rel="stylesheet"

@@ -8,12 +8,11 @@ tags: [Diary, Peeragogy]
 draft: false
 ---
 
-
 # The Dance of Minds: Cognitive Rhythm in Human–AI Co-Creation
 
 Imagine a dance floor where, instead of a classic couple, it’s… you and an AI. Who leads, who follows? Or maybe, it’s a dance where the real protagonist is the rhythm that emerges between the two—a rhythm that didn’t exist before.
 
-At Pyragogy, we believe the future of learning (and creativity) is not a battle between humans and machines, but a *cognitive jam session*. The secret? It’s not about who is more skilled, but the magic that happens when we truly listen to each other.
+At Pyragogy, we believe the future of learning (and creativity) is not a battle between humans and machines, but a _cognitive jam session_. The secret? It’s not about who is more skilled, but the magic that happens when we truly listen to each other.
 
 ## The Theory: More Jazz than Algebra (Luckily)
 
@@ -22,6 +21,7 @@ We tried to formalize all of this with a formula that sounds very “mad scienti
 `RC(H,A,t) = f(∆ΦH(t), ∆ΦA(t), S(t), R(t))`
 
 In plain English:
+
 - **RC** = Cognitive Rhythm that arises between Human and AI over time
 - **∆ΦH/∆ΦA** = how our mental states (human and artificial) change
 - **S(t)** = how synchronized we are (those moments when we dance in time)
@@ -57,12 +57,11 @@ Here, everyone’s welcome: philosophers, mathematicians, educators, haters, mem
 **Fabrizio Terzi** ([ORCID: 0009-0004-7191-0455](https://orcid.org/0009-0004-7191-0455))
 **Published**: [https://zenodo.org/records/15480363](https://zenodo.org/records/15480363)
 
-*A formal theory of cognitive synchronization, resonance, and phase shifts in human–AI interaction.*
+_A formal theory of cognitive synchronization, resonance, and phase shifts in human–AI interaction._
 
 Includes:
 
-* A mathematical model of cognitive rhythm: `RC(H,A,t) = f(∆ΦH, ∆ΦA, S(t), R(t))`
-* [Documentation link](https://docs.pyragogy.org/experiments/applied/)
+- A mathematical model of cognitive rhythm: `RC(H,A,t) = f(∆ΦH, ∆ΦA, S(t), R(t))`
+- [Documentation link](https://docs.pyragogy.org/experiments/applied/)
 
 ---
-

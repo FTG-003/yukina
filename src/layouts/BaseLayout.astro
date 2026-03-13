@@ -11,7 +11,9 @@ const { title, description, image } = Astro.props;
     <BaseHead title={title} description={description} image={image} />
     <slot name="head" />
   </head>
-  <body class="overflow-y-hidden bg-[var(--background-color)] text-[var(--text-color)]">
+  <body
+    class="overflow-y-hidden bg-[var(--background-color)] text-[var(--text-color)]"
+  >
     <slot />
     <ScriptSetup />
   </body>
@@ -27,5 +29,4 @@ const { title, description, image } = Astro.props;
     --background-color: #0e0e0e;
     --text-color: #f1f1f1;
   }
-
 </style>

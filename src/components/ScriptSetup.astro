@@ -1,7 +1,5 @@
-
 <script>
   import lozad from "lozad";
-
 
   // setup post url
   const setupUrlAnchor = () => {
@@ -26,30 +24,30 @@
 
   // add global scroll bar
   const setupScrollBar = () => {
-  import("overlayscrollbars").then(({ OverlayScrollbars }) => {
-    OverlayScrollbars(
-      { target: document.body, cancel: { nativeScrollbarsOverlaid: true } },
-      {
-        scrollbars: {
-          theme: "scrollbar-base scrollbar-auto py-1",
-          autoHide: "move",
+    import("overlayscrollbars").then(({ OverlayScrollbars }) => {
+      OverlayScrollbars(
+        { target: document.body, cancel: { nativeScrollbarsOverlaid: true } },
+        {
+          scrollbars: {
+            theme: "scrollbar-base scrollbar-auto py-1",
+            autoHide: "move",
+          },
         },
-      },
-    );
-    document.body.classList.remove("overflow-y-hidden");
+      );
+      document.body.classList.remove("overflow-y-hidden");
 
-    // add scrollbar for code blocks
-    document.querySelectorAll("pre").forEach((ele) => {
-      OverlayScrollbars(ele, {
-        scrollbars: {
-          theme: "scrollbar-base scrollbar-dark px-2",
-          autoHide: "leave",
-          autoHideDelay: 500,
-          autoHideSuspend: false,
-        },
+      // add scrollbar for code blocks
+      document.querySelectorAll("pre").forEach((ele) => {
+        OverlayScrollbars(ele, {
+          scrollbars: {
+            theme: "scrollbar-base scrollbar-dark px-2",
+            autoHide: "leave",
+            autoHideDelay: 500,
+            autoHideSuspend: false,
+          },
+        });
       });
     });
-  });
   };
 
   // init
@@ -68,6 +66,3 @@
     });
   }
 </script>
-
-
-

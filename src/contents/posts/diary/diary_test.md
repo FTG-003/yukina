@@ -9,7 +9,8 @@ author: Fabry
 draft: false
 ---
 
-# The Pyragogy Blog Begins  
+# The Pyragogy Blog Begins
+
 ### One Step at a Time, One Discovery at a Time
 
 ![Dance of minds - cognitive rhythm visualization](/images/hero-cognitive-dance.svg)
@@ -30,5 +31,3 @@ For now, this digital village is quiet, but full of possibility.
 
 Thanks for reading.  
 Fabrizio (& Gino)
-
-

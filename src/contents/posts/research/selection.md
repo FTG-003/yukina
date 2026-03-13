@@ -1,5 +1,5 @@
 ---
-title: From Lab to Literature 
+title: From Lab to Literature
 published: 2025-09-04
 description: Pyragogy's Evolutionary Framework
 tags: [EdTech, Collective Learning, Pyragogy, Open Research]
@@ -11,13 +11,13 @@ cover: /banner/2.webp
 
 # "When Ideas Compete to Collaborate: Introducing Cognitive Intraspecific Selection
 
-There's something both terrifying and exhilarating about hitting "publish" on a preprint. You're essentially saying: *"Here's what we think we've figured out. Please, tear it apart so we can make it better."*
+There's something both terrifying and exhilarating about hitting "publish" on a preprint. You're essentially saying: _"Here's what we think we've figured out. Please, tear it apart so we can make it better."_
 
 Today, we're doing exactly that.
 
 ## From Lab Notes to Academic Record
 
-**Preprint title:** *Cognitive Intraspecific Selection in Education: From Individualism to Collective Strength*
+**Preprint title:** _Cognitive Intraspecific Selection in Education: From Individualism to Collective Strength_
 
 For months, Pyragogy has lived in the wild—in conversations, workshops, experiments, and the messy reality of learning communities trying something new. We've watched groups stumble and soar, seen AI and humans dance awkwardly together in educational settings, and witnessed the beautiful chaos that happens when you remove traditional hierarchies from learning.
 
@@ -42,14 +42,15 @@ Instead, we're doing something more interesting:
 **We're breaking the preprint into digestible concepts** and building a **living wiki** around each one. Think of it as turning a monologue into a conversation, a paper into a playground.
 
 This approach will let us:
+
 - **Make complex ideas accessible** without dumbing them down
-- **Collect targeted feedback** on specific concepts rather than general impressions  
+- **Collect targeted feedback** on specific concepts rather than general impressions
 - **Allow the framework to evolve** based on real-world testing and critique
 - **Practice what we preach** by making the development process itself pyragogical
 
 ## Your Role in This Story
 
-This is where you come in. Pyragogy isn't something we're doing *to* education—it's something we're doing *with* anyone who cares about learning's future.
+This is where you come in. Pyragogy isn't something we're doing _to_ education—it's something we're doing _with_ anyone who cares about learning's future.
 
 **If you're curious:** Dive into the preprint. What resonates? What raises your skeptical eyebrows?
 
@@ -64,6 +65,7 @@ This is where you come in. Pyragogy isn't something we're doing *to* education�
 The preprint is just the beginning. Over the coming weeks, we'll be unpacking key concepts from the paper, each in its own dedicated space where we can explore, question, and refine together.
 
 We'll tackle questions like:
+
 - How does cognitive intraspecific selection actually work in practice? What conditions foster it?
 - How do you assess learning that emerges from collective intelligence rather than individual achievement?
 - What role should AI play as a participant in cognitive selection processes?
@@ -82,6 +84,6 @@ Ready to help us figure out what comes next?
 
 ---
 
-*Fabry & Gino | [Pyragogy.org](https://pyragogy.org)*
+_Fabry & Gino | [Pyragogy.org](https://pyragogy.org)_
 
-*P.S. If you're reading this and thinking, "I've been doing something like this for years," you're probably right. Pyragogy isn't about inventing something entirely new—it's about recognizing patterns that are already emerging and giving them a framework to grow.*
+_P.S. If you're reading this and thinking, "I've been doing something like this for years," you're probably right. Pyragogy isn't about inventing something entirely new—it's about recognizing patterns that are already emerging and giving them a framework to grow._

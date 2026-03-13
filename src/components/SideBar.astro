@@ -23,7 +23,9 @@ const tagKeys = [...tags.keys()];
       <a href="/about" class="avatar-wrapper">
         <Image
           src={YukinaConfig.avatarUrl}
-          alt={YukinaConfig.username ? `Avatar di ${YukinaConfig.username}` : "Avatar"}
+          alt={YukinaConfig.username
+            ? `Avatar di ${YukinaConfig.username}`
+            : "Avatar"}
           class="avatar select-none"
           width={224}
           height={224}

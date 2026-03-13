@@ -20,10 +20,10 @@ After years of observing these pathways from within — classrooms, faculty room
 
 We see it everywhere:
 
-- High dropout rates  
-- Rigid programs disconnected from the lived experience of adult learners  
-- Enormous public and personal effort with limited return  
-- A system designed for students who are no longer students  
+- High dropout rates
+- Rigid programs disconnected from the lived experience of adult learners
+- Enormous public and personal effort with limited return
+- A system designed for students who are no longer students
 
 This is not a minor issue.  
 It is a **structural misalignment** between what adult learners need and what institutions can realistically offer.
@@ -38,10 +38,10 @@ This research–action project (January 2026 → March 2027) has one clear objec
 
 A format that is:
 
-- **adult-centered**, valuing prior experience and competencies  
-- **hybrid only when it adds real educational value**  
-- **measurable** in terms of meaningful learning, retention, and learner well-being  
-- **sustainable** for institutions and for teachers working in evening settings  
+- **adult-centered**, valuing prior experience and competencies
+- **hybrid only when it adds real educational value**
+- **measurable** in terms of meaningful learning, retention, and learner well-being
+- **sustainable** for institutions and for teachers working in evening settings
 
 The aim is not theoretical reflection.  
 The aim is a **replicable, evidence-informed model** that improves learning and reduces dropout.
@@ -51,24 +51,29 @@ The aim is a **replicable, evidence-informed model** that improves learning and 
 ## 🔧 Project Structure (2026–2027)
 
 ### **T1 — January–March 2026**
+
 Root-cause analysis:
-- dropout data  
-- interviews with learners and teachers  
+
+- dropout data
+- interviews with learners and teachers
 - ethnographic observation inside CPIA and evening programs
 
 ### **T2 — April–June 2026**
+
 Design of the **first pyragogical prototype** for adult evening education.
 
 ### **T3 — September–December 2026**
+
 Field testing with **two real groups of adult workers** attending evening classes.
 
 ### **T4 — January–March 2027**
+
 External evaluation and open-access publication of:
 
-- the full model  
-- practical guidelines  
-- implementation materials  
-- evidence and datasets  
+- the full model
+- practical guidelines
+- implementation materials
+- evidence and datasets
 
 ---
 
@@ -83,10 +88,10 @@ This project seeks to restore **realism, dignity, and pedagogical innovation** t
 
 The final output will be a model that is:
 
-- practical  
-- affordable  
-- grounded in everyday life  
-- adaptable across different regions and contexts  
+- practical
+- affordable
+- grounded in everyday life
+- adaptable across different regions and contexts
 
 ---
 
@@ -94,9 +99,9 @@ The final output will be a model that is:
 
 If you are:
 
-- a CPIA director,  
-- an evening school teacher,  
-- a researcher in adult learning,  
+- a CPIA director,
+- an evening school teacher,
+- a researcher in adult learning,
 - or a trainer interested in peer-driven or pyragogical approaches,
 
 and you would like to contribute — through critique, participation, or field collaboration —  
@@ -104,6 +109,5 @@ and you would like to contribute — through critique, participation, or field c
 
 There is room for anyone who wants to move from diagnosis to **real solutions**.
 
-  
 **Fabry**  
-*Independent Researcher in Pyragogy*
+_Independent Researcher in Pyragogy_

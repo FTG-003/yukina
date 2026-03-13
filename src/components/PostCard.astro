@@ -77,7 +77,11 @@ const loadingType = props.isFirst ? "eager" : "lazy";
           class="mx-2 hidden h-6 w-1 translate-y-[1px] rounded-lg bg-[var(--primary-color)] lg:block"
         >
         </div>
-        <a href={contentUrl} class="title" aria-label={`Leggi il post: ${props.title}`}>
+        <a
+          href={contentUrl}
+          class="title"
+          aria-label={`Leggi il post: ${props.title}`}
+        >
           <p class="truncate">{props.title}</p>
           <Icon
             name="cuida:caret-right-outline"
@@ -153,12 +157,23 @@ const loadingType = props.isFirst ? "eager" : "lazy";
       </div>
     </div>
     <div class="cover-container">
-      <a href={contentUrl} class="cover-wrapper" aria-label={`Leggi il post: ${props.title}`}>
-        <Icon class="right-icon" name="cuida:caret-right-outline" size={96} aria-hidden="true" />
+      <a
+        href={contentUrl}
+        class="cover-wrapper"
+        aria-label={`Leggi il post: ${props.title}`}
+      >
+        <Icon
+          class="right-icon"
+          name="cuida:caret-right-outline"
+          size={96}
+          aria-hidden="true"
+        />
         <Image
           class="h-[212px] w-[404px] select-none rounded-r-3xl object-cover dark:brightness-90"
           src={props.image ?? GetCoverURLForUnspecifiedEntry(entryID)}
-          alt={props.title ? `Copertina per ${props.title}` : "Copertina del post"}
+          alt={props.title
+            ? `Copertina per ${props.title}`
+            : "Copertina del post"}
           width={404}
           height={212}
           format="webp"

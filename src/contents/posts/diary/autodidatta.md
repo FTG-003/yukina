@@ -10,15 +10,15 @@ cover: "/banner/4.webp"
 draft: false
 ---
 
-
 ## Learning Without Asking Permission
-*Dear Pyragogues,*
-*If you have chosen this path, you already know it is not the easiest. There will be no diplomas awaiting you, nor guaranteed applause. But every time you learn something without permission, you are stealing a piece of freedom from a system that wants to keep it hidden from you.*
 
-*Keep going. Fail. Get lost. Find your tribe. And when they ask you, “Where is your title?”, smile and reply:*
-*“My knowledge is not on a piece of paper. It resides in the things I can do, the questions I ask myself, and the people I have met along the way.”*
+_Dear Pyragogues,_
+_If you have chosen this path, you already know it is not the easiest. There will be no diplomas awaiting you, nor guaranteed applause. But every time you learn something without permission, you are stealing a piece of freedom from a system that wants to keep it hidden from you._
 
-***F.T.***
+_Keep going. Fail. Get lost. Find your tribe. And when they ask you, “Where is your title?”, smile and reply:_
+_“My knowledge is not on a piece of paper. It resides in the things I can do, the questions I ask myself, and the people I have met along the way.”_
+
+**_F.T._**
 
 ---
 
@@ -45,7 +45,7 @@ It has to take thousands of people and move them all from A to B.
 It has to certify, standardize, guarantee.  
 And to do that, it must make you predictable.  
 It must silence your hunger and replace it with programs, exams, and  
-*"this is what you need to know."*
+_"this is what you need to know."_
 
 The problem isn’t that it teaches you the wrong things.  
 The problem is that it teaches you to **stop searching.**
@@ -55,9 +55,10 @@ Not stupid — obedient.
 Able to solve problems in the proper format,  
 but unable to ask whether those problems are even worth solving.
 
-The system offers you a deal:  
+The system offers you a deal:
+
 > “Follow me and you’ll be safe.  
-> You’ll get a diploma, a certificate, a proof that you can do what you say you can do.”  
+> You’ll get a diploma, a certificate, a proof that you can do what you say you can do.”
 
 It’s a fair deal, for many.  
 But there’s a hidden price: **you give up deciding what is worth knowing.**
@@ -71,7 +72,7 @@ Not because it’s better — just because it’s mine.
 
 Every mistake I make is mine.  
 Every dead end, every month lost chasing something that turned out useless,  
-every time I have to admit *“I don’t know”* — all mine.  
+every time I have to admit _“I don’t know”_ — all mine.  
 But also every spark, every connection no syllabus would have ever shown me.  
 Every moment when I truly understand something — not because I memorized it,  
 but because I earned it.
@@ -83,7 +84,7 @@ No one to ask permission from.
 No one to tell me if I’m going in the right direction — because I decide what “right” means.
 
 It sounds heroic, but it’s frightening.  
-Every morning you wake up and ask: *what deserves my attention today?*  
+Every morning you wake up and ask: _what deserves my attention today?_  
 And what if I’m wrong? What if I’m wasting time?
 
 You do it anyway.  
@@ -99,7 +100,7 @@ They’re wrong.
 AI is not a teacher.  
 It’s a mirror that shows how precise your questions really are.  
 It’s an amplifier that makes your skills faster, but not deeper.  
-It’s a library that answers, but doesn’t know what you *should* be looking for.
+It’s a library that answers, but doesn’t know what you _should_ be looking for.
 
 I use it every day.  
 But I know it’s a prosthesis, not a brain.  
@@ -108,7 +109,7 @@ It suggests, I verify.
 It answers, I understand.
 
 The greatest danger isn’t that AI gives you wrong answers.  
-It’s that it gives you *right* answers so fast you forget the struggle that makes them yours —  
+It’s that it gives you _right_ answers so fast you forget the struggle that makes them yours —  
 the struggle that turns information into understanding.
 
 AI is a tool for those who already know how to use their own minds.  
@@ -125,7 +126,7 @@ Not teachers, not students — accomplices.
 People on the same journey, who ask questions you wouldn’t think to ask,  
 who see your blind spots, who share their failures without shame.
 
-I found my tribe in *peer learning* — call it *Pyragogy*, call it a community, whatever.  
+I found my tribe in _peer learning_ — call it _Pyragogy_, call it a community, whatever.  
 The name doesn’t matter. What matters is this: we learn together, but no one commands.  
 Rules emerge from doing, not from authority.  
 Projects are real, not exercises.  
@@ -141,11 +142,12 @@ call you out when you’re cheating yourself, and make you better.
 ## The Question That Changes Everything
 
 When someone asks me, with that skeptical smile,  
-*“Yeah, but what’s your title?”* —  
-I could get angry. I could preach about the limits of credentials.  
+_“Yeah, but what’s your title?”_ —  
+I could get angry. I could preach about the limits of credentials.
 
-Instead, I answer with a question:  
-> “Can I actually do what I say I can do?”  
+Instead, I answer with a question:
+
+> “Can I actually do what I say I can do?”
 
 That’s the only honest question. Everything else is theater.
 
@@ -179,5 +181,4 @@ But you’ll learn the one skill no system can teach:
 **how to find your way when there’s no one left to tell you where to go.**
 
 The hardest freedom isn’t doing what you want.  
-It’s *wanting what you do enough to pay the price.*
-
+It’s _wanting what you do enough to pay the price._

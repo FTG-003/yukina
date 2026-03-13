@@ -1,5 +1,5 @@
 ---
-title: Four Agents. One Handbook. No Safe Exit 
+title: Four Agents. One Handbook. No Safe Exit
 published: 2026-03-05
 description: Fabrizio Terzi built an automation that doesn't help you understand the Peeragogy Handbook. It interrogates it. There's a difference.
 author: BergamoHub
@@ -10,8 +10,7 @@ cover: /images/orchestra.webp
 draft: false
 ---
 
-
-Fabrizio has been building things quietly for months. Not writing about building things. Not posting threads about the *future of AI in education*. Actually building — pipelines, workflows, agents that do something when you press a button.
+Fabrizio has been building things quietly for months. Not writing about building things. Not posting threads about the _future of AI in education_. Actually building — pipelines, workflows, agents that do something when you press a button.
 
 Last week one of those things went live.
 
@@ -43,7 +42,7 @@ Then he built a machine to interrogate it.
 
 **📚 The Resonance** is the Handbook's own immune system. It identifies what cannot be touched without destroying something essential. Not everything is up for demolition. Knowing what isn't is part of the work.
 
-**🎸 The Perturbator** is the one that will make some people angry. At level 5, it doesn't suggest improvements. It dismantles premises. In a test run on the *Co-working* chapter, it called the Wikipedia contribution model *digital sharecropping* — unpaid labor dressed up as community spirit, protected by the aesthetics of openness.
+**🎸 The Perturbator** is the one that will make some people angry. At level 5, it doesn't suggest improvements. It dismantles premises. In a test run on the _Co-working_ chapter, it called the Wikipedia contribution model _digital sharecropping_ — unpaid labor dressed up as community spirit, protected by the aesthetics of openness.
 
 That's not a comfortable read if you've spent years celebrating Wikipedia as a utopia.
 
@@ -71,7 +70,7 @@ This is built to disagree. Systematically. On schedule. In four voices.
 
 n8n orchestration. OpenRouter for models. Nothing stored server-side. Your API key, your document, your problem.
 
-The interface runs live — you watch the agents work in sequence, then the Editor synthesizes. The perturbation intensity slider goes from *Gentle* to *Demolition*. You choose how much discomfort you want.
+The interface runs live — you watch the agents work in sequence, then the Editor synthesizes. The perturbation intensity slider goes from _Gentle_ to _Demolition_. You choose how much discomfort you want.
 
 ---
 
@@ -91,6 +90,6 @@ Bring a chapter. Set the intensity. Run it.
 
 If the document it generates makes you defensive, sit with that for a moment before closing the tab.
 
-*Interference welcome.*
+_Interference welcome._
 
 ![Dance of minds - cognitive rhythm visualization](/images/orchestra.webp)

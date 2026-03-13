@@ -1,6 +1,6 @@
 ---
 // Componente: MermaidDiagram.astro
-// Utilizzo: 
+// Utilizzo:
 // <MermaidDiagram>
 //   graph TD
 //     A --> B
@@ -8,14 +8,14 @@
 ---
 
 <div class="mermaid">
-    <slot is:raw />
+  <slot is:raw />
 </div>
 
 <script is:inline>
   function renderMermaid() {
     if (window.mermaid) {
       window.mermaid.run({
-        nodes: document.querySelectorAll('.mermaid')
+        nodes: document.querySelectorAll(".mermaid"),
       });
     }
   }
@@ -23,8 +23,8 @@
   if (window.mermaid) {
     renderMermaid();
   } else {
-    const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js';
+    const script = document.createElement("script");
+    script.src = "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js";
     script.onload = () => {
       window.mermaid.initialize({ startOnLoad: false });
       renderMermaid();
@@ -34,12 +34,12 @@
 </script>
 
 <style>
-.mermaid {
+  .mermaid {
     background: var(--theme-bg);
     padding: 1.5rem;
     border-radius: 8px;
     margin: 1.5rem 0;
     box-shadow: var(--theme-shadow);
     overflow: auto;
-}
+  }
 </style>

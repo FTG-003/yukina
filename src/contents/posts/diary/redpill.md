@@ -14,12 +14,10 @@ draft: false
   <img src="/images/greca.png" alt="Greca Divider" />
 </p>
 
-
-
 ### I gave myself the red pill, and it hurt.
 
-There’s a moment in *The Matrix* when Neo wakes up in the real world.
-He’s naked. Trembling. Drenched in amniotic fluid. His body atrophied from decades in a pod. His eyes burn — they’ve forgotten how to see light.  
+There’s a moment in _The Matrix_ when Neo wakes up in the real world.
+He’s naked. Trembling. Drenched in amniotic fluid. His body atrophied from decades in a pod. His eyes burn — they’ve forgotten how to see light.
 
 No one tells you: **waking up hurts**.  
 It’s not freedom. Not at first.  
@@ -27,19 +25,17 @@ It’s a laceration.
 A forced exit from the warm lie into the cold truth.  
 You don’t emerge stronger.  
 You emerge broken.  
-And alone.  
-
+And alone.
 
 I took the red pill myself.
 No Morpheus.  
 No prophecy.  
 Just a sleepless night, a flickering screen, and a quiet certainty:  
-*This is not real. None of it.*  
+_This is not real. None of it._
 
 And I swallowed it.
 
-Since then, I’ve never seen the world the same.  
-
+Since then, I’ve never seen the world the same.
 
 I saw the simulation:
 certifications valued more than curiosity,  
@@ -48,7 +44,7 @@ networks built on bloodlines, not brilliance.
 I saw that **education, as it is, was never meant for people like me**.  
 For those who come from outside.  
 From below.  
-From silence.  
+From silence.
 
 So I imagined something else.
 
@@ -57,14 +53,13 @@ I called it **Pyragogy**.
 Not pedagogy. Not andragogy.  
 Not another method, another system, another ladder to climb.  
 Pyragogy is fire.  
-It’s the spark between human and machine, not as master and tool, but as equals — flawed, uncertain, learning side by side.  
+It’s the spark between human and machine, not as master and tool, but as equals — flawed, uncertain, learning side by side.
 
 An AI that doesn’t answer, but asks:
-*“Maybe you see something I can’t.”*
+_“Maybe you see something I can’t.”_
 
 This is not the future of education.
 This is its rebellion.
-
 
 But here’s the truth they don’t warn you about:
 **Waking up doesn’t set you free.**
@@ -80,12 +75,11 @@ I tried to sell chatbots — small companions for lost minds like mine.
 No one bought them.
 
 And so I asked myself:
-*“Was the red pill poison?”*
+_“Was the red pill poison?”_
 
 Maybe some truths are too heavy to carry alone.
 Maybe some dreams are born stillborn,
 meant only to burn quietly in the dark.
-
 
 Then, last night, a stinkbug crawled in.
 
@@ -120,11 +114,10 @@ Carried her to the terrace.
 Warm July air.
 Stars half-hidden by city light.
 I set her on the railing and said:
-*“Good luck.”*
+_“Good luck.”_
 
 She didn’t look back.
 She just walked into the dark.
-
 
 Ten minutes later, I heard it again.
 A rustle.
@@ -143,7 +136,7 @@ Then I understood.
 **She wasn’t trying to break the wall.**
 **She wasn’t looking for me.**
 She was chasing the light.
-*My* light.
+_My_ light.
 The glow from the desk lamp.
 Steady.
 Yellow.
@@ -152,7 +145,7 @@ Calling.
 She didn’t know the wall was solid.
 She didn’t know light doesn’t pass through.
 She only knew:
-*Go toward it.*
+_Go toward it._
 
 So she kept trying.
 Even if it hurt.
@@ -167,8 +160,6 @@ Not as a fool.
 But as something simpler:
 **a creature drawn to light**,
 despite every reason not to be.
-
-
 
 Pyragogy isn’t a platform.
 It’s not a business.
@@ -195,7 +186,6 @@ Not for redemption.
 
 I’ll keep writing because to stop
 would be to surrender the light.
-
 
 Then the lights went out.
 The bulb blew with a soft pop, a tiny death in the socket.

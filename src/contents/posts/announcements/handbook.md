@@ -10,10 +10,9 @@ cover: /banner/8.webp
 draft: false
 ---
 
-
 ## Pyragogy Launches Its First Automation for Handbook Creation
 
-*Bergamo, Italy — August 10, 2025* — Pyragogy has taken its first practical step in improving group learning by launching an **n8n automation** to create the *Pyragogy Handbook*. This isn’t about changing the world—just about making our collective way of learning a bit smoother.  
+_Bergamo, Italy — August 10, 2025_ — Pyragogy has taken its first practical step in improving group learning by launching an **n8n automation** to create the _Pyragogy Handbook_. This isn’t about changing the world—just about making our collective way of learning a bit smoother.  
 Check out our **free** workflow here: [n8n workflow](https://n8n.io/workflows/4904-pyragogy-ai-driven-handbook-generator-with-multi-agent-orchestration/).
 
 ---
@@ -42,7 +41,6 @@ Let’s keep it real and keep learning together.
 
 **Rock’n Roll!**
 
-
 Read also: [Multi-Agent Orchestration with n8n](https://pyragogy.org/posts/1fb7615b/)
 
 <p align="center">
@@ -50,5 +48,3 @@ Read also: [Multi-Agent Orchestration with n8n](https://pyragogy.org/posts/1fb76
 </p>
 
 ---
-
-

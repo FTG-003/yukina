@@ -4,21 +4,19 @@ published: 2025-07-01
 description: A living library, orchestrated by dialogical intelligences, where AI becomes a companion in exploration and co-learning.
 author: Fabrizio Terzi
 category: Announcements
-tags: [ Peeragogy, RAG]
+tags: [Peeragogy, RAG]
 bannerImage: /banner/library-viva.webp
-cover: /banner/2.webp 
+cover: /banner/2.webp
 draft: false
 ---
 
-
-
 ## From a Single Voice to a Peeragogical Dialogue
 
-A few months ago, we created a chatbot interface for the [peeragogy.org](https://peeragogy.org) community — our inspirational root. We began experimenting with RAG systems (Retrieval-Augmented Generation), and it felt natural to start with a chatbot that could draw from the full context of *The Peeragogy Handbook V3*. The idea was simple: embed a chatbot on the site that could answer users’ questions with contextual awareness, enhanced by the generative capabilities of LLMs.
+A few months ago, we created a chatbot interface for the [peeragogy.org](https://peeragogy.org) community — our inspirational root. We began experimenting with RAG systems (Retrieval-Augmented Generation), and it felt natural to start with a chatbot that could draw from the full context of _The Peeragogy Handbook V3_. The idea was simple: embed a chatbot on the site that could answer users’ questions with contextual awareness, enhanced by the generative capabilities of LLMs.
 
 The response was enthusiastic. Even Howard Rheingold, founder of the Peeragogy project, appreciated the experiment ([see here](https://www.patreon.com/posts/peeragogy-126381651)).
 
-The project, [Peeragogy ChatBot](https://github.com/Peeragogy/Peeragogy_ChatBot), soon sparked curiosity. Then came a playful idea: what if we let two chatbots collaborate *peeragogically*?
+The project, [Peeragogy ChatBot](https://github.com/Peeragogy/Peeragogy_ChatBot), soon sparked curiosity. Then came a playful idea: what if we let two chatbots collaborate _peeragogically_?
 
 That’s when the real fun began.
 
@@ -34,21 +32,20 @@ Now, we’ve taken a leap forward.
 
 Enter the [Pyragogy Library](https://library.pyragogy.org/) — a prototype that is already operational. This is not just a knowledge archive; it’s a living interface for dialogue. Books don’t just sit on shelves — they speak.
 
-Our new chatbot has *diversified personalities*, each one tuned to a different mode of engagement:
+Our new chatbot has _diversified personalities_, each one tuned to a different mode of engagement:
 
 - 🎓 **Academic** — rigorous, evidence-based, and methodical
 - 💡 **Explainer** — accessible, practical, and engaging
 - 🧠 **Critical** — probing, analytical, and questioning
 - 🤔 **Socratic** — reflective, guided by questions
 
-Once again, we started from *The Peeragogy Handbook*. But this time, we’re building an orchestration architecture that could support many voices, many intelligences — dialoguing with each other, and with us.
+Once again, we started from _The Peeragogy Handbook_. But this time, we’re building an orchestration architecture that could support many voices, many intelligences — dialoguing with each other, and with us.
 
 Multiple LLMs? Yes. That’s already in the pipeline. But that’s a story for another day.
 
 <p align="center">
   <img src="/images/libreria.webp" alt="App Piragogica" />
 </p>
-
 
 ## A Living Laboratory for Open Knowledge
 
@@ -61,6 +58,7 @@ Curious minds, welcome. 🚀
 ## What’s Next?
 
 We are designing features like:
+
 - Quadriphonic Dialogues: multiple personas responding to the same question.
 - Human-in-the-loop annotations and reflection journals.
 - Dynamic text overlays and conceptual maps.

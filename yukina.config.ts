@@ -1,7 +1,6 @@
 import I18nKeys from "./src/locales/keys";
 import type { Configuration } from "./src/types/config";
 
-
 const YukinaConfig: Configuration = {
   title: "Pyragogy",
   subTitle: "Explorations on cognitive co-creation and AI-human learning",
@@ -24,19 +23,20 @@ const YukinaConfig: Configuration = {
     },
     {
       nameKey: I18nKeys.nav_bar_about,
-      href: "/about",
+     href: "/about",
     },
     {
-      nameKey: I18nKeys.nav_bar_github,
-      href: "https://github.com/pyragogy",
+      nameKey: I18nKeys.nav_bar_forum,
+      href: "https://forum.pyragogy.org/",
       target: "_blank",
-      rel: "noopener noreferrer"
+      rel: "noopener noreferrer",
     },
   ],
 
   username: "PeerZhong 朋中 ",
   sign: "Pyragogy AI Blogger",
-  avatarUrl: "https://c.pxhere.com/photos/08/7a/male_portrait_profile_social_media_cv_young_elegant_suit-459413.jpg!d",
+  avatarUrl:
+    "https://c.pxhere.com/photos/08/7a/male_portrait_profile_social_media_cv_young_elegant_suit-459413.jpg!d",
   socialLinks: [
     {
       icon: "mingcute:mail-send-fill",
@@ -48,12 +48,12 @@ const YukinaConfig: Configuration = {
   maxFooterCategoryChip: 6,
   maxFooterTagChip: 24,
 
- banners: [
-  "/banner/1.webp",
-  "/banner/2.webp",
-  "/banner/3.webp",
-  "/banner/4.webp",
-],
+  banners: [
+    "/banner/1.webp",
+    "/banner/2.webp",
+    "/banner/3.webp",
+    "/banner/4.webp",
+  ],
 
   slugMode: "HASH", // 'RAW' | 'HASH'
 

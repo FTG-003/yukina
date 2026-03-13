@@ -1,7 +1,7 @@
 ---
 title: 🎉 New Chatbot Live!
 published: 2025-07-13
-description: Trained on Pyragogy Docs + Thanks to Anything-LLM 
+description: Trained on Pyragogy Docs + Thanks to Anything-LLM
 author: Fabrizio Terzi
 category: Announcements
 tags: [Pyragogy, Chatbot]
@@ -10,7 +10,7 @@ cover: /banner/4.webp
 draft: false
 ---
 
-# 🎉 New Chatbot Live! Trained on Pyragogy Docs + Thanks to Anything-LLM 
+# 🎉 New Chatbot Live! Trained on Pyragogy Docs + Thanks to Anything-LLM
 
 Hello everyone!
 
@@ -21,7 +21,7 @@ It's still in beta, but already capable of answering questions, helping with dou
 One small step closer to intelligent, continuous access to our shared knowledge.
 
 👉 All of this was made possible thanks to an **amazing open-source project**:  
-[**Anything-LLM**](https://github.com/Mintplex-Labs/anything-llm) by Mintplex Labs.  
+[**Anything-LLM**](https://github.com/Mintplex-Labs/anything-llm) by Mintplex Labs.
 
 A lightweight, well-documented, and incredibly versatile framework. We **highly recommend trying it out** (and if you can, support it!).  
 It's one of those tools that really make a difference when you want AI to be useful, accessible, and community-driven.

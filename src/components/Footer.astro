@@ -59,7 +59,11 @@ const tagKeys = [...tags.keys()];
           {
             YukinaConfig.socialLinks.map((item) => (
               <li>
-                <a href={item.link} class="text-[var(--primary-color)]" aria-label={`Link a ${item.icon}`}>
+                <a
+                  href={item.link}
+                  class="text-[var(--primary-color)]"
+                  aria-label={`Link a ${item.icon}`}
+                >
                   <Icon name={item.icon} size={24} aria-hidden="true" />
                 </a>
               </li>
@@ -98,35 +102,37 @@ const tagKeys = [...tags.keys()];
       }
       {
         categoryKeys.length > YukinaConfig.maxFooterCategoryChip && (
-          <a
-            href={`/categories/${categoryKeys[YukinaConfig.maxFooterCategoryChip]}`}
-            class="category col-span-2 flex flex-row items-center justify-between rounded-lg px-2 py-1.5 transition-all hover:bg-[var(--primary-color-lighten)] md:col-span-3"
-          >
-            <p class="line-clamp-1 text-[var(--text-color)] transition-all">
-              {
-                categories.get(
-                  categoryKeys[YukinaConfig.maxFooterCategoryChip],
-                )!.name
-              }
-            </p>
-            <span class="rounded-md bg-[var(--primary-color-lighten)] px-2.5 py-0.5 text-[var(--primary-color)]">
-              {
-                categories.get(
-                  categoryKeys[YukinaConfig.maxFooterCategoryChip],
-                )!.posts.length
-              }
-            </span>
-          </a>
-          <div class="absolute bottom-0 flex h-11 w-full flex-row items-center justify-center bg-gradient-to-t from-[var(--card-color)] from-25% to-transparent backdrop-blur-sm">
+          <>
             <a
-              href="/categories/"
-              class="flex flex-row items-center space-x-1 text-[var(--primary-color)] transition-colors hover:brightness-75 dark:hover:brightness-125"
-              aria-label={`${i18n(I18nKeys.side_bar_view_more)} categorie`}
+              href={`/categories/${categoryKeys[YukinaConfig.maxFooterCategoryChip]}`}
+              class="category col-span-2 flex flex-row items-center justify-between rounded-lg px-2 py-1.5 transition-all hover:bg-[var(--primary-color-lighten)] md:col-span-3"
             >
-            <span>{i18n(I18nKeys.side_bar_view_more)}</span>
-                <Icon name="mingcute:arrow-right-line" aria-hidden="true" />
+              <p class="line-clamp-1 text-[var(--text-color)] transition-all">
+                {
+                  categories.get(
+                    categoryKeys[YukinaConfig.maxFooterCategoryChip],
+                  )!.name
+                }
+              </p>
+              <span class="rounded-md bg-[var(--primary-color-lighten)] px-2.5 py-0.5 text-[var(--primary-color)]">
+                {
+                  categories.get(
+                    categoryKeys[YukinaConfig.maxFooterCategoryChip],
+                  )!.posts.length
+                }
+              </span>
             </a>
-          </div>
+            <div class="absolute bottom-0 flex h-11 w-full flex-row items-center justify-center bg-gradient-to-t from-[var(--card-color)] from-25% to-transparent backdrop-blur-sm">
+              <a
+                href="/categories/"
+                class="flex flex-row items-center space-x-1 text-[var(--primary-color)] transition-colors hover:brightness-75 dark:hover:brightness-125"
+                aria-label={`${i18n(I18nKeys.side_bar_view_more)} categorie`}
+              >
+                <span>{i18n(I18nKeys.side_bar_view_more)}</span>
+                <Icon name="mingcute:arrow-right-line" aria-hidden="true" />
+              </a>
+            </div>
+          </>
         )
       }
     </div>
@@ -183,13 +189,25 @@ const tagKeys = [...tags.keys()];
     >
       <p>
         © {new Date().getFullYear()}
-        {} 
+        {}
       </p>
-      {YukinaConfig.license && (
-        <div class="license">
-          <p>Content licensed under <a class="link" href={YukinaConfig.license.url} target="_blank" rel="noopener noreferrer">{YukinaConfig.license.name}</a></p>
-        </div>
-      )}
+      {
+        YukinaConfig.license && (
+          <div class="license">
+            <p>
+              Content licensed under{" "}
+              <a
+                class="link"
+                href={YukinaConfig.license.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {YukinaConfig.license.name}
+              </a>
+            </p>
+          </div>
+        )
+      }
       <p>
         Powered By <a
           class="link"

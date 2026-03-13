@@ -5,8 +5,8 @@ description: Ethical AI co-creation for open knowledge systems
 author: The Pyragogy Team
 category: Announcements
 tags: [AI, Collaboration, OpenKnowledge, HumanInTheLoop, GPT4o, n8n]
-bannerImage: /banner/4.webp 
-cover: /banner/1.webp 
+bannerImage: /banner/4.webp
+cover: /banner/1.webp
 ---
 
 ## **We Did It: Open Knowledge with Multi-Agent Orchestration**
@@ -15,7 +15,7 @@ Sometimes an idea takes shape and, step by step, reveals unexpected potential.
 Today, we're excited to share a result that fills us with satisfaction: we've developed an innovative workflow for generating collaborative handbooks, powered by GPT-4o and orchestrated through a multi-agent setup — with **human supervision always at the core**.
 
 This isn’t just a new feature — it’s an evolution that touches the heart of what Pyragogy stands for.  
-Our open framework was born to explore **ethical cognitive co-creation**, **peer AI–human learning**, and **human-in-the-loop automation** within open knowledge systems.  
+Our open framework was born to explore **ethical cognitive co-creation**, **peer AI–human learning**, and **human-in-the-loop automation** within open knowledge systems.
 
 This milestone offers a tangible glimpse of how artificial intelligence can **serve** collective knowledge — amplifying human capabilities, not replacing them.
 

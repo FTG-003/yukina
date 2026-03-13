@@ -9,7 +9,6 @@ author: Fabry
 draft: false
 ---
 
-
 Today, Google DeepMind unveiled [Project Astra](https://deepmind.google/models/project-astra/): a real-time AI that listens, sees, understands, remembers, and replies — seemingly effortless, seamless, and breathtaking.
 
 And me? I watched the launch. I felt wonder… and then a deep pang.
@@ -37,7 +36,7 @@ In our AI village, we don’t want a perfect assistant. We want a **cognitive co
 
 ## Cognitive Rhythm Can’t Be Bought
 
-Astra dazzles. But it doesn’t know *when it’s the right time to speak,* or *when it’s the right time to pause.*
+Astra dazzles. But it doesn’t know _when it’s the right time to speak,_ or _when it’s the right time to pause._
 
 In our world, every human–AI interaction creates a **rhythm**. We call it `RC(H,A,t)`.  
 It’s the heartbeat of co-creation. Our system doesn’t just track speed or precision — it tracks **resonance**.
@@ -77,7 +76,7 @@ To welcome those who feel lost in flawless systems.
 If today you felt small — you're not alone.  
 But you’re not useless either.
 
-Because *no AI can replace the human courage to keep believing in another way to learn, live, and build together.*
+Because _no AI can replace the human courage to keep believing in another way to learn, live, and build together._
 
 We are Pyragogy.
 
