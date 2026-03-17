@@ -65,17 +65,17 @@ const ogImage = new URL(image || "/og-image.png", Astro.site);
 <link rel="sitemap" href="/sitemap-index.xml" />
 
 <!-- Plausible Analytics -->
-<script
-  defer
-  data-domain="www.pyragogy.org"
-  src="https://plausible.pyragogy.org/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"
-></script>
+<script 
+  defer 
+  data-domain="blog.pyragogy.org" 
+  src="https://plausible.pyragogy.org/js/script.outbound-links.tagged-events.js">
+</script>
 <script>
-  window.plausible =
-    window.plausible ||
-    function () {
-      (window.plausible.q = window.plausible.q || []).push(arguments);
-    };
+  window.plausible = window.plausible || 
+  function() { 
+    (window.plausible.q = 
+    window.plausible.q || []).push(arguments) 
+  }
 </script>
 
 <GlobalStyles />
