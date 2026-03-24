@@ -102,13 +102,10 @@ It does not mean I want slower workflows just for the sake of struggle.
 And it definitely does not mean I want to romanticize friction.
 
 It means something simpler.
-
 I think we need to become more honest about the gap between **producing** and **understanding**.
-
 Those are not the same thing.
 
 And if we keep treating them as if they were the same, we risk calling something “learning” when it is actually a more polished form of cognitive outsourcing.
-
 That is one of the reasons Obliqo is becoming more than a side project for me.
 
 It is turning into a live testing ground for a bigger question:
@@ -116,9 +113,7 @@ It is turning into a live testing ground for a bigger question:
 *When AI helps me build faster, is it also helping me understand better?*
 
 Or is there a point where it starts carrying too much of the understanding for me?
-
 I do not have a final answer yet.
-
 This is still unfolding.
 
 But I know this much: I keep encountering this tension often enough that I can no longer dismiss it as a side effect.
