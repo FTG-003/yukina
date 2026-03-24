@@ -12,6 +12,10 @@ draft: false
 
 # AI Speed and the Problem of Cognitive Impedance Mismatch (CIM)
 
+<p align="center">
+  <img src=" /images/login-obliqo.webp" alt="App Obliqo" />
+</p>
+
 As I keep building [Obliqo](https://obliqo.pyragogy.org/), one thing is becoming harder and harder to ignore:
 
 AI makes it incredibly easy to move fast.
