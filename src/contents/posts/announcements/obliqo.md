@@ -5,7 +5,7 @@ description: A private space to pressure-test your work before sharing it. Obliq
 author: Fabry
 category: Announcements
 tags: [Pyragogy, Obliqo, AI, Peeragogy, Prelaunch]
-bannerImage: /banner/forum-square.webp
+bannerImage: /banner/2.webp
 cover: /banner/og-image.webp
 draft: false
 ---

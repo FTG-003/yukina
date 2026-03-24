@@ -21,7 +21,7 @@ const { Content } = await render(entry);
     <PostLayout
       title={entry.data.title}
       subTitle={entry.data.description}
-      bannerImage={entry.data.cover}
+      bannerImage={entry.data.bannerImage ?? entry.data.cover}
       published={entry.data.published}
       author={entry.data.author}
       description={entry.data.description}
@@ -46,7 +46,7 @@ const { Content } = await render(entry);
     <PostLayout
       title={entry.data.title}
       subTitle={entry.data.description}
-      bannerImage={entry.data.cover}
+      bannerImage={entry.data.bannerImage ?? entry.data.cover}
       published={entry.data.published}
       license={{ name: entry.data.licenseName, url: entry.data.licenseUrl }}
       author={entry.data.author}
