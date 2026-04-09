@@ -10,7 +10,7 @@ cover: /banner/lumaca.webp
 draft: false
 ---
 
-# AI Speed and the Problem of Cognitive Impedance Mismatch (CIM)
+# Cognitive Impedance Mismatch (CIM) realtime
 
 <p align="center">
   <img src=" /images/login-obliqo.webp" alt="App Obliqo" />

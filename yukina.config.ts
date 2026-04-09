@@ -2,7 +2,7 @@ import I18nKeys from "./src/locales/keys";
 import type { Configuration } from "./src/types/config";
 
 const YukinaConfig: Configuration = {
-  title: "Pyragogy",
+  title: "Pyragogy Blog",
   subTitle: "Explorations on cognitive co-creation and AI-human learning",
   brandTitle: "Docs",
   brandIcon: "mingcute:book-2-line",
