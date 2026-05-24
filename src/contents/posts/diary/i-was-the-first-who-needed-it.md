@@ -7,7 +7,8 @@ category: "Diary"
 tags: ["Philosophy", "Diary", "Building"]
 bannerImage: /banner/obliqo.webp
 cover: /banner/12.webp
-draft: true
+draft: false
+
 ---
 
 Late at night. I've just finished a last line — landing copy, the body of an onboarding email, a section of documentation I'll let go tomorrow — and I try to re-read it.
