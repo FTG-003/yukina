@@ -1,4 +1,10 @@
 {
   "editor.tabSize": 2,
-  "editor.insertSpaces": true
+  "editor.insertSpaces": true,
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/.astro/**": true,
+    "**/.git/objects/**": true
+  }
 }
