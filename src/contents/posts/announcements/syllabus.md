@@ -24,6 +24,10 @@ A map.
 
 The post included a dense conceptual drawing — the kind of map that makes sense when you are close to the problem, but becomes difficult to enter from the outside.
 
+<p align="center">
+  <img src="/images/howard.webp" alt="Dense conceptual map about AI-Augmented Human Thinking Pedagogy" />
+</p>
+
 Dense maps are strange objects.
 
 They may be useful to the person who drew them, but opaque to almost everyone else. The more connections you add, the more they risk becoming private diagrams: visual memory aids for the already initiated.
