@@ -1,0 +1,37 @@
+---
+---
+
+<div class="critique-block mt-8 mb-4 p-5 opacity-80 hover:opacity-100 transition-opacity duration-300">
+  <p class="mb-3 text-sm leading-relaxed">
+    Non c'è una coda di commenti. Non c'è uno spazio per l'approvazione.
+    Se il pezzo non tiene, smontalo. Scrivi dal tuo client — e fallo mettendoci la faccia.
+  </p>
+  <a class="critique-link inline-block text-sm font-bold cursor-pointer underline decoration-2 underline-offset-4 transition-colors" data-u="dissenso" data-d="pyragogy.org" tabindex="0">
+    L'oggetto porta il tracciato del post. Quello che regge la pressione finisce in appendice.
+  </a>
+</div>
+
+<script>
+  "use strict";
+  document.querySelectorAll('.critique-link').forEach(l => {
+    const f = () => l.href || (l.href = `mailto:${l.dataset.u}@${l.dataset.d}?subject=${encodeURIComponent('[Critique] - '+document.title)}&body=${encodeURIComponent('Ref: '+location.href+'\n\n')}`);
+    ['mouseover','focus','touchstart'].forEach(e => l.addEventListener(e, f, {once:true}));
+  });
+</script>
+
+<style>
+  .critique-block {
+    background-color: var(--card-color);
+    border-left: 3px solid var(--text-color);
+  }
+  .critique-block p {
+    color: var(--text-color);
+  }
+  .critique-link {
+    color: var(--text-color);
+  }
+  .critique-link:hover, .critique-link:focus {
+    background-color: var(--text-color);
+    color: var(--card-color);
+  }
+</style>

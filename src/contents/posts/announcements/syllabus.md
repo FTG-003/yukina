@@ -1,5 +1,5 @@
 ---
-title: From a Dense Map to a Living Knowledge Base
+title: From a Dense Map to a Living \\ Knowledge Base
 published: 2026-06-21
 description: Turning a dense map of AI-augmented thinking into an open, structured syllabus for humans and agents.
 author: Fabry

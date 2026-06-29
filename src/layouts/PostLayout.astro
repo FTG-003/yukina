@@ -2,6 +2,7 @@
 import Main from "../layouts/MainLayout.astro";
 import Markdown from "../components/Markdown.astro";
 import CopyRight from "../components/misc/CopyRight.astro";
+import CritiqueBlock from "../components/misc/CritiqueBlock.astro";
 
 interface Props {
   title?: string;
@@ -50,6 +51,7 @@ const { title, subTitle, bannerImage, published, license, author, sourceLink } =
           />
         )
       }
+      <CritiqueBlock />
     </div>
   </div>
 </Main>
