@@ -1,78 +1,93 @@
 ---
-title: "Standby Log: Stato del Sistema, Verità e Artefatto v0.2.1"
+title: "Standby Log — Final State (CIP v0.2.1)"
 slug: "standby-log-system-state-truth-artifact-v0.2.1"
-published: 2025-07-21
-updated: 2025-07-21
+published: 2026-07-21
+updated: 2026-07-21
 author: Fabrizio Terzi
-description: "L'architettura si ferma. L'hardware annuncia la fine. L'ultima versione va congelata, non celebrata."
+description: "Research stops here. The infrastructure freezes, CIP v0.2.1 is completed, and the system goes into an indefinite pause."
 category: Diary
 tags: [Pyragogy, Standby, Cognitive Interview, Knowledge Graph, Agent Architecture]
-bannerImage: /banner/9.webp
-cover: /banner/14.webp
+bannerImage: /banner/15.webp
+cover: /banner/15.webp
 draft: false
-readingTime: 5
+readingTime: 3
 ---
 
-# Standby Log
+# Standby Log — Final State (CIP v0.2.1)
 
-Un macchinaro del 2004 con 4 GB di RAM.
+Every research program eventually reaches a point where continuing requires more than curiosity. It requires validation, resources, and a sustainable path forward.
 
-Il ciclo di rilascio si è interrotto. Non per mancanza di idee. Per mancanza di energia.
+For the current Pyragogy research cycle, that point has been reached.
 
----
+Active research is now entering an indefinite standby state. No development roadmap is planned, no future milestones are scheduled, and no commitment is being made regarding when—or whether—active development will resume.
 
-## Stato Economico
+Rather than leaving unfinished work behind, we chose to conclude this phase by publishing its final research artifact.
 
-L'esperimento Obliqo è finito. Pre-publication review, tentativo di monetizzare il protocollo Cognitive Interview — e poi tutto il resto.
+The **Cognitive Interview Protocol (CIP) v0.2.1** is now publicly available.
 
-I risparmi sono andati via. Tutto. Zero. Un vuoto che fa un rumore diverso ogni volta che lo guardi.
+**Repository**
 
-Non è un errore. È un esito. Il mercato non vuole ciò che stiamo costruendo. E va bene.
-
----
-
-## Stato Hardware
-
-L'orchestrazione di pipeline agentiche, il monitoring di contesti LLM, la validazione di grafi cognitivi — tutto corre su un pezzo di plastica e metallo che ha visto il millennio.
-
-Quando il server si riscalda, senti il rumore delle ventole come un respiro affannoso. Quando il load avvisa, sai che stai chiedendo troppo ancora una volta.
-
-Non è sostenibile. Fisicamente. Psicologicamente. Economicamente.
-
-La scelta è chiara: stabilità prima di tutto.
+https://github.com/pyragogy/Cognitive-Interview-Protocol
 
 ---
 
-## L'Ultimo Artefatto
+## The Artifact
 
-CIP v0.2.1.
+CIP is not a theoretical paper.
 
-Non una festa. Una sospensione.
+It is an operational protocol designed to support structured cognitive interviews between humans and AI systems. Within the Pyragogy ecosystem, it provides the methodology that allows the agent behind [Pyragogy Syllabus](https://syllabus.pyragogy.org/)** to participate in knowledge construction as a collaborative peer, updating and refining a shared knowledge graph through traceable dialogue rather than isolated question answering.
 
-Il repository centrale è validato, scritto, firmato. Ogni nodo ha la sua validazione. Ogni workflow ha il suo controllo di coerenza. Ogni knowledge diff ha il suo audit trail non distruttivo.
-
-<p align="center">
-  <img src="/banner/14.webp" alt="Knowledge Diff Validation" />
-</p>
-
-> L'architettura resta disponibile. Non come risorsa da sfruttare. Ma come riferimento aperto per chi voglia costruire un vero partner agentico d'apprendimento paritario.
+Version **0.2.1** represents the final published state of this research cycle.
 
 ---
 
-## Le Scelte
+## Current System State
 
-**1 — Non celebrare.** Non scrivo "diamo il via a una nuova era". Scrivo "l'architettura si ferma". Perché è vero. Perché chi resta deve sapere il peso della pagina.
+At the time of writing:
 
-**2 — Non promettere.** Non dico "torneremo presto". Non dico "la versione 0.3 è già in arrivo". La verità è: non so cosa succederà. So solo che adesso non c'è.
+* Active research has been paused indefinitely.
+* All public repositories remain available under their existing licenses.
+* Documentation, protocols, and architectural patterns remain accessible for study, critique, implementation, or extension.
+* The commercial validation phase has concluded.
+* **Obliqo** remains online, but active commercial development has been suspended. It will most likely continue as an internal tool supporting Pyragogy members rather than as a standalone commercial product.
 
-**3 — Lasciare un varco.** Il subreddit r/Pyragogy rimane aperto. Per chi vuole discutere la teoria, per chi ha perplessità sui pattern, per chi vuole confrontare la pratica con questo framework.
+No material has been removed or placed behind a paywall. The work produced during this research cycle remains publicly accessible.
 
 ---
 
-> «La verità non ha bisogno di enfasi. Ha bisogno di spazio.»
+## What Happens Next
+
+There is currently no planned **CIP v0.3**.
+
+If future collaborators, researchers, or communities find value in these ideas, they have access to the complete foundation on which they were built.
+
+If no further development occurs, the repositories will remain as a permanent public record of the questions explored, the methods developed, and the architectural decisions that shaped the project.
+
+This publication should therefore be understood not as a conclusion, but as the documented final state of the current research cycle.
 
 ---
 
-**Fabry**
+## Discussion
 
-L'estensione è lì. Vedremo.
+One lesson from this project is that meaningful discussion is often easier in open, asynchronous communities than within traditional mailing lists.
+
+For that reason, we recently opened [r/Pyragogy](https://www.reddit.com/r/Pyragogy/) .
+
+The subreddit is not a support channel, nor a product announcement board. It is intended as an open discussion space where anyone interested in learning, AI collaboration, knowledge graphs, or the broader Pyragogy framework can exchange ideas, challenge assumptions, and explore possible future directions.
+
+Whether Pyragogy continues to evolve will ultimately depend less on its original authors than on the people who decide the ideas are worth examining further.
+
+---
+
+**System Status:** **STANDBY**
+
+To everyone who supported Pyragogy over the years—whether by reading, questioning, contributing, testing, discussing, or simply encouraging the work—thank you.
+
+Research is rarely a solitary effort. Every conversation, every critique, every suggestion, and every expression of support helped shape this project in ways that are difficult to measure.
+
+I am sincerely grateful to everyone who chose to spend even a small part of their time exploring these ideas with me.
+
+Whatever comes next, thank you for being part of this journey.
+
+
+— **Fabrizio Terzi**
