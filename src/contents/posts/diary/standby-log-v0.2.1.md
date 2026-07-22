@@ -35,7 +35,7 @@ https://github.com/pyragogy/Cognitive-Interview-Protocol
 
 CIP is not a theoretical paper.
 
-It is an operational protocol designed to support structured cognitive interviews between humans and AI systems. Within the Pyragogy ecosystem, it provides the methodology that allows the agent behind [Pyragogy Syllabus](https://syllabus.pyragogy.org/)** to participate in knowledge construction as a collaborative peer, updating and refining a shared knowledge graph through traceable dialogue rather than isolated question answering.
+It is an operational protocol designed to support structured cognitive interviews between humans and AI systems. Within the Pyragogy ecosystem, it provides the methodology that allows the agent behind [Pyragogy Syllabus](https://syllabus.pyragogy.org/) to participate in knowledge construction as a collaborative peer, updating and refining a shared knowledge graph through traceable dialogue rather than isolated question answering.
 
 Version **0.2.1** represents the final published state of this research cycle.
 
@@ -71,7 +71,6 @@ This publication should therefore be understood not as a conclusion, but as the 
 
 One lesson from this project is that meaningful discussion is often easier in open, asynchronous communities than within traditional mailing lists.
 
-For that reason, we recently opened [r/Pyragogy](https://www.reddit.com/r/Pyragogy/) .
 
 The subreddit is not a support channel, nor a product announcement board. It is intended as an open discussion space where anyone interested in learning, AI collaboration, knowledge graphs, or the broader Pyragogy framework can exchange ideas, challenge assumptions, and explore possible future directions.
 
