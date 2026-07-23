@@ -66,16 +66,15 @@ If no further development occurs, the repositories will remain as a permanent pu
 This publication should therefore be understood not as a conclusion, but as the documented final state of the current research cycle.
 
 ---
-
 ## Discussion
 
-One lesson from this project is that meaningful discussion is often easier in open, asynchronous communities than within traditional mailing lists.
+One lesson from this project is that meaningful discussion is often easier in open, asynchronous communities than within traditional mailing lists. 
 
+To give these ideas a persistent space to be tested and challenged, I created a dedicated subreddit: **[r/Pyragogy](https://www.reddit.com/r/Pyragogy/)**.
 
-The subreddit is not a support channel, nor a product announcement board. It is intended as an open discussion space where anyone interested in learning, AI collaboration, knowledge graphs, or the broader Pyragogy framework can exchange ideas, challenge assumptions, and explore possible future directions.
+This channel is neither a support forum nor a product announcement board. It is designed as an open operational space where anyone interested in peer learning, AI-mediated workflows, knowledge graphs, or the broader Pyragogy framework can exchange practices, dissect failure modes, and explore future directions.
 
-Whether Pyragogy continues to evolve will ultimately depend less on its original authors than on the people who decide the ideas are worth examining further.
-
+Whether Pyragogy continues to evolve will ultimately depend less on its original authors than on the people who decide these ideas are worth examining further in the wild.
 ---
 
 **System Status:** **STANDBY**
