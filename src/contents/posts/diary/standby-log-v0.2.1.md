@@ -1,10 +1,10 @@
 ---
-title: "Standby Log — Final State (CIP v0.2.1)"
-slug: "standby-log-system-state-truth-artifact-v0.2.1"
+title: "Standby Log — Final State (CIP v0.3)"
+slug: "standby-log-system-state-truth-artifact-v0.3"
 published: 2026-07-21
 updated: 2026-07-21
 author: Fabrizio Terzi
-description: "Research stops here. The infrastructure freezes, CIP v0.2.1 is completed, and the system goes into an indefinite pause."
+description: "Research stops here. The infrastructure freezes, CIP v0.3 is completed, and the system goes into an indefinite pause."
 category: Diary
 tags: [Pyragogy, Standby, Cognitive Interview, Knowledge Graph, Agent Architecture]
 bannerImage: /banner/15.webp
@@ -13,7 +13,7 @@ draft: false
 readingTime: 3
 ---
 
-# Standby Log — Final State (CIP v0.2.1)
+# Standby Log — Final State (CIP v0.3)
 
 Every research program eventually reaches a point where continuing requires more than curiosity. It requires validation, resources, and a sustainable path forward.
 
@@ -23,7 +23,7 @@ Active research is now entering an indefinite standby state. No development road
 
 Rather than leaving unfinished work behind, we chose to conclude this phase by publishing its final research artifact.
 
-The **Cognitive Interview Protocol (CIP) v0.2.1** is now publicly available.
+The **Cognitive Interview Protocol (CIP) v0.3** is now publicly available.
 
 **Repository**
 
@@ -37,7 +37,7 @@ CIP is not a theoretical paper.
 
 It is an operational protocol designed to support structured cognitive interviews between humans and AI systems. Within the Pyragogy ecosystem, it provides the methodology that allows the agent behind [Pyragogy Syllabus](https://syllabus.pyragogy.org/) to participate in knowledge construction as a collaborative peer, updating and refining a shared knowledge graph through traceable dialogue rather than isolated question answering.
 
-Version **0.2.1** represents the final published state of this research cycle.
+Version **0.3** represents the final published state of this research cycle.
 
 ---
 
