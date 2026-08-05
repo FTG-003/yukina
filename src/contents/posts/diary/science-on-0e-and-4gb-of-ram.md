@@ -72,9 +72,14 @@ It wasn't a chain of prompts.
 
 It was a cycle:
 
-$$
-\text{idea} \rightarrow \text{AI} \rightarrow \text{critique} \rightarrow \text{verification} \rightarrow \text{new question} \rightarrow \text{AI}
-$$
+<div class="cycle-flow" role="list" aria-label="research cycle">
+  <span class="cycle-chip">idea</span><span class="cycle-arrow" aria-hidden="true">→</span>
+  <span class="cycle-chip">AI</span><span class="cycle-arrow" aria-hidden="true">→</span>
+  <span class="cycle-chip">critique</span><span class="cycle-arrow" aria-hidden="true">→</span>
+  <span class="cycle-chip">verification</span><span class="cycle-arrow" aria-hidden="true">→</span>
+  <span class="cycle-chip">new question</span><span class="cycle-arrow" aria-hidden="true">→</span>
+  <span class="cycle-chip">AI</span>
+</div>
 
 And it was exactly this cycle that turned an initial curiosity into a project.
 

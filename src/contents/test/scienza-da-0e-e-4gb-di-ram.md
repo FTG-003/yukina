@@ -72,9 +72,14 @@ Non era una catena di prompt.
 
 Era un ciclo:
 
-$$
-\text{idea} \rightarrow \text{AI} \rightarrow \text{critica} \rightarrow \text{verifica} \rightarrow \text{nuova domanda} \rightarrow \text{AI}
-$$
+<div class="cycle-flow" role="list" aria-label="ciclo di ricerca">
+  <span class="cycle-chip">idea</span><span class="cycle-arrow" aria-hidden="true">→</span>
+  <span class="cycle-chip">AI</span><span class="cycle-arrow" aria-hidden="true">→</span>
+  <span class="cycle-chip">critica</span><span class="cycle-arrow" aria-hidden="true">→</span>
+  <span class="cycle-chip">verifica</span><span class="cycle-arrow" aria-hidden="true">→</span>
+  <span class="cycle-chip">nuova domanda</span><span class="cycle-arrow" aria-hidden="true">→</span>
+  <span class="cycle-chip">AI</span>
+</div>
 
 Ed è stato proprio questo ciclo a trasformare una curiosità iniziale in un progetto.
 
