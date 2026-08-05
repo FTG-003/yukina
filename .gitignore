@@ -114,3 +114,6 @@ public/*.bak
 # Node
 node_modules/
 
+# pnpm lockfile (repo/CI install with npm: package-lock.json is the canonical lockfile)
+pnpm-lock.yaml
+
