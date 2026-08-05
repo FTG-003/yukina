@@ -5,7 +5,9 @@ description: What happens when you try to do research without a lab, without a b
 author: Fabrizio Terzi
 category: Diary
 tags: [Pyragogy, Entangletronica, AI, Open Science]
-draft: true
+bannerImage: /banner/16-a.webp
+cover: /banner/16-a.webp
+draft: false
 ---
 
 It all started almost by accident.

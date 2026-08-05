@@ -56,5 +56,11 @@
     "rehype-katex": "^7.0.1",
     "rehype-slug": "^6.0.0",
     "remark-math": "^6.0.0"
+  },
+  "allowScripts": {
+    "core-js@3.43.0": true,
+    "esbuild@0.25.5": true,
+    "sharp@0.34.4": true,
+    "swup@4.8.2": true
   }
 }
