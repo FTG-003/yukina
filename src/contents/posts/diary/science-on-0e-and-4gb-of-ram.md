@@ -285,7 +285,7 @@ And the work is there so it can be criticized.
 
 ### [Entangletronica — GitHub](https://github.com/FTG-003/entangletronica)
 
-### [Entangletronica — Zenodo](https://zenodo.org/records/21802416)
+### [Entangletronica — Zenodo](https://zenodo.org/records/21819297)
 
 The PDF, to read it right here:
 
