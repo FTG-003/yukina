@@ -5,7 +5,7 @@ description: Sharing two open NotebookLM notebooks
 tags: [Pyragogy, NotebookLM, OpenResearch, CognitiveRhythm, CognitiveIntraspecificSelection]
 category: Research
 author: Fabrizio Terzi
-bannerImage: /banner/16-a.webp
+bannerImage: /banner/2.webp
 cover: /banner/16-a.webp
 draft: false
 ---
