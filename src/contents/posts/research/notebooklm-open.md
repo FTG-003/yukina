@@ -1,10 +1,12 @@
 ---
-title: "Two Open NotebookLM: AI as Sandbox, Not Oracle"
+title: Two Open NotebookLM: AI as Sandbox, Not Oracle
 published: 2026-03-10
-description: Sharing two open NotebookLM notebooks — to stress-test, remix, and co-evolve Pyragogy's theoretical foundations inside living computational environments.
+description: Sharing two open NotebookLM notebooks
 tags: [Pyragogy, NotebookLM, OpenResearch, CognitiveRhythm, CognitiveIntraspecificSelection]
 category: Research
 author: Fabrizio Terzi
+bannerImage: /banner/16-a.webp
+cover: /banner/16-a.webp
 draft: false
 ---
 
