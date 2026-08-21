@@ -1,5 +1,5 @@
 ---
-title: Two Open NotebookLM: AI as Sandbox, Not Oracle
+title: "Two Open NotebookLM: AI as Sandbox, Not Oracle"
 published: 2026-03-10
 description: Sharing two open NotebookLM notebooks
 tags: [Pyragogy, NotebookLM, OpenResearch, CognitiveRhythm, CognitiveIntraspecificSelection]
