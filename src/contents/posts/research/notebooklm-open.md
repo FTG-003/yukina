@@ -1,7 +1,7 @@
 ---
 title: "Two Open NotebookLM: AI as Sandbox, Not Oracle"
 published: 2026-08-21
-description: Sharing two open NotebookLM notebooks
+description: "Two open NotebookLM notebooks on Cognitive Rhythm Theory and Cognitive Intraspecific Selection — with preprints, DOI, and an invitation to stress-test a theory before citing it."
 tags: [Pyragogy, NotebookLM, OpenResearch, CognitiveRhythm, CognitiveIntraspecificSelection]
 category: Research
 author: Fabrizio Terzi
@@ -14,11 +14,13 @@ draft: false
 
 I spend a lot of time trawling for theories. Reading, annotating, sketching, then rewriting everything because the first version was full of unspoken assumptions. At some point, though, the right question surfaces: *why keep it all locked inside a Markdown file?*
 
-Why not turn Pyragogy's two theoretical pillars into **interactive computational environments** where anyone can walk in, generate uncomfortable questions, search for internal contradictions, test limits — and do it not in solitude, but inside a shared notebook?
+So I didn't.
 
-Here's what I did: I took *Cognitive Rhythm Theory* and *Cognitive Intraspecific Selection in Education* and condensed them into two open NotebookLM notebooks. Not to offer answers. To offer a **sandbox**.
+I took Pyragogy's two theoretical pillars — *Cognitive Rhythm Theory* and *Cognitive Intraspecific Selection in Education* — and turned them into open NotebookLM notebooks. Not to offer answers. To offer a **sandbox**. Somewhere you can walk into, kick the tires, and see what breaks.
 
-## The "Pyragogical" Method (Don't Study with NotebookLM — Stress-Test It)
+Each notebook carries the original preprint (PDF) and a DOI — because I want you to be able to cite the theory if it's useful, but also to verify that the notebook isn't lying to you. The paper is the anchor. The notebook is the weather.
+
+## Don't Study with NotebookLM — Stress-Test It
 
 If I use NotebookLM to study, I'm using it wrong. I use it well when I **stress it**. When I force it to show me where the theory cracks, where the metaphors break, where the mathematical formalism leaves blind spots.
 
@@ -33,38 +35,44 @@ AI is not an oracle that knows. It is an **interlocutor that resists** — and t
 
 This is the pyragogical method: learning emerges from friction, not transmission. And NotebookLM, used this way, is an extraordinary generator of cognitive friction.
 
-## The Two Open Notebooks
+I'm not asking you to agree with me. I'm asking you to **argue with the notebook**. See if the theory holds up to someone who doesn't already believe it.
 
-### 1. The Cognitive Rhythm Theory
+## The Two Notebooks
 
-[→ Open the Notebook: Cognitive Rhythm Theory](https://notebook.google.com/notebook/8f70ca71-86ae-4f15-b464-2483fb3dccb2)
+### 1. Cognitive Rhythm Theory
 
-Cognitive rhythm as an alternation between **friction** (the break, the moment when prior knowledge no longer suffices), **assimilation** (the reorganization phase, when the new schema stabilizes), and **expansion** (the leap — neural, conceptual, collective — that follows).
+[→ Open the Notebook](https://notebook.google.com/notebook/8f70ca71-86ae-4f15-b464-2483fb3dccb2)  ·  [📄 PDF on Zenodo](https://zenodo.org/records/15480363)  ·  DOI: `10.5281/zenodo.15480363`
 
-The formal model `RC(H,A,t) = f(∆ΦH(t), ∆ΦA(t), S(t), R(t))` lives inside the notebook. But what interests me most is seeing how it reacts when queried from different perspectives: from a philosopher of mind, from a machine learning engineer, from a high school teacher. The answers shift. And in shifting, they reveal.
+A theory of learning as rhythm. The alternation between **friction** (the break, the moment when prior knowledge no longer suffices), **assimilation** (the reorganization phase, when the new schema stabilizes), and **expansion** (the leap — neural, conceptual, collective — that follows).
 
-### 2. Pyragogy: Cognitive Intraspecific Selection in Education
+The formal model lives inside the notebook: `RC(H,A,t) = f(∆ΦH(t), ∆ΦA(t), S(t), R(t))`. But what interests me most is seeing how it reacts when queried from different perspectives: from a philosopher of mind, from a machine learning engineer, from a high school teacher. The answers shift. And in shifting, they reveal.
 
-[→ Open the Notebook: Cognitive Intraspecific Selection](https://notebook.google.com/notebook/903620f5-b9e0-416f-81c6-47d4c48790e2)
+The preprint is attached as a source PDF inside the notebook. You can read it side by side with the conversation, check where the model came from, and decide whether the notebook's answers stay faithful to the paper or drift into something new. The DOI is there so you can cite the theory if it holds up — but I hope you'll test it first.
 
-The core idea: intraspecific selection — competition *among* individuals of the same species — is not an obstacle to collaborative learning. It is the **engine**.
+### 2. Cognitive Intraspecific Selection in Education
+
+[→ Open the Notebook](https://notebook.google.com/notebook/903620f5-b9e0-416f-81c6-47d4c48790e2)  ·  [📄 PDF on Zenodo](https://zenodo.org/records/16962409)  ·  DOI: `10.5281/zenodo.16962409`
+
+The idea that scared me at first: intraspecific selection — competition *among* individuals of the same species — is not an obstacle to collaborative learning. It is the **engine**.
 
 When two agents (human, artificial, or human-and-artificial-in-sync) compete for the same cognitive resource, the system doesn't collapse. If well designed, it generates **selection of ideas** instead of selection of individuals. The most resilient ideas survive, hybridize, spread. The people don't — the people stay, and stay together.
 
-This notebook contains the formalization of the process, multi-agent simulation experiments, and the first empirical evidence from real educational contexts. But it also contains the open questions, the untested hypotheses, the points where the theory might collapse.
+This notebook contains the formalization, multi-agent simulation experiments, and the first empirical evidence from real educational contexts. The full preprint is there as a PDF — so you can verify the data, the simulations, and the reasoning without relying on the notebook's synthesis. The DOI makes it findable, not as a wall, but as a door.
 
-## Open Invitation: Oblique Review, Remix, Critical Contributions
+I'll be honest: this is the theory I'm most nervous about sharing. It's easy to misunderstand, easy to twist into something ugly. But I think it's true. And I'd rather have it stress-tested in public than protected in private.
 
-These notebooks are not "publications." They don't have a DOI. They don't want to be cited. They want to be **misused**.
+## An Invitation, Not a Publication
+
+These notebooks have DOIs. But they don't *want* to be cited. They want to be **misused**.
 
 - Use them to generate questions I haven't thought of.
 - Use them to find where the mathematical model doesn't describe the reality you know.
 - Use them to rewrite a section from your point of view — and send it back to me.
 - Use them to teach someone else the pyragogical method, and see what happens.
 
-Traditional peer review (the closed, anonymous, linear *peer-to-peer* kind) is no longer enough. We need **oblique review** — arriving from unexpected angles, unafraid of being partial, inserting itself into the theory's blind spots not to demolish it but to *make it evolve*.
+Traditional peer review (the closed, anonymous, linear kind) is no longer enough. We need **oblique review** — arriving from unexpected angles, unafraid of being partial, inserting itself into the theory's blind spots not to demolish it but to *make it evolve*.
 
-If you find something that doesn't work, **don't email me**. Open the notebook, generate a question that breaks it, and share the result. Or better yet: take the notebook, make it yours, and take it where I never got to.
+If you find something that doesn't work, don't email me. Open the notebook, generate a question that breaks it, and share the result. Or better yet: take the notebook, make it yours, and take it where I never got to.
 
 Pyragogy is not a theoretical edifice to contemplate. It is a **construction site**. And these notebooks are two rooms of the site where anyone can walk in, pick up a hammer, and see what happens.
 
@@ -72,4 +80,4 @@ Pyragogy is not a theoretical edifice to contemplate. It is a **construction sit
 
 *Fabry*
 
-*PS — If you've never used NotebookLM: all you need is a Google account. Open the link, and start chatting with the material. There is no "right way" to use it. The right way is the one that makes you want to ask questions.*
+*P.S. — If you've never used NotebookLM: all you need is a Google account. Open the link, and start chatting with the material. There is no "right way" to use it. The right way is the one that makes you want to ask questions.*
