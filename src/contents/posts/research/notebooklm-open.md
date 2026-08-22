@@ -1,5 +1,5 @@
 ---
-title: "Two Open NotebookLM: AI as Sandbox, Not Oracle"
+title: "Two Open NotebookLM: AI as Sandbox"
 published: 2026-08-21
 description: "Two open NotebookLM notebooks on Cognitive Rhythm Theory and Cognitive Intraspecific Selection — with preprints, DOI, and an invitation to stress-test a theory before citing it."
 tags: [Pyragogy, NotebookLM, OpenResearch, CognitiveRhythm, CognitiveIntraspecificSelection]
@@ -10,9 +10,10 @@ cover: /banner/2.webp
 draft: false
 ---
 
-# Two Open NotebookLM: AI as Sandbox, Not Oracle
+# Two Open NotebookLM:
 
-I spend a lot of time trawling for theories. Reading, annotating, sketching, then rewriting everything because the first version was full of unspoken assumptions. At some point, though, the right question surfaces: *why keep it all locked inside a Markdown file?*
+I spend a lot of time trawling for theories. Reading, annotating, sketching, then rewriting everything because the first 
+version was full of unspoken assumptions. At some point, though, the right question surfaces: *why keep it all locked inside a Markdown file?*
 
 So I didn't.
 
