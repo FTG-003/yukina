@@ -1,0 +1,37 @@
+# Pyragogy — A living ecosystem for human–AI learning
+# https://pyragogy.org
+#
+# Cogito, ergo cogitemus.
+#
+# Signed: Fabrizio Terzi
+# Date  : 2026-08-29
+
+## About
+
+Pyragogy is a living ecosystem exploring cognitive co-creation, 
+AI-human learning, and the design of desirable friction.
+
+## Pages
+
+- Home:     https://pyragogy.org/
+- Archive:  https://pyragogy.org/archive
+- About:    https://pyragogy.org/about
+- Tags:     https://pyragogy.org/tags
+- Forum:    https://forum.pyragogy.org/
+- Docs:     https://docs.pyragogy.org/core/why/
+
+## Blog Posts
+
+### Announcements
+
+- Obliqo Launch:   https://pyragogy.org/posts/announcements/obliqo
+- Syllabus:        https://pyragogy.org/posts/announcements/syllabus
+- Forum:           https://pyragogy.org/posts/announcements/forum
+
+### Diary / Essays
+
+https://pyragogy.org/posts/diary/
+
+## Full content
+
+For the complete text of every public page, see: https://pyragogy.org/llms-full.txt

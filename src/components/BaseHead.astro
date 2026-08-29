@@ -68,7 +68,7 @@ const ogImage = new URL(image || "/og-image.png", Astro.site);
 <!-- Plausible Analytics -->
 <script 
   defer 
-  data-domain="blog.pyragogy.org" 
+  data-domain="pyragogy.org" 
   src="https://plausible.pyragogy.org/js/script.outbound-links.tagged-events.js">
 </script>
 <script>
@@ -77,6 +77,38 @@ const ogImage = new URL(image || "/og-image.png", Astro.site);
     (window.plausible.q = 
     window.plausible.q || []).push(arguments) 
   }
+</script>
+
+<!-- JSON-LD Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Pyragogy",
+  "url": "https://pyragogy.org",
+  "description": "A living ecosystem exploring cognitive co-creation, AI-human learning, and the design of desirable friction.",
+  "founder": {
+    "@type": "Person",
+    "name": "Fabrizio Terzi"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Pyragogy Blog",
+  "url": "https://pyragogy.org",
+  "description": "ΔΦ(H,A,t) = Cognitive Resonance. The Village thinks back.",
+  "author": {
+    "@type": "Person",
+    "name": "Fabrizio Terzi"
+  },
+  "about": {
+    "@type": "Organization",
+    "name": "Pyragogy"
+  }
+}
 </script>
 
 <GlobalStyles />
