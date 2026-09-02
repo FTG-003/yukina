@@ -34,7 +34,6 @@ const { title, subTitle, bannerImage, published, license, author, sourceLink } =
     rel="stylesheet"
     href="https://fastly.jsdelivr.net/npm/katex/dist/katex.min.css"
   />
-  <!-- <Fragment set:html={tocHTMLString} /> -->
   <div class="article-wrapper">
     <div class="article">
       <Markdown>
@@ -58,11 +57,29 @@ const { title, subTitle, bannerImage, published, license, author, sourceLink } =
 
 <style>
   .article-wrapper {
-    @apply mx-3 rounded-2xl bg-[var(--card-color)] px-5 py-6 lg:mx-0 lg:px-10 lg:py-9;
+    @apply rounded-2xl bg-[var(--card-color)] px-4 py-5;
+    @apply md:px-6 md:py-6;
+    @apply lg:px-10 lg:py-9;
   }
   .article {
-    @apply flex flex-col;
-    font-size: var(--primary-font);
+    @apply flex flex-col text-base leading-relaxed;
     color: var(--text-color);
+  }
+
+  /* ── Contenitore scrollabile per overflow ── */
+  .article :global(pre),
+  .article :global(table),
+  .article :global(.katex-display) {
+    @apply max-w-full overflow-x-auto;
+  }
+
+  /* ── Immagini reattive ── */
+  .article :global(img) {
+    @apply h-auto max-w-full;
+  }
+
+  /* ── Codice inline ── */
+  .article :global(code) {
+    @apply break-words text-sm;
   }
 </style>

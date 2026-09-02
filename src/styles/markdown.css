@@ -103,8 +103,9 @@
 }
 
 .article pre {
-  @apply my-3;
-  overflow: hidden !important;
+  @apply my-3 max-w-full;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
 }
 
 .article span.line {
@@ -140,6 +141,40 @@
 .article .astro-code {
   border-radius: 0.75rem !important;
   scrollbar-width: thin;
+  max-width: 100% !important;
+}
+
+/* ── Tabelle responsive ── */
+.article table {
+  @apply block w-full max-w-full;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+  .article-wrapper {
+    @apply px-3 py-4;
+  }
+  .article {
+    @apply text-sm;
+  }
+  .article h1 {
+    @apply text-xl;
+  }
+  .article h2 {
+    @apply text-lg;
+  }
+  .article h3 {
+    @apply text-base;
+  }
+  .article pre {
+    @apply -mx-3 rounded-none;
+    width: calc(100% + 1.5rem);
+  }
+  .article blockquote {
+    @apply text-sm pl-2;
+  }
 }
 
 /* Process/cycle flow (idea → AI → critique → …) rendered as wrap-friendly chips */
