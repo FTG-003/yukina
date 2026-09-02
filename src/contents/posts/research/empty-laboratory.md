@@ -6,6 +6,8 @@ description: "When nobody answers, the experiment changes."
 category: Research
 tags: [UnPeeragogy, Pyragogy, Evidence, Cognitive Interview, Research]
 draft: false
+cover: "/banner/17.webp"
+bannerImage: "/banner/17.webp"
 ---
 
 # The Empty Laboratory
