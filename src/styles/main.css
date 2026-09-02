@@ -95,23 +95,7 @@
   padding-bottom: 4px;
 }
 
-:root {
-  --os-handle-bg-custom: rgba(255, 255, 255, 0.4);
-  --os-handle-bg-custom-hover: rgba(255, 255, 255, 0.6);
-  --os-handle-bg-custom-active: rgba(255, 255, 255, 0.7);
-}
 
-.scrollbar-auto.os-scrollbar {
-  --os-handle-bg: var(--os-handle-bg-custom);
-  --os-handle-bg-hover: var(--os-handle-bg-custom-hover);
-  --os-handle-bg-active: var(--os-handle-bg-custom-active);
-}
-
-.scrollbar-dark.os-scrollbar {
-  --os-handle-bg: rgba(255, 255, 255, 0.4);
-  --os-handle-bg-hover: rgba(255, 255, 255, 0.6);
-  --os-handle-bg-active: rgba(255, 255, 255, 0.7);
-}
 
 .transition-leaving {
   transition:

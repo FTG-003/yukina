@@ -22,6 +22,11 @@ import "overlayscrollbars/overlayscrollbars.css";
     --title-color: oklch(20% 0.005 260);
     --subtitle-color: oklch(35% 0.01 260);
 
+    /* scrollbar handle: visibile su sfondo chiaro */
+    --os-handle-bg-custom: rgba(0, 0, 0, 0.12);
+    --os-handle-bg-custom-hover: rgba(0, 0, 0, 0.22);
+    --os-handle-bg-custom-active: rgba(0, 0, 0, 0.35);
+
     --brand-font: "Raleway", "Noto Sans SC", sans-serif;
     --primary-font: "Noto Sans SC", sans-serif;
     --code-font: "JetBrains Mono", "Fira Code", monospace;
@@ -40,23 +45,41 @@ import "overlayscrollbars/overlayscrollbars.css";
   [data-theme="dark"] {
     color-scheme: dark;
 
-    --primary-color: oklch(65% 0.06 260);
-    --primary-color-darker: oklch(50% 0.08 260);
-    --primary-color-lighten: oklch(30% 0.025 260);
-    --primary-color-hover: oklch(25% 0.02 260);
-    --primary-color-transparent: oklch(65% 0.06 260 / 15%);
-    --text-color: oklch(93% 0.003 260);
+    --primary-color: oklch(68% 0.06 260);
+    --primary-color-darker: oklch(52% 0.08 260);
+    --primary-color-lighten: oklch(32% 0.025 260);
+    --primary-color-hover: oklch(27% 0.02 260);
+    --primary-color-transparent: oklch(68% 0.06 260 / 20%);
+    --text-color: oklch(94% 0.003 260);
     --text-color-lighten: oklch(70% 0.01 260);
-    --card-color: oklch(22% 0.01 260);
-    --card-color-lighten: oklch(30% 0.02 260);
-    --card-color-transparent: oklch(22% 0.01 260 / 85%);
+    --card-color: oklch(25% 0.012 260);
+    --card-color-lighten: oklch(33% 0.02 260);
+    --card-color-transparent: oklch(25% 0.012 260 / 85%);
     --background-color: oklch(15% 0.008 260);
-    --title-color: oklch(95% 0.002 260);
-    --subtitle-color: oklch(80% 0.005 260);
+    --title-color: oklch(96% 0.002 260);
+    --subtitle-color: oklch(82% 0.005 260);
+
+    /* scrollbar handle: visibile su sfondo scuro */
+    --os-handle-bg-custom: rgba(255, 255, 255, 0.3);
+    --os-handle-bg-custom-hover: rgba(255, 255, 255, 0.45);
+    --os-handle-bg-custom-active: rgba(255, 255, 255, 0.55);
   }
 
   .swup-progress-bar {
     height: 5px;
     background-color: var(--primary-color);
+  }
+
+  /* Scrollbar global: variabili live col tema */
+  .scrollbar-auto.os-scrollbar {
+    --os-handle-bg: var(--os-handle-bg-custom);
+    --os-handle-bg-hover: var(--os-handle-bg-custom-hover);
+    --os-handle-bg-active: var(--os-handle-bg-custom-active);
+  }
+
+  .scrollbar-dark.os-scrollbar {
+    --os-handle-bg: rgba(255, 255, 255, 0.35);
+    --os-handle-bg-hover: rgba(255, 255, 255, 0.5);
+    --os-handle-bg-active: rgba(255, 255, 255, 0.6);
   }
 </style>

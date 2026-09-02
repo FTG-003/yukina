@@ -56,14 +56,12 @@
 }
 
 .article blockquote {
-  border-inline-start-color: var(--primary-color) !important;
-}
-
-.article blockquote {
   @apply py-0.5 pl-3 pr-3 lg:pl-4;
   font-style: normal !important;
   border-radius: 0.25rem;
   background-color: var(--primary-color-transparent) !important;
+  border-inline-start-color: var(--primary-color) !important;
+  border-inline-start-width: 4px;
 }
 
 .article blockquote blockquote {
