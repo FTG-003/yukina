@@ -83,3 +83,13 @@ const { title, subTitle, bannerImage, published, license, author, sourceLink } =
     @apply break-words text-sm;
   }
 </style>
+
+<style is:global>
+  /* Forza tipografia leggibile nel post, light e dark */
+  .article .prose {
+    max-width: 100% !important;
+  }
+  .article .prose p {
+    color: var(--text-color) !important;
+  }
+</style>

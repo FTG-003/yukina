@@ -347,9 +347,11 @@ const navCount = YukinaConfig.navigators.length;
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('yukina-theme', theme);
     if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
       sunIcon.classList.remove('hidden');
       moonIcon.classList.add('hidden');
     } else {
+      document.documentElement.classList.remove('dark');
       sunIcon.classList.add('hidden');
       moonIcon.classList.remove('hidden');
     }
