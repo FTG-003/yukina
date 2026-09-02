@@ -16,7 +16,7 @@ bannerImage: "/banner/17.webp"
 
 There is an empty laboratory.
 
-I built **UnPeeragogy** because I wanted to invite people into it.
+I built **[UnPeeragogy](https://unpeeragogy.pyragogy.org/)** because I wanted to invite people into it.
 
 The idea was quite simple: take Peeragogy seriously enough to examine what happens when its patterns leave the Handbook and meet actual people, actual groups, actual constraints, and actual life.
 
@@ -36,7 +36,7 @@ Quite the opposite.
 
 I wanted to know where they work, where they become difficult, what conditions seem to matter, what happens when expectations collide with reality, and what we might have missed.
 
-So I built UnPeeragogy as an open research experiment.
+So I built [UnPeeragogy](https://unpeeragogy.pyragogy.org/) as an open research experiment.
 
 The methodology is deliberately modest. It uses an adapted Critical Incident Technique, separates observations from interpretations, distinguishes evidence from hypotheses, explicitly looks for counter-evidence, and preserves revisions rather than hiding them.
 
@@ -287,7 +287,7 @@ The machine can disagree without paying a social price for disagreement.
 
 Perhaps this is the part I am most interested in now.
 
-UnPeeragogy started with Peeragogy.
+[UnPeeragogy](https://unpeeragogy.pyragogy.org/) started with Peeragogy.
 
 But the question became larger than Peeragogy.
 
