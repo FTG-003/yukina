@@ -9,7 +9,7 @@ category: Diary
 tags: [Pyragogy, Standby, Cognitive Interview, Knowledge Graph, Agent Architecture]
 bannerImage: /banner/15.webp
 cover: /banner/15.webp
-draft: false
+draft: true
 readingTime: 3
 ---
 
