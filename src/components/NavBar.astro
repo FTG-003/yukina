@@ -90,24 +90,7 @@ const navCount = YukinaConfig.navigators.length;
       >
         <Icon name="line-md:rss" size={24} aria-hidden="true" />
       </a>
-      <div class="theme">
-        <button type="button" id="theme-switcher" aria-label="Cambia tema">
-          <Icon
-            id="theme-icon-light"
-            name="line-md:moon-alt-to-sunny-outline-loop-transition"
-            size={24}
-            class="hidden"
-            aria-hidden="true"
-          />
-          <Icon
-            id="theme-icon-dark"
-            name="line-md:sunny-outline-to-moon-alt-loop-transition"
-            size={24}
-            class="hidden"
-            aria-hidden="true"
-          />
-        </button>
-      </div>
+      <!-- theme removed — dark native only -->
     </div>
   </div>
   <div id="mobile-menu" class="px-3 transition-all">
@@ -310,47 +293,8 @@ const navCount = YukinaConfig.navigators.length;
     }
   });
 
-  // Theme switcher
-  // Get elements
-  const themeSwitcher = document.getElementById(
-    "theme-switcher",
-  ) as HTMLButtonElement;
-  let themeIconLight = document.getElementById(
-    "theme-icon-light",
-  ) as any as SVGElement;
-  let themeIconDark = document.getElementById(
-    "theme-icon-dark",
-  ) as any as SVGElement;
-
-  // Record the current theme
-  let currentTheme = localStorage.getItem("theme") || "dark";
-
-  // Set theme
-  const setTheme = (theme: string) => {
-    document.documentElement.setAttribute("data-theme", theme);
-    localStorage.setItem("theme", theme);
-    currentTheme = theme;
-
-    // Show/hide icons for different themes
-    themeIconDark.style.display = theme === "dark" ? "block" : "none";
-    themeIconLight.style.display = theme === "light" ? "block" : "none";
-
-    // If the theme is dark, update the dark icon; otherwise, update the light icon
-    if (theme === "dark") themeIconDark = reinitializeIcon(themeIconDark);
-    else themeIconLight = reinitializeIcon(themeIconLight);
-
-    // Toggle dark class
-    document.documentElement.classList.toggle("dark", theme === "dark");
-  };
-
-  // Click to switch theme
-  themeSwitcher.addEventListener("click", () => {
-    setTheme(currentTheme === "light" ? "dark" : "light");
-  });
-
   // Initialize
   document.addEventListener("DOMContentLoaded", () => {
-    setTheme(currentTheme);
     menuIconClosed.style.display = "block";
   });
 

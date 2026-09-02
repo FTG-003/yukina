@@ -96,12 +96,6 @@
 }
 
 :root {
-  --os-handle-bg-custom: rgba(0, 0, 0, 0.3);
-  --os-handle-bg-custom-hover: rgba(0, 0, 0, 0.5);
-  --os-handle-bg-custom-active: rgba(0, 0, 0, 0.6);
-}
-
-:root.dark {
   --os-handle-bg-custom: rgba(255, 255, 255, 0.4);
   --os-handle-bg-custom-hover: rgba(255, 255, 255, 0.6);
   --os-handle-bg-custom-active: rgba(255, 255, 255, 0.7);
