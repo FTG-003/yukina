@@ -287,9 +287,25 @@ Perhaps this is the part I am most interested in now.
 
 UnPeeragogy started with Peeragogy.
 
-But the question is becoming broader.
+But the question became larger than Peeragogy.
 
-What if we could build an open research layer between **social theory and the accumulated evidence of practice**?
+I found myself asking what it means to do research that nobody asked for. Research that grants no credentials, earns no citations, fits no funding line, and belongs to no institution.
+
+Open research, real open research, is supposed to be this.
+
+But the people who celebrate it in theory are often the same ones who, in practice, have stopped asking questions they don't already know how to answer.
+
+I remember the night sky. I remember when I could still stare at it and feel the weight of not knowing.
+
+Most of the people I meet in research have lost that.
+
+They have certifications. They have impact factors. They have a methodology they trust and a career they are building.
+
+They no longer look up.
+
+What I am trying to build is not for them.
+
+What I am trying to build is a space where the question stays alive longer than the answer.
 
 Not a machine that declares theories true or false.
 
@@ -322,6 +338,8 @@ That creates a loop:
 > **Theory → Evidence → Interpretation → Counter-evidence → Revision**
 
 rather than a one-way movement from theory to doctrine.
+
+I don't know if this will ever produce something that looks like a finished result. It probably won't. The open research I believed in was never about results. It was about a certain way of staying awake.
 
 ---
 
@@ -363,6 +381,20 @@ The other doesn't.
 
 And perhaps that is what the empty laboratory has taught me.
 
+I spent months hoping someone would walk in.
+
+Nobody did.
+
+I cannot tell you that I accepted this easily. I spent nights trying to understand what I was doing wrong — whether the invitation was unclear, whether the project seemed irrelevant, whether I was the wrong person to make it.
+
+That kind of silence gets inside you.
+
+But in the end, the silence itself became a kind of teaching.
+
+It forced me to stop waiting for validation and to build something that did not depend on it.
+
+That is not the same as wanting the silence. But it is not the same as resenting it either.
+
 When an experiment doesn't produce the evidence you expected, you have at least two choices.
 
 You can explain the absence.
@@ -373,8 +405,10 @@ I chose the second.
 
 The laboratory is still open. For now, it is almost empty.
 
-But the silence didn't make me stop searching.
+But perhaps emptiness is exactly what a real laboratory needs — to stop performing for an audience and start listening to what is actually there.
 
-It simply forced me to build another instrument.
+The silence is not a failure.
 
-I am still learning how to use it.
+The silence is the condition.
+
+And I am still learning how to work inside it.
