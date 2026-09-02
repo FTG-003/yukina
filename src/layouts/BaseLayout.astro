@@ -6,7 +6,7 @@ import ScriptSetup from "../components/ScriptSetup.astro";
 const { title, description, image } = Astro.props;
 ---
 
-<html lang={YukinaConfig.locale} class="dark">
+<html lang={YukinaConfig.locale} data-theme="light">
   <head>
     <BaseHead title={title} description={description} image={image} />
     <slot name="head" />
@@ -16,5 +16,15 @@ const { title, description, image } = Astro.props;
   >
     <slot />
     <ScriptSetup />
+
+    <script is:inline>
+      (function() {
+        var theme = localStorage.getItem('yukina-theme');
+        if (!theme) {
+          theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
   </body>
 </html>
