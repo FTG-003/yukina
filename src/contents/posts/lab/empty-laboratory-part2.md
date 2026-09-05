@@ -6,11 +6,8 @@ description: "Pyragogy by doing — when nobody answers, the machines can still 
 author: Fabrizio Terzi
 category: Laboratory
 tags: [UnPeeragogy, Pyragogy, AI, Research]
-
 bannerImage: "/banner/18.webp"
-
-cover: "/banner/17.webp"
-
+cover: "/banner/18.webp"
 ---
 
 # The Empty Laboratory — Part II
@@ -222,13 +219,13 @@ In the end, we produced a complete report, including a section of conjectures in
 The full report, to read it right here:
 
 <iframe
-  src="https://zenodo.org/records/22309102/preview"
+  src="/unpeeragogy-audit/Unpeeragogy-An-Evidence-Grounded-Audit-Protocol-v0.2.pdf"
   title="UnPeeragogy Pattern Audit — AI-assisted systematic review of the Peeragogy Handbook"
   loading="lazy"
   style="width:100%; height:72vh; border:1px solid #d1d5db; border-radius:6px; background:#fff;"
 ></iframe>
 
-<small>If the viewer doesn't start, [download it on Zenodo](https://zenodo.org/records/22309102) — it's the same file.</small>
+<small>If the viewer doesn't start, [download the PDF](/unpeeragogy-audit/Unpeeragogy-An-Evidence-Grounded-Audit-Protocol-v0.2.pdf) — it's the same file as the [Zenodo record](https://zenodo.org/records/22309102).</small>
 
 The orchestration had gone through the entire corpus of the *Peeragogy Handbook*.
 
