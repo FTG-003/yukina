@@ -6,9 +6,10 @@ description: "Pyragogy by doing — when nobody answers, the machines can still 
 author: Fabrizio Terzi
 category: Laboratory
 tags: [UnPeeragogy, Pyragogy, AI, Research]
+
 bannerImage: "/banner/18.webp"
+
 cover: "/banner/17.webp"
-draft: true
 
 ---
 
@@ -16,284 +17,307 @@ draft: true
 
 ## Pyragogy by Doing
 
-In verità, ieri sera  avrei preferito portare Alessandra al suo ristorante preferito piuttosto che rimanere ad aspettare.
+Truthfully, last night I would have much rather taken Alessandra to her favorite restaurant than stayed there waiting.
 
-Una serata normale. Gli amici, qualche bicchiere, due chiacchiere. Probabilmente sarebbe stata una scelta molto più sensata.
+A normal evening. Friends, a few drinks, some conversation. Probably the much more sensible choice.
 
-Ma avevo appena pubblicato UnPeeragogy.
+But I had just published UnPeeragogy.
 
-Era nata quasi per caso.
+It had started almost by accident.
 
-Qualche ora di programmazione, un'idea che avevo iniziato a mettere insieme velocemente e che, come spesso mi succede, era cresciuta molto più rapidamente di quanto avessi previsto.
+A few hours of programming, an idea I had thrown together quickly that, as often happens to me, grew much faster than I had expected.
 
-Tutto era cominciato da una cosa piuttosto banale.
+It all started with something rather ordinary.
 
-Stavo rileggendo il *Peeragogy Handbook*.
+I was rereading the *Peeragogy Handbook*.
 
-E mi sono accorto di una cosa.
+And I noticed something.
 
-A parte una mia breve citazione, nel manuale non c'era praticamente traccia di tutto quello che negli anni avevo proposto, discusso o cercato di costruire attorno a quel progetto.
+Apart from a brief quote from me, there was practically no trace in the Handbook of the things I had proposed, discussed, or tried to build around the project over the years.
 
-Una sola cosa era rimasta.
+One thing had survived.
 
-E, ironicamente, era anche sbagliata.
+And, ironically, it was wrong.
 
-Da qualche parte risultava ancora che il design di peeragogy.org fosse stato realizzato da me.
+Somewhere, it still said that the design of peeragogy.org had been done by me.
 
-La cosa mi faceva sorridere e incazzare contemporaneamente.
+That made me smile and piss me off at the same time.
 
-Perché il sito che avevo preparato all'epoca per rendere il libro leggibile online era ancora lì, nella repository del progetto.
+Because the website I had originally built to make the book readable online was still sitting there in the project's repository.
 
-Dimenticato.
+Forgotten.
 
-Mai utilizzato.
+Never used.
 
-Nel frattempo era stato scelto un altro stile.
+In the meantime, they had chosen a different design.
 
-Uno stile che, a essere onesti, avrebbe fatto scappare anche Dracula, se non fosse stato già abbastanza scuro da confondersi con la notte.
+A design that, to be honest, would probably scare even Dracula away — if he weren't already dark enough to blend into the night.
 
-Guardandolo dopo tutti questi anni, il mio commento più tecnico sarebbe probabilmente:
+Looking at it after all these years, my most technical comment would probably be:
 
-**"E che cazzo!!."**
+**"What the fuck!!"**
 
-Non era soltanto una questione estetica.
+It wasn't just about aesthetics.
 
-Rileggendo il progetto, ho cominciato a chiedermi se, nel tempo, le motivazioni dei suoi autori principali non fossero diventate qualcosa di diverso da quelle che avevano dato origine all'idea.
+Rereading the project, I started wondering whether, over time, the motivations of its main authors had become something different from the motivations that had originally given birth to the idea.
 
-Forse il progetto era diventato anche un modo per vedere il proprio nome accanto a quello di altri, mostrare i propri progetti, costruire un piccolo capitale accademico da portare all'università.
+Perhaps the project had also become a way to see one's name next to other people's names, showcase personal projects, and build a little academic capital to take to the university.
 
-E magari accanto a un pioniere come Howard Rheingold, che quel capitale lo rendeva ancora più presentabile.
+And perhaps having a pioneer like Howard Rheingold next to those names made that capital even more presentable.
 
-Non posso sapere se fosse davvero così.
+I don't know if that was actually the case.
 
-E non mi interessa neanche visto che io, in una università non ci sono mai neanche entrato se non per festeggiare dei laureandi!! haha.
+And honestly, I don't even care that much. I have never even set foot inside a university, except to celebrate someone's graduation!! Haha.
 
-Ma questa è stato solo una mia impressione.
+But that was just my impression.
 
-Ma quella sensazione, unita alla riletturadi qualche sezione del manuale e alla scoperta di quanto poco fosse rimasto di molte delle idee che avevo portato nel progetto, mi ha fatto venire voglia di fare una cosa apparentemente inutile.
+Still, that feeling — combined with rereading parts of the Handbook and realizing how little remained of many of the ideas I had contributed to the project — made me want to do something that was, on the surface, completely pointless.
 
-Riprogettare graficamente il sito.
+Redesign the website.
 
-Non perché qualcuno me lo avesse chiesto.
+Not because anyone had asked me to.
 
-Non perché ci fosse un piano.
+Not because there was a plan.
 
-Quasi per noia.
+Almost out of boredom.
 
-E, probabilmente, anche per irritazione.
+And, probably, irritation.
 
-Così ho aperto l'editor e l'ho rifatto in locale.
+So I opened my editor and rebuilt it locally.
 
-Quella versione è poi diventata la base tecnica di UnPeeragogy.
+That version eventually became the technical foundation for UnPeeragogy.
 
-A quel punto mi è tornata in mente una vecchia idea.
+At that point, an old idea came back to me.
 
 UnPeeragogy.
 
-L'avevo pensata anni prima come un modo per osservare dall'interno i limiti, le contraddizioni e le incongruenze di un progetto che avevo seguito per molto tempo. Ma è stata una di quelle idee che si lasciano nel cassetto.
+I had thought about it years earlier as a way of looking from the inside at the limits, contradictions, and inconsistencies of a project I had followed for a very long time.
 
-Poi è arrivata un'altra idea.
+But it was one of those ideas you leave sitting in a drawer.
 
-E se invece di limitarci a creare qualcosa di ambiguo, avessimo messo a confronto sistematicamente i concetti del manuale con ciò che succede realmente quando quei concetti vengono applicati nella vita di tutti i giorni?
+Then another idea came.
 
-E se ci avessimo aggiunto quello che nel frattempo sto imparato costruendo Pyragogy?
+What if, instead of simply discussing the project, we systematically compared the concepts in the Handbook with what actually happens when those concepts are applied in everyday practice?
 
-A quel punto le cose hanno cominciato ad accelerare.
+And what if we added everything I had learned in the meantime while building Pyragogy?
 
-In poche ore avevo praticamente costruito il sito funzionante.
+At that point, things started accelerating.
 
-Non era più soltanto un'idea.
+Within a few hours, I had essentially built the working website.
 
-Era diventato un esperimento.
+It was no longer just an idea.
 
-Ho mandato quindi una mail ad alcuni dei fondatori del progetto.
+It had become an experiment.
 
-Pensavo fosse appropriato informarli prima di pensare renderlo pubblico.Perchè no, anche sperando di ricevere delle critiche costruttive che mi permettessero di migliorarlo.
+So I sent an email to some of the project's founders.
 
-Niente.
+I thought it was appropriate to let them know before making it public.
 
-Silenzio.
+Why not?
 
-Va bene.
+I was also hoping for some constructive criticism that might help me improve it.
 
-Ho pensato: mandiamolo nella mailing list del gruppo.
+Nothing.
 
-Non aspettiamoci molto.
+Silence.
 
-E così ho fatto.
+Fine.
 
-Ancora silenzio.
+I thought: let's send it to the mailing list.
 
-Nessuna discussione.
+Don't expect much.
 
-Nessuna domanda.
+And that's what I did.
 
-Nessun "interessante".
+More silence.
 
-Nessun "non sono d'accordo".
+No discussion.
 
-Niente.
+No questions.
 
-Non mi aspettavo applausi.
+No "interesting."
 
-E nemmeno ringraziamenti.
+No "I disagree."
 
-Ma quel silenzio mi ha fatto riflettere non essendo la prima volta che mi è capitato.
+Nothing.
 
-Perché avevo appena costruito uno spazio progettato per la partecipazione umana e, almeno per il momento, non c'era nessuno con cui partecipare.
+I wasn't expecting applause.
 
-Ed è stato lì che ho capito una cosa.
+And I wasn't expecting thanks.
 
-Non avevo bisogno di aspettare.
+But that silence made me think — especially because it wasn't the first time I had experienced it.
 
-Avevo già tutto quello che mi serviva.
+Because I had just built a space designed for human participation and, at least for the moment, there was nobody there to participate with.
 
-Quindi ho fatto l'unica cosa che potevo fare con quello che avevo.
+And that's when I realized something.
 
-Ho applicato Pyragogy.
+I didn't need to wait.
+
+I already had everything I needed.
+
+So I did the only thing I could do with what I had.
+
+I applied Pyragogy.
 
 **By doing.**
 
-Mentre sorseggiavo qualche birra — forse una di troppo — mi è venuta un'altra idea.
+While sipping a few beers — perhaps one too many — I had another idea.
 
-Se nessuno voleva entrare nel laboratorio, potevo sempre mettere al lavoro il laboratorio.
+If nobody wanted to walk into the laboratory, I could always put the laboratory to work.
 
-Ho costruito un'orchestrazione agentica.
+So I built an agentic orchestration.
 
-Sei agenti.
+Six agents.
 
-Sei modelli LLM diversi.
+Six different LLM models.
 
-Sei obiettivi, nessuno uguale all'altro.
+Six different objectives, not one of them the same.
 
-Un orchestratore che li coordinava.
+An orchestrator to coordinate them.
 
-E improvvisamente quella stanza vuota ha cominciato a riempirsi.
+And suddenly, that empty room started to fill up.
 
-Non di persone.
+Not with people.
 
-Di conversazioni e log tra macchine.
+With conversations and logs between machines.
 
-Uno proponeva.
+One proposed something.
 
-Un altro contestava.
+Another challenged it.
 
-Un terzo trovava un'incongruenza.
+A third found an inconsistency.
 
-E il quarto, ogni volta, tentava di rimettere insieme i pezzi.
+And a fourth tried to put the pieces back together.
 
-A volte sembrava quasi che volessero fare a botte.
+Sometimes it almost seemed as if they were about to start fighting.
 
-Poi, dopo qualche scambio, tornava la calma.
+Then, after a few exchanges, everything settled down again.
 
-Una nuova proposta.
+A new proposal.
 
-Una nuova verifica.
+A new verification.
 
-Una soluzione condivisa.
+A solution they could all agree on.
 
-E avanti.
+And then they moved on.
 
-Io ero lì, davanti allo schermo, a guardare sei sistemi artificiali discutere tra loro mentre avrei potuto essere al ristorante con Alessandra — vista da fuori, una scena abbastanza assurda. Forse persino un po' patetica.
+I was sitting there in front of the screen, watching six artificial systems argue with each other while I could have been at the restaurant with Alessandra.
 
-Un uomo solo in un laboratorio vuoto, qualche bottiglia di birra sul tavolo e sei intelligenze artificiali che collaborano sul monitor.
+From the outside, it was a pretty absurd scene.
 
-Nessun essere umano era entrato virtualmente da quella porta aperta.
+Perhaps even a little pathetic.
 
-Ma il lavoro era iniziato comunque.
+One man alone in an empty laboratory, a few beer bottles on the table, and six artificial intelligences collaborating on the monitor.
 
-E funzionava.
+No human being had walked through that open door.
 
-Alla fine abbiamo prodotto un report completo, con una sezione di congetture in appendice.
+But the work had started anyway.
 
-L'orchestrazione aveva passato in rassegna il corpus del *Peeragogy Handbook*.
+And it worked.
 
-**88 nodi in totale.**
+In the end, we produced a complete report, including a section of conjectures in the appendix.
 
-Non in modo superficiale.
+### [UnPeeragogy Audit — Zenodo](https://zenodo.org/records/22309102)
 
-Ogni nodo veniva analizzato rispetto alla coerenza interna del protocollo che avevo creato, confrontato con gli altri concetti e sottoposto a una serie di prospettive differenti.
+The full report, to read it right here:
 
-In poche ore.
+<iframe
+  src="https://zenodo.org/records/22309102/preview"
+  title="UnPeeragogy Pattern Audit — AI-assisted systematic review of the Peeragogy Handbook"
+  loading="lazy"
+  style="width:100%; height:72vh; border:1px solid #d1d5db; border-radius:6px; background:#fff;"
+></iframe>
 
-Non sto dicendo che sei agenti abbiano sostituito sei ricercatori.
+<small>If the viewer doesn't start, [download it on Zenodo](https://zenodo.org/records/22309102) — it's the same file.</small>
 
-Non sarebbe una conclusione seria.
+The orchestration had gone through the entire corpus of the *Peeragogy Handbook*.
 
-Ma la differenza di scala era difficile da ignorare.
+**88 nodes in total.**
 
-Un lavoro umano equivalente, organizzato come una revisione sistematica e svolto da un piccolo team affiatato, avrebbe probabilmente richiesto settimane o mesi.
+Not superficially.
 
-Io avevo ottenuto una prima revisione strutturata del corpus in una sera.
+Each node was analyzed for its internal coherence within the protocol I had created, compared against the other concepts, and examined from several different perspectives.
 
-Da solo.
+In a matter of hours.
 
-O meglio:
+I'm not saying that six agents replaced six researchers.
 
-Non ero esattamente solo.
+That would not be a serious conclusion.
 
-Avevo sei colleghi che non avevano bisogno di fare i fenomeni, non avevano bisogno di una pausa caffè e, soprattutto, non sembravano avere alcuna intenzione di andarsene a casa prima di aver finito.
+But the difference in scale was difficult to ignore.
 
-Ed è stato allora che ho capito che qualcosa era cambiato.
+An equivalent human effort, organized as a systematic review and carried out by a small, well-coordinated team, would probably have taken weeks or months.
 
-Non stavo più aspettando che qualcuno partecipasse all'esperimento.
+I had obtained a first structured review of the corpus in a single evening.
 
-**L'esperimento era diventato il modo attraverso cui partecipavo io.**
+Alone.
 
-Forse è questa la parte di Peeragogy che avevo dimenticato.
+Or rather:
 
-Non aspettare che la collaborazione avvenga.
+I wasn't exactly alone.
 
-Creare le condizioni perché qualcosa possa accadere.
+I had six colleagues who didn't need to show off, didn't need a coffee break, and, most importantly, didn't seem to have any intention of going home before the job was done.
 
-E se le persone non arrivano?
+And that's when I realized that something had changed.
 
-Allora si comincia comunque.
+I was no longer waiting for someone to participate in the experiment.
 
-Si costruisce.
+**The experiment had become the way I participated.**
 
-Si prova.
+Perhaps that is the part of Peeragogy I had forgotten.
 
-Si sbaglia.
+Don't wait for collaboration to happen.
 
-Si osserva.
+Create the conditions for something to happen.
 
-Si modifica.
+And if people don't show up?
 
-E si continua.
+Then you start anyway.
 
-La porta del laboratorio, comunque, è rimasta e rimarrà sempre aperta.
+You build.
 
-Qualcuno potrebbe ancora entrare in futuro.
+You try.
 
-Ma nel frattempo ho smesso di stare seduto ad aspettare.
+You fail.
 
-Ho acceso le macchine.
+You observe.
 
-Il ronzio dei ventilatori, nella stanza vuota.
+You change.
 
-Non è esattamente silenzio.
+And you keep going.
 
-È il rumore di qualcosa che ha cominciato a funzionare.
+The laboratory door has remained — and will always remain — open.
 
-E forse, ripensandoci, è proprio questo che ho imparato in quella notte.
+Someone may still walk through it someday.
 
-La collaborazione non è una stanza piena di persone.
+But in the meantime, I have stopped sitting there waiting.
 
-È un'idea che continua a muoversi quando nessuno arriva.
+I turned the machines on.
 
-E così, mentre fuori il mondo continuava tranquillamente a ignorare il mio piccolo laboratorio, dentro sei agenti artificiali stavano discutendo, criticando, correggendo e costruendo insieme.
+The hum of the fans filled the empty room.
 
-Io li guardavo con una birra in mano.
+It wasn't exactly silence.
 
-La porta è ancora aperta.
+It was the sound of something beginning to work.
 
-Nessuno è entrato.
+And perhaps, looking back, that is what I learned that night.
 
-Eppure il laboratorio non è più vuoto.
+Collaboration isn't a room full of people.
 
-Le macchine stanno lavorando avidamente.
+It's an idea that keeps moving when nobody shows up.
 
-E mentre io le guardo, mi rendo conto che forse non sto più aspettando qualcuno.
+And so, while the world outside continued quite happily to ignore my little laboratory, inside, six artificial agents were arguing, criticizing, correcting, and building together.
 
-**Sto guardando il futuro prendere forma.**
+I watched them with a beer in my hand.
+
+The door is still open.
+
+Nobody has walked through it.
+
+And yet the laboratory is no longer empty.
+
+The machines are working.
+
+I watch them and realize that perhaps I am no longer waiting for someone.
+
+**I am watching the future take shape.**
