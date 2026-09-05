@@ -3,7 +3,7 @@ title: "The Empty Laboratory"
 published: 2026-09-02
 author: Fabrizio Terzi
 description: "When nobody answers, the experiment changes."
-category: Research
+category: Laboratory
 tags: [UnPeeragogy, Pyragogy, Evidence, Cognitive Interview, Research]
 draft: false
 cover: "/banner/17.webp"
