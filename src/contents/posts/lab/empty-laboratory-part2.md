@@ -1,7 +1,7 @@
 ---
 title: "The Empty Laboratory — Part II"
 published: 2026-09-02
-draft: true
+draft: false
 description: "Pyragogy by doing — when nobody answers, the machines can still work."
 author: Fabrizio Terzi
 category: Laboratory
