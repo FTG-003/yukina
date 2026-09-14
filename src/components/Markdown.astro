@@ -69,6 +69,97 @@ const { class: className } = Astro.props;
 
     observer.observe(document.body, { childList: true, subtree: true });
   }
+
+  // Lazy PDF.js viewer — only activates when [data-pdf-src] exists
+  (function(){
+    var viewers = document.querySelectorAll('[data-pdf-src]');
+    if (!viewers.length) return;
+    var s = document.createElement('script');
+    s.src = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.0.379/build/pdf.min.mjs';
+    s.type = 'module';
+    s.onload = function() {
+      window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.0.379/build/pdf.worker.min.mjs';
+      viewers.forEach(function(el) {
+        var url = el.dataset.pdfSrc;
+        if (!url) return;
+        var id = el.id || 'pv-' + Math.random().toString(36).slice(2,8);
+        el.id = id;
+        el.innerHTML =
+          '<div class="pv-l" style="display:flex;flex-direction:column;align-items:center;justify-content:center;padding:3rem 1rem;gap:.75rem">' +
+          '<div style="width:2rem;height:2rem;border-radius:50%;border:2px solid var(--color-accent,#4a8fe7);border-top-color:transparent;animation:pv-s .8s linear infinite"></div>' +
+          '<span style="font-size:.875rem;color:var(--tw-prose-captions,#71717a)">Loading PDF\u2026</span></div>' +
+          '<canvas style="width:100%;display:none"></canvas>' +
+          '<div class="pv-e" style="display:none;flex-direction:column;align-items:center;justify-content:center;padding:3rem 1rem;gap:.75rem;text-align:center">' +
+          '<p style="font-size:.9rem;color:var(--tw-prose-captions,#71717a)">PDF viewer unavailable.</p>' +
+          '<a href="' + url + '" download style="display:inline-flex;align-items:center;gap:.5rem;padding:.5rem 1.25rem;font-size:.875rem;font-weight:600;border-radius:.5rem;background:var(--color-accent,#4a8fe7);color:#fff;text-decoration:none">\u2b07 Download PDF</a></div>' +
+          '<div class="pv-c" style="display:none;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem;padding:.5rem 1rem;font-size:.8125rem;border-top:1px solid var(--tw-prose-hr,#e4e4e7);background:var(--surface-bg,#fafafa)">' +
+          '<div style="display:flex;align-items:center;gap:.5rem"><button class="pv-p" style="padding:.25rem .5rem;border-radius:.25rem;border:1px solid var(--tw-prose-hr,#e4e4e7);background:var(--surface-raised,#fff);cursor:pointer;font-size:.875rem">\u2190</button>' +
+          '<span class="pv-i" style="min-width:4rem;text-align:center;color:var(--tw-prose-captions,#71717a)">1/1</span>' +
+          '<button class="pv-n" style="padding:.25rem .5rem;border-radius:.25rem;border:1px solid var(--tw-prose-hr,#e4e4e7);background:var(--surface-raised,#fff);cursor:pointer;font-size:.875rem">\u2192</button></div>' +
+          '<div style="display:flex;align-items:center;gap:.5rem"><button class="pv-z-" style="padding:.25rem .5rem;border-radius:.25rem;border:1px solid var(--tw-prose-hr,#e4e4e7);background:var(--surface-raised,#fff);cursor:pointer;font-size:.75rem">\u2212</button>' +
+          '<span class="pv-z" style="min-width:2.5rem;text-align:center;color:var(--tw-prose-captions,#71717a)">100%</span>' +
+          '<button class="pv-z+" style="padding:.25rem .5rem;border-radius:.25rem;border:1px solid var(--tw-prose-hr,#e4e4e7);background:var(--surface-raised,#fff);cursor:pointer;font-size:.75rem">+</button></div>' +
+          '<a href="' + url + '" download style="display:inline-flex;align-items:center;gap:.25rem;padding:.25rem .75rem;border-radius:.25rem;font-size:.75rem;font-weight:600;background:var(--color-accent,#4a8fe7);color:#fff;text-decoration:none">\u2b07 PDF</a></div>' +
+          '<style>@keyframes pv-s{to{transform:rotate(360deg)}}</style>';
+        var canvas = el.querySelector('canvas'),
+            loading = el.querySelector('.pv-l'),
+            error = el.querySelector('.pv-e'),
+            ctrl = el.querySelector('.pv-c'),
+            page = el.querySelector('.pv-i'),
+            prev = el.querySelector('.pv-p'),
+            next = el.querySelector('.pv-n'),
+            zout = el.querySelector('.pv-z-'),
+            zin = el.querySelector('.pv-z+'),
+            zlbl = el.querySelector('.pv-z');
+        var scale = 1, pdfDoc = null, curPage = 1;
+        function renderPage(num) {
+          pdfDoc.getPage(num).then(function(pg) {
+            var vp = pg.getViewport({ scale: scale });
+            canvas.width = vp.width;
+            canvas.height = vp.height;
+            canvas.style.width = '100%';
+            canvas.style.height = 'auto';
+            pg.render({ canvasContext: canvas.getContext('2d'), viewport: vp });
+          });
+          curPage = num;
+          page.textContent = num + ' / ' + pdfDoc.numPages;
+          prev.disabled = num <= 1;
+          next.disabled = num >= pdfDoc.numPages;
+        }
+        window.pdfjsLib.getDocument(url).promise.then(function(doc) {
+          pdfDoc = doc;
+          loading.style.display = 'none';
+          canvas.style.display = 'block';
+          ctrl.style.display = 'flex';
+          renderPage(1);
+        }).catch(function() {
+          loading.style.display = 'none';
+          error.style.display = 'flex';
+        });
+        prev.onclick = function() { if (curPage > 1) renderPage(curPage - 1); };
+        next.onclick = function() { if (curPage < pdfDoc.numPages) renderPage(curPage + 1); };
+        zin.onclick = function() { scale = Math.min(3, scale + 0.25); zlbl.textContent = Math.round(scale * 100) + '%'; if (pdfDoc) renderPage(curPage); };
+        zout.onclick = function() { scale = Math.max(0.25, scale - 0.25); zlbl.textContent = Math.round(scale * 100) + '%'; if (pdfDoc) renderPage(curPage); };
+        var tx = 0;
+        canvas.addEventListener('touchstart', function(e) { tx = e.changedTouches[0].screenX; }, { passive: true });
+        canvas.addEventListener('touchend', function(e) {
+          var dx = e.changedTouches[0].screenX - tx;
+          if (Math.abs(dx) > 60) {
+            if (dx < 0 && curPage < pdfDoc.numPages) renderPage(curPage + 1);
+            if (dx > 0 && curPage > 1) renderPage(curPage - 1);
+          }
+        }, { passive: true });
+      });
+    };
+    s.onerror = function() {
+      viewers.forEach(function(el) {
+        el.innerHTML = '<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;padding:3rem 1rem;gap:.75rem;text-align:center">' +
+          '<p style="font-size:.9rem;color:var(--tw-prose-captions,#71717a)">PDF viewer unavailable.</p>' +
+          '<a href="' + (el.dataset.pdfSrc || '') + '" download style="display:inline-flex;align-items:center;gap:.5rem;padding:.5rem 1.25rem;font-size:.875rem;font-weight:600;border-radius:.5rem;background:var(--color-accent,#4a8fe7);color:#fff;text-decoration:none">\u2b07 Download PDF</a></div>';
+      });
+    };
+    document.head.appendChild(s);
+  })();
 </script>
 <style is:inline>
   .btn-regular-dark {

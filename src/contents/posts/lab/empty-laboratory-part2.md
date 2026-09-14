@@ -218,14 +218,9 @@ In the end, we produced a complete report, including a section of conjectures in
 
 The full report, to read it right here:
 
-<iframe
-  src="/unpeeragogy-audit/Unpeeragogy-An-Evidence-Grounded-Audit-Protocol-v0.2.pdf"
-  title="UnPeeragogy Pattern Audit — AI-assisted systematic review of the Peeragogy Handbook"
-  loading="lazy"
-  style="width:100%; height:72vh; border:1px solid #d1d5db; border-radius:6px; background:#fff;"
-></iframe>
+<div data-pdf-src="/unpeeragogy-audit/Unpeeragogy-An-Evidence-Grounded-Audit-Protocol-v0.2.pdf" style="width:100%; min-height:65vh; border:1px solid #d1d5db; border-radius:6px; overflow:hidden;"></div>
 
-<small>If the viewer doesn't start, [download the PDF](/unpeeragogy-audit/Unpeeragogy-An-Evidence-Grounded-Audit-Protocol-v0.2.pdf) — it's the same file as the [Zenodo record](https://zenodo.org/records/22309102).</small>
+<a href="/unpeeragogy-audit/Unpeeragogy-An-Evidence-Grounded-Audit-Protocol-v0.2.pdf" download style="display:inline-flex;align-items:center;gap:0.5rem;font-size:0.875rem;font-weight:500;color:var(--color-accent,#0d9488);text-decoration:underline;margin-top:0.5rem;">⬇️ Download PDF</a> — same file as the [Zenodo record](https://zenodo.org/records/22309102).
 
 The orchestration had gone through the entire corpus of the *Peeragogy Handbook*.
 

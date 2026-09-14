@@ -289,14 +289,9 @@ E il lavoro è lì perché possa essere criticato.
 
 Il PDF, per leggerlo qui senza uscire:
 
-<iframe
-  src="/entangletronica/EQLI_PhaseGate_Benchmark_2026.pdf"
-  title="EQLI_PhaseGate_Benchmark_2026.pdf — studio numerico Entangletronica"
-  loading="lazy"
-  style="width:100%; height:72vh; border:1px solid #d1d5db; border-radius:6px; background:#fff;"
-></iframe>
+<div data-pdf-src="/entangletronica/EQLI_PhaseGate_Benchmark_2026.pdf" style="width:100%; min-height:65vh; border:1px solid #d1d5db; border-radius:6px; overflow:hidden;"></div>
 
-<small>Se il visualizzatore non parte, [scaricatelo](/entangletronica/EQLI_PhaseGate_Benchmark_2026.pdf) — è lo stesso file del record Zenodo.</small>
+<a href="/entangletronica/EQLI_PhaseGate_Benchmark_2026.pdf" download style="display:inline-flex;align-items:center;gap:0.5rem;font-size:0.875rem;font-weight:500;color:var(--color-accent,#0d9488);text-decoration:underline;margin-top:0.5rem;">⬇️ Scarica il PDF</a> — stesso file del record Zenodo.
 
 Se siete fisici, ingegneri, programmatori, ricercatori o semplicemente persone abbastanza curiose da voler capire cosa succede quando un essere umano orchestra più AI intorno a una domanda difficile:
 

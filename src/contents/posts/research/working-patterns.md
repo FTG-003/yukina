@@ -6,7 +6,8 @@ tags:
   ["WorkingPatterns", "OrganisationalPatterns", "OpenResearch", "CollectiveIntelligence", "Pyragogy"]
 category: "Research"
 author: "Fabrizio Terzi"
-cover: "/banner/19.webp"
+bannerImage: /banner/19.webp
+cover: /banner/19.webp
 draft: false
 ---
 
