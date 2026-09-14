@@ -41,7 +41,9 @@ So the question had to change:
 
 > **Which patterns appear to work, for which problems, through which mechanisms, under which conditions — and where do they stop working?**
 
-That sentence became Working Patterns.
+That sentence became [Working Patterns](https://github.com/pyragogy/working-patterns).
+
+The repository is public, the claims are versioned, and the counterevidence is welcome in the same place as the theory.
 
 ## What broke first
 
@@ -177,4 +179,4 @@ If you have a failed implementation, counterexample, abandoned practice, or evid
 
 **Use it. Test it. Contradict it.**
 
-Repository: **pyragogy/working-patterns**
+Repository: **[pyragogy/working-patterns](https://github.com/pyragogy/working-patterns)**
