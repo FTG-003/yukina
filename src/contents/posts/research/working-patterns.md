@@ -5,7 +5,7 @@ description: "From practitioner wisdom to evidence, counterevidence, boundary co
 tags: [WorkingPatterns, OrganisationalPatterns, OpenResearch, CollectiveIntelligence, Pyragogy]
 category: Research
 author: Fabrizio Terzi
-cover: /banner/16-a.webp
+cover: /banner/19.webp
 draft: false
 ---
 
