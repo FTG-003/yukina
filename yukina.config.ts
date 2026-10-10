@@ -7,7 +7,7 @@ const YukinaConfig: Configuration = {
   brandTitle: "Docs",
   brandIcon: "mingcute:book-2-line",
   brandLink: "https://docs.pyragogy.org/core/why/",
-  description: "ΔΦ(H,A,t) = Cognitive Resonance. The Village thinks back.",
+  description: "Research notes on human–AI learning, assessment, and cognitive co-creation.",
 
   site: "https://blog.pyragogy.org",
   locale: "en", // set for website language and date format
