@@ -20,9 +20,9 @@ We learn with an AI — but how do we know *what* we actually learned?
 
 ---
 
-## This isn't an answer. It's an attempt to make the question visible.
+## This isn't an answer. It's an attempt to turn that question into something we can investigate together.
 
-I worked on this for months: prototypes, scripts, a research proposal. On October 9 we sent it to the OECD, as part of their call on AI-mediated assessment. I don't know if it will go anywhere. Maybe it will, maybe it won't.
+This grew out of a longer exploration of learning with AI: prototypes, scripts, a research proposal. On October 9 we sent it to the OECD, as part of their call on AI-mediated assessment. I don't know if it will go anywhere. Maybe it will, maybe it won't.
 
 But the work exists. It lives in a repository that someone might find useful — a script, an example, a way of documenting limitations. Or maybe a mistake to flag, a better path to suggest.
 
@@ -38,7 +38,7 @@ The HALA repository holds:
 - **Working documents** — notes, reasoning, design choices
 - A **prototype with synthetic examples** — enough to see the direction, not enough to draw conclusions
 
-Everything is still early. Synthetic data, no human subjects, no external validation. The value of the repository isn't in the results — it's in the fact that there *are no results yet* and we're saying so.
+Everything is still early. Synthetic data, no human subjects, no external validation. Its value lies in making the design, tools and limitations available for others to examine and build on.
 
 ---
 
@@ -55,6 +55,8 @@ HALA isn't a finished project. It's a place to start.
 ---
 
 **Read the submitted proposal — [PDF, 2 pages](/hala/hala_pisa_rdi_2026_final_gaps.pdf)**
+
+The proposal and repository materials have their own licenses; see the repository's licensing guide.
 
 ---
 
