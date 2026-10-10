@@ -1,7 +1,7 @@
 ---
 title: "HALA — and the question that stays after the answer"
-published: 2025-10-09
-description: Sharing the work before knowing if it matters. The HALA repository and the OECD proposal on AI-mediated assessment.
+published: 2026-10-10
+description: "Sharing the work before knowing if it matters. The HALA repository and the OECD proposal on AI-mediated assessment."
 tags: [Pyragogy, HALA, Assessment, AI-in-Education]
 category: Research
 author: Fabrizio Terzi
