@@ -32,8 +32,7 @@ cover: /banner/21.webp
   .pyr-math-explainer { margin: 2.15rem 0; padding: clamp(18px,3vw,30px); border: 1px solid var(--primary-color-lighten); border-left: 3px solid var(--primary-color); border-radius: 12px; background: var(--card-color); }
   .pyr-math-explainer .math-label { color: var(--primary-color); font-size: .76rem; letter-spacing: .12em; text-transform: uppercase; font-weight: 750; }
   .pyr-math-explainer + .katex-display { font-size: 1.55em; }
-  .pyr-formula-shell { margin: 1.8rem 0 0; padding: 1.35rem 1rem; background: var(--card-color); border: 1px solid var(--primary-color-lighten); border-radius: 12px; }
-  .pyr-formula-shell .katex-display { font-size: clamp(1.3rem,3vw,2rem); margin: .35em 0; }
+  .article .katex-display { font-size: clamp(1.3rem,3vw,2rem); margin: 1.8rem 0 1.2rem; padding: 1.35rem .8rem; border: 1px solid var(--primary-color-lighten); border-radius: 12px; background: var(--card-color); }
   .pyr-legend { margin: .75rem 0 1.55rem; padding: .6rem 0 .6rem 1.25rem; border-left: 2px solid var(--primary-color); }
   .pyr-legend p { margin: .45rem 0; }
   @media (max-width: 640px) {
@@ -71,13 +70,9 @@ They weren't writing science fiction. They took two thousand years of censuses, 
 
 A simplified version of that pattern:
 
-<div class="pyr-formula-shell">
-
 $$
-N(t)=\\frac{C}{t_0-t}
+N(t)=\frac{C}{t_0-t}
 $$
-
-</div>
 
 <div class="pyr-legend">
   <p><strong>N(t)</strong> — population predicted at time <em>t</em>.</p>
