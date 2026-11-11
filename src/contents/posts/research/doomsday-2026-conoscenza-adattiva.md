@@ -6,8 +6,8 @@ description: "From a 1960 demographic prediction to a Pyragogy hypothesis: human
 tags: [Pyragogy, Demography, Cybernetics, Adaptive Knowledge, Human-AI Collaboration]
 category: Research
 author: Fabrizio Terzi
-bannerImage: /banner/9.webp
-cover: /banner/9.webp
+bannerImage: /banner/20.webp
+cover: /banner/21.webp
 ---
 
 <!-- Editorial note: the source portrait was placed at public/images/Heinz_von_Foerster.jpeg by the author; converted copy at public/images/heinz-von-foerster.webp. Verify license and attribution before publication. Banner/cover are still provisional. -->
