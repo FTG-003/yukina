@@ -1,9 +1,9 @@
 ---
-title: "Il giorno in cui l'umanità doveva diventare infinita"
+title: "The Day Humanity Was Supposed to Become Infinite"
 published: 2026-11-13
 draft: true
-description: "Dalla previsione demografica del 1960 a un'ipotesi Pyragogy: comunità umano–AI che conservano, contestano e sviluppano una conoscenza di dominio nel tempo."
-tags: [Pyragogy, Demografia, Cibernetica, Conoscenza Adattiva, Human-AI Collaboration]
+description: "From a 1960 demographic prediction to a Pyragogy hypothesis: human–AI communities that preserve, contest, and develop domain knowledge over time."
+tags: [Pyragogy, Demography, Cybernetics, Adaptive Knowledge, Human-AI Collaboration]
 category: Research
 author: Fabrizio Terzi
 bannerImage: /banner/9.webp
@@ -14,160 +14,160 @@ cover: /banner/9.webp
 
 > ### Doomsday: Friday, 13 November, A.D. 2026
 >
-> *«Giorno del giudizio: venerdì 13 novembre 2026»*
+> *At this date human population will approach infinity if it grows as it has grown in the last two millenia.*
 >
-> **Autori:** Heinz von Foerster, Patricia M. Mora e Lawrence W. Amiot.  
-> **Pubblicazione:** 4 novembre 1960.  
-> **Rivista:** *Science*, volume 132, numero 3436, pp. 1291–1295.  
+> **Authors:** Heinz von Foerster, Patricia M. Mora, and Lawrence W. Amiot.  
+> **Published:** November 4, 1960.  
+> **Journal:** *Science*, volume 132, number 3436, pp. 1291–1295.  
 > **DOI:** [10.1126/science.132.3436.1291](https://doi.org/10.1126/science.132.3436.1291)  
 > **PubMed:** [PMID 13782058](https://pubmed.ncbi.nlm.nih.gov/13782058/).
 >
-> Nel sottotitolo originale è contenuta la condizione decisiva: la popolazione umana si sarebbe avvicinata all'infinito **se** avesse continuato a crescere come nei due millenni precedenti.
+> The subtitle carried the decisive condition: human population would approach infinity **if** it kept growing as it had for the previous two millennia.
 
-Qualche giorno fa ho controllato la data. Venerdì 13 novembre 2026. Sessantasei anni prima, tre ricercatori avevano pubblicato su *Science* un titolo che ancora oggi è difficile da dimenticare.
+A few days ago I checked the date. Friday, November 13, 2026. Sixty-six years earlier, three researchers had published in *Science* a title still hard to forget.
 
-Non hanno scritto fantascienza. Hanno preso duemila anni di censimenti, ci hanno infilato una curva iperbolica, e hanno trovato una singolarità. Una data in cui la popolazione umana — se tutto fosse andato come prima — sarebbe diventata infinita.
+They weren't writing science fiction. They took two thousand years of censuses, fitted a hyperbolic curve, and found a singularity: a date when the human population — if everything had kept going as before — would have become infinite.
 
-Una rappresentazione semplificata di quell'andamento:
+A simplified version of that pattern:
 
 $$
 N(t)=\frac{C}{t_0-t}
 $$
 
-$N(t)$ è la popolazione, $C$ una costante e $t_0$ la data della singolarità. Più il tempo si avvicina a $t_0$, più il denominatore tende a zero, più la popolazione prevista esplode. L'estrapolazione individuava il **13 novembre 2026**.
+$N(t)$ is the population, $C$ a constant, and $t_0$ the singularity date. The closer time gets to $t_0$, the closer the denominator gets to zero, the more the predicted population explodes. Their extrapolation pointed to **November 13, 2026**.
 
-Non era la dimostrazione che una popolazione materialmente infinita fosse possibile. Era la conseguenza matematica di un modello spinto oltre ogni limite sostenibile. Il titolo attirava l'attenzione; il sottotitolo dichiarava la condizione: *se* la crescita fosse proseguita come prima.
+It wasn't a demonstration that infinite population was materially possible. It was the mathematical consequence of a model pushed beyond any sustainable limit. The title caught attention; the subtitle stated the condition: *if* growth continued as before.
 
-Per alcuni decenni la curva è rimasta sorprendentemente vicina alla realtà. Poi la fertilità è calata, l'istruzione è cresciuta, le città si sono trasformate. La transizione demografica ha preso un'altra strada.
+For decades the curve stayed surprisingly close to reality. Then fertility declined, education expanded, cities transformed. The demographic transition took another path.
 
-Oggi la popolazione mondiale è di **8,3 miliardi** di persone, non infinita. Le proiezioni ONU del 2024 parlano di **10,3 miliardi verso metà anni 2080**, poi un lieve calo [2]. Anche questa è una previsione condizionata, non una certezza.
+Today the world population stands at **8.3 billion** people — not infinite. The UN's 2024 projections speak of **10.3 billion around the mid-2080s**, then a slight decline [2]. That too is a conditional prediction, not a certainty.
 
-Sarebbe facile liquidare la storia come una curiosità. Una predizione mancata, un errore interessante. Ma perderemmo la domanda che vale la pena farsi.
+It would be easy to dismiss the story as a curiosity. A missed prediction, an interesting mistake. But we'd lose the question worth asking.
 
-## Il modello non è il mondo
+## The model is not the world
 
-Una previsione non è un'anticipazione del futuro. È una relazione fra dati, ipotesi, metodi e condizioni. Un modello può descrivere bene il passato e perdere potere predittivo quando il fenomeno cambia.
+A prediction is not a glimpse of the future. It's a relationship between data, assumptions, methods, and conditions. A model can describe the past well and lose predictive power when the phenomenon changes.
 
-La matematica non è diventata sbagliata il giorno in cui la curva ha rallentato. A non reggere era l'ipotesi che una regolarità storica potesse continuare per sempre.
+The math didn't become wrong the day the curve slowed. What failed was the assumption that a historical regularity would continue forever.
 
-Che cosa facciamo quando una conoscenza — utile per decenni — smette di spiegare la realtà? Quanto velocemente riconosciamo l'errore? Dove conserviamo le ragioni per cui abbiamo cambiato idea?
+What do we do when a body of knowledge — useful for decades — stops explaining reality? How quickly do we recognize the error? Where do we keep the reasons we changed our mind?
 
-La scienza ha già strumenti per queste domande: replicazioni, revisioni tra pari, nuovi modelli, meta-analisi. Le pubblicazioni fissano versioni che si possono citare, esaminare e contestare. Ma il processo resta frammentato. Un modello viene aggiornato in un posto, la confutazione appare su un'altra rivista, la discussione metodologica si perde in un archivio. La conoscenza evolve — e la storia delle sue trasformazioni è difficile da ricostruire.
+Science already has tools for these questions: replications, peer review, new models, meta-analyses. Publications freeze versions that can be cited, examined, and challenged. But the process stays fragmented. A model gets updated in one place, the rebuttal appears in a different journal, the methodological discussion gets lost in an archive. Knowledge evolves — and the story of its transformations is hard to reconstruct.
 
-> È qui che il discorso cambia.
+> This is where the argument shifts.
 >
-> Non stiamo parlando di aggiornare un numero. Stiamo parlando di una comunità che continua a studiare lo stesso problema per anni, e conserva sia quello che ha capito sia quello che ha sbagliato.
+> We're not talking about updating a number. We're talking about a community that keeps studying the same problem for years, and preserves both what it understood and what it got wrong.
 
-## E se quello studio fosse rimasto vivo?
+## What if that study had stayed alive
 
-Immaginiamo uno scenario alternativo.
+Imagine an alternative scenario.
 
-Siamo nel 1960. Lo studio demografico viene pubblicato. Ma il suo risultato non resta un articolo. Attorno alla domanda nasce una comunità persistente: ricercatori, statistici, demografi — persone con competenze diverse — che continuano a lavorare su dati, ipotesi e spiegazioni.
+It's 1960. The demographic study is published. But its result doesn't remain just an article. Around the question a persistent community forms: researchers, statisticians, demographers — people with different expertise — who keep working on data, hypotheses, and explanations.
 
-Passano gli anni. Arrivano nuovi censimenti. Qualcuno contesta il modello globale e propone traiettorie regionali. Altri studiano fertilità, salute, istruzione. Le previsioni vengono confrontate con la realtà. Gli errori restano documentati: fanno parte della storia del lavoro.
+Years pass. New censuses arrive. Someone challenges the global model and proposes regional trajectories. Others study fertility, health, education. Predictions are compared to reality. Mistakes stay documented — they become part of the work's history.
 
-Chi arriva dopo vent'anni può ricostruire non l'ultima stima, ma le domande iniziali, le variabili ignorate, le obiezioni, le ragioni delle revisioni.
+Someone joining after twenty years can reconstruct not just the latest estimate, but the initial questions, the variables that were ignored, the objections, the reasons for revision.
 
-Non possiamo sapere se questa comunità avrebbe previsto meglio. Non sarebbe serio attribuirle un successo che non possiamo verificare.
+We can't know whether this community would have predicted better. It wouldn't be honest to claim a success we cannot verify.
 
-Possiamo però distinguere due oggetti: **un documento scientifico pubblicato** e **un processo collettivo che conserva la propria storia**.
+But we can distinguish two things: **a published scientific paper** and **a collective process that preserves its own history**.
 
-Da qui nasce una domanda: *possiamo progettare comunità che continuino ad apprendere sullo stesso dominio per anni, preservando ciò che hanno compreso e ciò che hanno sbagliato?*
+From here a question arises: *can we design communities that keep learning about the same domain for years, preserving what they understood and what they got wrong?*
 
-## Non soltanto un'AI che aggiorna i numeri
+## Not just an AI that updates the numbers
 
-L'aggiornamento continuo delle previsioni non è una novità. Esistono apprendimento online, modelli probabilistici aggiornabili, monitoraggio della deriva dei dati, *living systematic reviews* [3].
+Continuous forecast updating is nothing new. Online learning, updateable probabilistic models, concept drift monitoring, *living systematic reviews* [3] — they all exist.
 
-Quello che proponiamo è diverso.
+What we're proposing is different.
 
-Non immaginiamo un modello AI che ricalcola una previsione. Immaginiamo **ricercatori, esperti, partecipanti umani e sistemi AI che studiano insieme lo stesso problema, nel tempo**.
+We're not imagining an AI model that recalculates a prediction. We're imagining **researchers, domain experts, human participants, and AI systems studying the same problem together, over time**.
 
-Una comunità che costruisce un patrimonio condiviso — fonti, ipotesi, prove, errori, interpretazioni, previsioni, revisioni. Gli esperti definiscono metodi e criteri. Altre persone portano osservazioni e domande. I sistemi AI aiutano a confrontare letteratura, segnalare incongruenze, esaminare dati, suggerire percorsi.
+A community that builds a shared repository — sources, hypotheses, evidence, errors, interpretations, predictions, revisions. Experts define methods and criteria. Others bring observations and questions. AI systems help compare literature, flag inconsistencies, examine data, suggest directions.
 
-La collaborazione non significa che tutti abbiano la stessa competenza. Un risultato generato dall'AI non è una prova perché è plausibile. Una convergenza di agenti non equivale a una conferma indipendente. Un consenso non rende vera un'ipotesi.
+Collaboration doesn't mean everyone has the same competence. A result generated by AI is not evidence because it's plausible. A convergence of agents is not an independent confirmation. A consensus does not make a hypothesis true.
 
-Chiamiamo provvisoriamente questa prospettiva **Conoscenza di Dominio Attiva e Adattiva** (*Active and Adaptive Domain Knowledge*, AADK).
+Let's call this perspective, provisionally, **Active and Adaptive Domain Knowledge** (AADK).
 
-Attiva — perché sostiene nuove domande e verifiche.  
-Adattiva — perché cambia alla luce delle evidenze.  
-Persistente — perché conserva le ragioni delle decisioni quando cambiano persone e modelli.  
-Contestabile — perché non nasconde alternative e dissenso.
+Active — because it supports new questions and verification.  
+Adaptive — because it changes in light of evidence.  
+Persistent — because it keeps the reasoning behind decisions when people and models change.  
+Contestable — because it doesn't hide alternatives and dissent.
 
-La proprietà che tiene insieme tutto questo è la **continuità epistemica**: la possibilità di ricostruire *come* e *perché* una comunità è arrivata a sostenere una conclusione.
+The property that holds all this together is **epistemic continuity**: the ability to reconstruct *how* and *why* a community arrived at a particular conclusion.
 
-## Quello che abbiamo già provato a dire
+## What we've already tried to say
 
-Non partiamo da zero. Nei lavori precedenti di Pyragogy, domande simili riemergono in forme diverse. Non sono prove dell'ipotesi AADK — sono precedenti che aiutano a definirla.
+We're not starting from nothing. In Pyragogy's earlier work, similar questions resurface in different forms. They're not evidence for AADK — they're precedents that help define it.
 
-[*The Dance of Minds*](https://github.com/FTG-003/yukina/blob/main/src/contents/posts/research/ritmo_cognitivo.md) parla del **Ritmo Cognitivo** — attrito, assimilazione, sincronizzazione nell'incontro umano–AI. [*AI Speed and the Problem of Cognitive Impedance Mismatch*](https://github.com/FTG-003/yukina/blob/main/src/contents/posts/diary/update.md) mostra il rischio che la generazione superi la comprensione. [*HALA*](https://github.com/FTG-003/yukina/blob/main/src/contents/posts/research/hala-assessment.md) chiede che cosa resta a una persona dopo aver lavorato con l'AI — e la sua risposta è una proposta, non un risultato.
+[*The Dance of Minds*](https://github.com/FTG-003/yukina/blob/main/src/contents/posts/research/ritmo_cognitivo.md) talks about **Cognitive Rhythm** — friction, assimilation, synchronization in the human–AI encounter. [*AI Speed and the Problem of Cognitive Impedance Mismatch*](https://github.com/FTG-003/yukina/blob/main/src/contents/posts/diary/update.md) shows the risk that generation outpaces understanding. [*HALA*](https://github.com/FTG-003/yukina/blob/main/src/contents/posts/research/hala-assessment.md) asks what stays with a person after working with AI — and its answer is a proposal, not a result.
 
-[*Knowledge Patch Collision*](https://github.com/FTG-003/yukina/blob/main/src/contents/posts/research/knowledge-patch-collision.md) racconta il momento pericoloso: una modifica perfettamente coerente che conferma l'aspettativa del valutatore. [*Four Agents. One Handbook. No Safe Exit*](https://github.com/FTG-003/yukina/blob/main/src/contents/posts/research/open-review.md) descrive un processo di revisione che mette sotto pressione il testo invece di riassumerlo. [*The Empty Laboratory*](https://github.com/FTG-003/yukina/blob/main/src/contents/posts/lab/empty-laboratory.md) ricorda un principio severo: un agente può proporre una pista, ma solo l'evidenza sostiene una conclusione.
+[*Knowledge Patch Collision*](https://github.com/FTG-003/yukina/blob/main/src/contents/posts/research/knowledge-patch-collision.md) tells the dangerous moment: a perfectly coherent modification that confirms the evaluator's expectation. [*Four Agents. One Handbook. No Safe Exit*](https://github.com/FTG-003/yukina/blob/main/src/contents/posts/research/open-review.md) describes a review process that stresses the text instead of summarizing it. [*The Empty Laboratory*](https://github.com/FTG-003/yukina/blob/main/src/contents/posts/lab/empty-laboratory.md) recalls a severe principle: an agent can propose a lead, but only evidence supports a conclusion.
 
-Infine, [*When Words Fail*](https://github.com/FTG-003/yukina/blob/main/src/contents/posts/research/CRDTs-05-02-26.md) ricorda che una comunità può collaborare senza raggiungere subito un consenso.
+Finally, [*When Words Fail*](https://github.com/FTG-003/yukina/blob/main/src/contents/posts/research/CRDTs-05-02-26.md) reminds us that a community can collaborate without reaching immediate consensus.
 
-Questi tentativi non compongono un'architettura verificata. Indicano però una stessa tensione: **come fare in modo che la collaborazione produca comprensione, memoria e capacità di correzione — e non soltanto altri testi?**
+These attempts don't add up to a verified architecture. But they point to the same tension: **how to make collaboration produce understanding, memory, and the capacity for correction — and not just more text.**
 
-## Se una previsione cambia il fenomeno
+## When a prediction changes the phenomenon
 
-C'è un problema più sottile.
+There's a subtler problem.
 
-Le previsioni sui sistemi umani non si limitano a osservare. Possono modificare le decisioni di chi le riceve. La ricerca contemporanea parla di *performative prediction*: quando una previsione influenza il comportamento, la distribuzione dei dati su cui il modello viene valutato cambia [4].
+Predictions about human systems don't just observe. They can change the decisions of the people who receive them. Contemporary research calls this *performative prediction*: when a prediction influences behavior, the data distribution on which the model is evaluated shifts [4].
 
-von Foerster lo sapeva. La sua ricerca nella cibernetica aveva già posto il problema del rapporto fra osservatore e sistema osservato.
+Von Foerster knew this. His work in cybernetics had already raised the problem of the relationship between observer and observed system.
 
-Non possiamo dedurre che l'articolo del 1960 abbia causato il cambiamento della fertilità mondiale. Una simile affermazione richiederebbe prove specifiche. Ma possiamo chiederci: **come dovrebbe lavorare una comunità di ricerca quando le sue stesse previsioni entrano nel sistema che sta studiando?**
+We can't conclude that the 1960 article caused the change in world fertility. That claim would require specific evidence. But we can ask: **how should a research community work when its own predictions enter the system it is studying?**
 
-Una conoscenza adattiva dovrebbe essere capace — almeno in linea di principio — di prendere in esame anche questi effetti.
+An adaptive body of knowledge should be able — at least in principle — to examine these effects too.
 
-E c'è un altro rischio.
+And there's another risk.
 
-La continuità non garantisce la verità. Anzi: può consolidare un errore. Se una comunità approva solo le ipotesi compatibili con la propria visione, costruirà una narrazione coerente e sempre meno affidabile. Più AI addestrate su fonti simili amplificano lo stesso difetto.
+Continuity doesn't guarantee truth. Quite the opposite: it can consolidate error. If a community systematically approves only hypotheses compatible with its own worldview, it will build an increasingly coherent — and potentially less reliable — narrative. Multiple AI systems trained on similar sources amplify the same flaw.
 
-Una ricerca che aggiorna continuamente le conclusioni, sovrascrivendo quelle passate, diventa impossibile da valutare. Ogni previsione sbagliata scompare dietro quella nuova.
+Research that continuously updates its conclusions, overwriting past ones, becomes impossible to evaluate. Every wrong prediction disappears behind the new one.
 
-Per questo la proposta avrebbe bisogno di garanzie operative: previsioni datate e immodificabili. Versioni successive collegate. Fonti identificabili. Incertezza esplicita. Dissenso conservato. Controlli con dati non usati nella costruzione del modello. Responsabilità dei contributi umani e artificiali.
+This is why the proposal would need operational guarantees: dated and immutable predictions. Linked successive versions. Identifiable sources. Explicit uncertainty. Preserved dissent. Holdout tests with data not used in model construction. Accountability for human and artificial contributions.
 
-Una comunità non dovrebbe essere premiata perché riesce sempre a raggiungere un accordo. Dovrebbe essere valutata per **quanto bene riconosce quando ha torto**.
+A community should not be rewarded for always reaching agreement. It should be evaluated for **how well it recognizes when it is wrong**.
 
-## Una prova concreta
+## A concrete test
 
-Partiamo dal modello demografico del 1960.
+Start with the 1960 demographic model.
 
-Ricostruiamo una serie di previsioni usando solo i dati disponibili a ciascuna data: le informazioni fino al 1960, poi gli aggiornamenti successivi — senza introdurre retroattivamente conoscenze future.
+Reconstruct a series of predictions using only the data available at each point: information up to 1960, then successive updates — without retroactively introducing future knowledge.
 
-Confrontiamo tre condizioni:
+Compare three conditions:
 
-1. **Modello congelato:** una previsione iniziale che resta invariata.
-2. **Modello aggiornato:** una procedura che incorpora nuovi dati secondo regole dichiarate.
-3. **Ricerca collaborativa persistente:** partecipanti umani e AI discutono ipotesi alternative, documentano le revisioni e usano una memoria comune strutturata.
+1. **Frozen model:** an initial prediction that stays unchanged.
+2. **Updated model:** a procedure that incorporates new data according to declared rules.
+3. **Persistent collaborative research:** human participants and AI discuss alternative hypotheses, document revisions, and use a shared structured memory.
 
-Non basta vedere quale produce il numero più vicino alla popolazione osservata. Bisogna misurare: errore fuori campione, calibrazione degli intervalli di incertezza, tempo necessario per riconoscere il deterioramento di un modello, capacità di recuperare decisioni precedenti, qualità delle spiegazioni.
+It's not enough to see which one produces the number closest to observed population. We need to measure: out-of-sample error, calibration of uncertainty intervals, time needed to recognize model deterioration, ability to retrieve past decisions, quality of explanations.
 
-Bisogna anche controllare due distorsioni: che la terza condizione non abbia semplicemente più informazioni o risorse, e che gli umani non stiano usando inconsapevolmente conoscenze del futuro durante la simulazione retrospettiva.
+We also need to control for two biases: that the third condition doesn't simply have more information or resources, and that humans aren't unconsciously using future knowledge during the retrospective simulation.
 
-Se la collaborazione umano–AI producesse risultati migliori, avremmo un primo indizio da approfondire. Se non li producesse, avremmo comunque imparato qualcosa sui limiti del modello proposto.
+If human–AI collaboration produced better results, we'd have an initial clue worth pursuing. If it didn't, we'd still have learned something about the limits of the proposed model.
 
-E un'ultima distinzione: **previsioni più precise** non è lo stesso di **conoscenza migliore**. Un gruppo può migliorare la spiegazione e la tracciabilità di un fenomeno senza produrre una stima numerica più accurata. Sarebbe un progresso reale — ma va misurato per quello che è.
+One last distinction: **more accurate predictions** is not the same as **better knowledge**. A group can improve the explanation and traceability of a phenomenon without producing a more precise numerical estimate. That would be real progress — but it needs to be measured for what it is.
 
-## L'articolo del 1960 non è diventato sbagliato
+## The 1960 article didn't become wrong
 
-Il 13 novembre 2026 la popolazione umana non è infinita. L'articolo del 1960 resta quello che era: una domanda posta in un momento storico, con i dati disponibili allora, dentro un modello che dichiarava le sue condizioni.
+November 13, 2026. The human population is not infinite. The 1960 article remains what it was: a question posed at a historical moment, with the data available then, inside a model that stated its conditions.
 
-Non va riscritto. Va riletto, contestualizzato, usato per formulare domande nuove.
+It doesn't need to be rewritten. It needs to be reread, contextualized, and used to ask new questions.
 
-Quella che proponiamo oggi non ha ancora una risposta:
+What we're proposing today doesn't have an answer yet:
 
-**e se il futuro della conoscenza non fosse soltanto pubblicare ciò che abbiamo scoperto, ma costruire comunità capaci di continuare a scoprire, ricordare e correggersi insieme?**
+**what if the future of knowledge isn't just publishing what we've discovered, but building communities capable of continuing to discover, remember, and correct themselves together?**
 
-Per Pyragogy, questo articolo è un punto di partenza. La proposta è aperta alla critica, alla revisione e — soprattutto — alla prova dei fatti.
+For Pyragogy, this article is a starting point. The proposal is open to criticism, to revision, and — above all — to the test of facts.
 
 ---
 
-## Riferimenti e approfondimenti
+## References
 
 1. **von Foerster, H., Mora, P. M., & Amiot, L. W. (1960).** *Doomsday: Friday, 13 November, A.D. 2026. At this date human population will approach infinity if it grows as it has grown in the last two millenia.* *Science*, 132(3436), 1291–1295. [DOI](https://doi.org/10.1126/science.132.3436.1291) · [PubMed PMID 13782058](https://pubmed.ncbi.nlm.nih.gov/13782058/).
-2. **United Nations, Department of Economic and Social Affairs, Population Division (2024).** *World Population Prospects 2024*. [Portale ufficiale](https://population.un.org/wpp/).
-3. **Cochrane.** *Cochrane Handbook for Systematic Reviews of Interventions*, capitolo sulle *living systematic reviews*. [Manuale ufficiale](https://training.cochrane.org/handbook/current).
-4. **Perdomo, J., Zrnic, T., Mendler-Dünner, C., & Hardt, M. (2020).** *Performative Prediction*. *Proceedings of the 37th International Conference on Machine Learning*, PMLR 119, 7599–7609. [Testo e riferimenti](https://proceedings.mlr.press/v119/perdomo20a.html).
+2. **United Nations, Department of Economic and Social Affairs, Population Division (2024).** *World Population Prospects 2024*. [Official portal](https://population.un.org/wpp/).
+3. **Cochrane.** *Cochrane Handbook for Systematic Reviews of Interventions*, chapter on living systematic reviews. [Official handbook](https://training.cochrane.org/handbook/current).
+4. **Perdomo, J., Zrnic, T., Mendler-Dünner, C., & Hardt, M. (2020).** *Performative Prediction*. *Proceedings of the 37th International Conference on Machine Learning*, PMLR 119, 7599–7609. [Paper and references](https://proceedings.mlr.press/v119/perdomo20a.html).
 
-**Stato scientifico della proposta.** La *Conoscenza di Dominio Attiva e Adattiva* (AADK) è presentata qui come un'ipotesi concettuale da definire e verificare, non come una metodologia già validata. I lavori Pyragogy collegati sono precedenti esplorativi, non prove della superiorità dell'approccio.
+**Scientific status of the proposal.** *Active and Adaptive Domain Knowledge* (AADK) is presented here as a conceptual hypothesis to be defined and tested, not as a validated methodology. The related Pyragogy works are exploratory precedents, not evidence of the approach's superiority.
