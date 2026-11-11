@@ -10,15 +10,15 @@ bannerImage: /banner/9.webp
 cover: /banner/9.webp
 ---
 
-<!-- Editorial note: the source portrait must exist at public/image/Heinz_von_Foerster.jpeg before final publication. Verify the photograph's provenance, license and attribution. Banner/cover are still provisional. -->
+<!-- Editorial note: the source portrait was placed at public/images/Heinz_von_Foerster.jpeg by the author; converted copy at public/images/heinz-von-foerster.webp. Verify license and attribution before publication. Banner/cover are still provisional. -->
 
 ## 1. The original 1960 study
 
 <small><strong>SCIENCE · 4 NOVEMBER 1960</strong></small>
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:1.5rem;align-items:start;margin:1.25rem 0 2rem">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;margin:1.25rem 0 2rem">
   <figure style="margin:0">
-    <img src="/image/Heinz_von_Foerster.jpeg" alt="Historical portrait of Heinz von Foerster" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:0.65rem" />
+    <img src="/images/heinz-von-foerster.webp" alt="Historical portrait of Heinz von Foerster" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:0.65rem" />
     <figcaption style="font-size:0.85rem;line-height:1.45;opacity:0.8;margin-top:0.55rem">Heinz von Foerster (1911–2002), physicist and pioneer of cybernetics. <em>Photo credit and license to be confirmed.</em></figcaption>
   </figure>
   <div>
