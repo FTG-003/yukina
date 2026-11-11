@@ -10,19 +10,29 @@ bannerImage: /banner/9.webp
 cover: /banner/9.webp
 ---
 
-<!-- TODO EDITORIALE: sostituire bannerImage/cover provvisori; inserire qui un ritratto di Heinz von Foerster, con provenienza e licenza verificate, a sinistra della scheda bibliografica su desktop e sopra su mobile. -->
+<!-- Editorial note: the source portrait must exist at public/image/Heinz_von_Foerster.jpeg before final publication. Verify the photograph's provenance, license and attribution. Banner/cover are still provisional. -->
 
-> ### Doomsday: Friday, 13 November, A.D. 2026
->
-> *At this date human population will approach infinity if it grows as it has grown in the last two millenia.*
->
-> **Authors:** Heinz von Foerster, Patricia M. Mora, and Lawrence W. Amiot.  
-> **Published:** November 4, 1960.  
-> **Journal:** *Science*, volume 132, number 3436, pp. 1291–1295.  
-> **DOI:** [10.1126/science.132.3436.1291](https://doi.org/10.1126/science.132.3436.1291)  
-> **PubMed:** [PMID 13782058](https://pubmed.ncbi.nlm.nih.gov/13782058/).
->
-> The subtitle carried the decisive condition: human population would approach infinity **if** it kept growing as it had for the previous two millennia.
+## 1. The original 1960 study
+
+<small><strong>SCIENCE · 4 NOVEMBER 1960</strong></small>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:1.5rem;align-items:start;margin:1.25rem 0 2rem">
+  <figure style="margin:0">
+    <img src="/image/Heinz_von_Foerster.jpeg" alt="Historical portrait of Heinz von Foerster" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:0.65rem" />
+    <figcaption style="font-size:0.85rem;line-height:1.45;opacity:0.8;margin-top:0.55rem">Heinz von Foerster (1911–2002), physicist and pioneer of cybernetics. <em>Photo credit and license to be confirmed.</em></figcaption>
+  </figure>
+  <div>
+    <h3 style="margin-top:0">Doomsday: Friday, 13 November, A.D. 2026</h3>
+    <p><em>“Judgment Day: Friday, 13 November 2026”</em></p>
+    <p><strong>Authors:</strong> Heinz von Foerster, Patricia M. Mora, and Lawrence W. Amiot.</p>
+    <p><strong>Journal:</strong> <em>Science</em>, vol. 132, no. 3436, pp. 1291–1295.</p>
+    <p><strong>Published:</strong> 4 November 1960.</p>
+    <p><strong>DOI:</strong> <a href="https://doi.org/10.1126/science.132.3436.1291">10.1126/science.132.3436.1291</a></p>
+    <p><strong>PubMed:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/13782058/">PMID 13782058</a></p>
+  </div>
+</div>
+
+The paper's full title included a crucial condition: <em>“At this date human population will approach infinity if it grows as it has grown in the last two millenia.”</em> The word <strong>if</strong> matters: the singularity was a consequence of extending a historical trend, not a claim that an infinite population was physically possible.
 
 A few days ago I checked the date. Friday, November 13, 2026. Sixty-six years earlier, three researchers had published in *Science* a title still hard to forget.
 
