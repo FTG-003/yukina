@@ -14,16 +14,47 @@ cover: /banner/21.webp
 
 ## 1. The original 1960 study
 
+
+<style>
+  .pyr-figure { margin: 2.35rem 0; }
+  .pyr-figure .pyr-scroll { overflow-x: auto; border: 1px solid var(--primary-color-lighten); border-radius: 14px; padding: clamp(12px, 2vw, 24px); color: var(--text-color); background: var(--card-color); }
+  .pyr-figure svg { display: block; width: 100%; min-width: 620px; height: auto; color: var(--text-color); overflow: visible; }
+  .pyr-figure figcaption { margin-top: 0.75rem; font-size: .85rem; line-height: 1.55; color: var(--text-color); opacity: .82; }
+  .pyr-figure .pyr-kicker { font: 650 12px/1.2 system-ui, sans-serif; letter-spacing: .13em; fill: var(--primary-color); }
+  .pyr-figure .pyr-title { font: 650 26px/1.1 system-ui, sans-serif; fill: currentColor; }
+  .pyr-figure .pyr-body { font: 450 16px/1.4 system-ui, sans-serif; fill: currentColor; }
+  .pyr-figure .pyr-small { font: 450 13px/1.35 system-ui, sans-serif; fill: currentColor; opacity: .79; }
+  .pyr-figure .pyr-label { font: 650 15px/1.3 system-ui, sans-serif; fill: currentColor; }
+  .pyr-figure .pyr-rule { stroke: currentColor; stroke-opacity: .17; }
+  .pyr-figure .pyr-accent { stroke: var(--primary-color); fill: none; }
+  .pyr-figure .pyr-accent-fill { fill: var(--primary-color); }
+  .pyr-figure .pyr-panel { fill: currentColor; fill-opacity: .035; stroke: currentColor; stroke-opacity: .12; }
+  .pyr-math-explainer { margin: 2.15rem 0; padding: clamp(18px,3vw,30px); border: 1px solid var(--primary-color-lighten); border-left: 3px solid var(--primary-color); border-radius: 12px; background: var(--card-color); }
+  .pyr-math-explainer .math-label { color: var(--primary-color); font-size: .76rem; letter-spacing: .12em; text-transform: uppercase; font-weight: 750; }
+  .pyr-math-explainer + .katex-display { font-size: 1.55em; }
+  .pyr-formula-shell { margin: 1.8rem 0 0; padding: 1.35rem 1rem; background: var(--card-color); border: 1px solid var(--primary-color-lighten); border-radius: 12px; }
+  .pyr-formula-shell .katex-display { font-size: clamp(1.3rem,3vw,2rem); margin: .35em 0; }
+  .pyr-legend { margin: .75rem 0 1.55rem; padding: .6rem 0 .6rem 1.25rem; border-left: 2px solid var(--primary-color); }
+  .pyr-legend p { margin: .45rem 0; }
+  @media (max-width: 640px) {
+    .pyr-biblio { grid-template-columns: 1fr !important; }
+    .pyr-biblio figure { max-width: 320px; }
+    .pyr-figure .pyr-scroll { padding: 12px; }
+    .pyr-figure svg { min-width: 610px; }
+    .pyr-figure figcaption { font-size: .82rem; }
+  }
+</style>
+
 <small><strong>SCIENCE · 4 NOVEMBER 1960</strong></small>
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;margin:1.25rem 0 2rem">
+<div class="pyr-biblio" style="display:grid;grid-template-columns: minmax(0,0.85fr) minmax(0,1.15fr);gap:clamp(1rem,3vw,2rem);align-items:start;margin:1.25rem 0 2rem">
   <figure style="margin:0">
-    <img src="/images/heinz-von-foerster.webp" alt="Historical portrait of Heinz von Foerster" loading="lazy" decoding="async" style="display:block;width:70%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:0.65rem" />
+    <img src="/images/heinz-von-foerster.webp" alt="Historical portrait of Heinz von Foerster" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;object-fit:contain;border-radius:0.65rem" />
     <figcaption style="font-size:0.85rem;line-height:1.45;opacity:0.8;margin-top:0.55rem">Heinz von Foerster (1911–2002), physicist and pioneer of cybernetics. <em>Photo credit and license to be confirmed.</em></figcaption>
   </figure>
   <div>
-    <h3 style="margin-top:0">Doomsday: Friday, 13 November, A.D. 2026</h3>
-    <p><em>“Judgment Day: Friday, 13 November 2026”</em></p>
+    <h3 style="margin:0 0 1.1rem;font-size:clamp(1.35rem,2.8vw,1.85rem);line-height:1.25">Doomsday: Friday, 13 November, A.D. 2026</h3>
+    <p style="opacity:.78;font-size:.94em"><em>“Judgment Day: Friday, 13 November 2026”</em></p>
     <p><strong>Authors:</strong> Heinz von Foerster, Patricia M. Mora, and Lawrence W. Amiot.</p>
     <p><strong>Journal:</strong> <em>Science</em>, vol. 132, no. 3436, pp. 1291–1295.</p>
     <p><strong>Published:</strong> 4 November 1960.</p>
@@ -40,12 +71,48 @@ They weren't writing science fiction. They took two thousand years of censuses, 
 
 A simplified version of that pattern:
 
+<div class="pyr-formula-shell">
+
 $$
-N(t)=\frac{C}{t_0-t}
+N(t)=\\frac{C}{t_0-t}
 $$
 
-$N(t)$ is the population, $C$ a constant, and $t_0$ the singularity date. The closer time gets to $t_0$, the closer the denominator gets to zero, the more the predicted population explodes. Their extrapolation pointed to **November 13, 2026**.
+</div>
 
+<div class="pyr-legend">
+  <p><strong>N(t)</strong> — population predicted at time <em>t</em>.</p>
+  <p><strong>C</strong> — a constant fitted to the historical estimates.</p>
+  <p><strong>t₀</strong> — the mathematical singularity date (13 November 2026 in the extrapolation).</p>
+  <p><strong>t → t₀</strong> — the denominator tends toward zero, so the modeled population grows without bound.</p>
+</div>
+
+<figure class="pyr-figure">
+  <div class="pyr-scroll">
+    <svg viewBox="0 0 920 400" role="img" aria-labelledby="hyper-title hyper-desc" xmlns="http://www.w3.org/2000/svg">
+      <title id="hyper-title">A hyperbolic extrapolation approaching a finite-time singularity</title>
+      <desc id="hyper-desc">Conceptual mathematical illustration. A curve bends sharply upward as it approaches a dashed vertical boundary labelled 13 November 2026. These are not measured population data.</desc>
+      <text x="24" y="28" class="pyr-kicker">01 / THE MATHEMATICAL LIMIT</text>
+      <text x="24" y="65" class="pyr-title">A trend is not a law of nature.</text>
+      <text x="24" y="93" class="pyr-small">Illustrative trajectory: reciprocal growth as time approaches t₀</text>
+      <path d="M80 124V333H846" class="pyr-rule" fill="none" stroke-width="1.5"/>
+      <path d="M80 287H846M80 242H846M80 197H846M80 152H846" class="pyr-rule" fill="none" stroke-width="1" stroke-dasharray="3 7"/>
+      <path d="M738 122V334" class="pyr-accent" stroke-width="1.6" stroke-dasharray="6 6"/>
+      <text x="738" y="358" text-anchor="middle" class="pyr-label">13 NOV 2026</text>
+      <text x="738" y="376" text-anchor="middle" class="pyr-small">t₀ · model boundary</text>
+      <path d="M80 325C200 322 345 318 460 307C560 296 624 272 661 240C698 209 718 168 730 125" class="pyr-accent" stroke-width="4" stroke-linecap="round" fill="none"/>
+      <circle cx="460" cy="307" r="5" class="pyr-accent-fill"/>
+      <circle cx="661" cy="240" r="5" class="pyr-accent-fill"/>
+      <text x="463" y="289" class="pyr-small">Acceleration</text>
+      <path d="M766 156H888" class="pyr-accent" stroke-width="1.5"/>
+      <text x="766" y="178" class="pyr-label">Asymptote</text>
+      <text x="766" y="200" class="pyr-small">not a physical event</text>
+      <text x="80" y="357" class="pyr-small">Earlier t</text>
+      <text x="840" y="357" class="pyr-small" text-anchor="end">Time →</text>
+      <text x="44" y="228" class="pyr-small" transform="rotate(-90 44 228)" text-anchor="middle">Model output (arbitrary units)</text>
+    </svg>
+  </div>
+  <figcaption>Conceptual reconstruction of the equation, not a chart of historical population or an exact reproduction of the 1960 fit. The vertical line marks where the mathematical model ceases to give a finite prediction.</figcaption>
+</figure>
 It wasn't a demonstration that infinite population was materially possible. It was the mathematical consequence of a model pushed beyond any sustainable limit. The title caught attention; the subtitle stated the condition: *if* growth continued as before.
 
 For decades the curve stayed surprisingly close to reality. Then fertility declined, education expanded, cities transformed. The demographic transition took another path.
@@ -105,6 +172,50 @@ Contestable — because it doesn't hide alternatives and dissent.
 
 The property that holds all this together is **epistemic continuity**: the ability to reconstruct *how* and *why* a community arrived at a particular conclusion.
 
+<figure class="pyr-figure">
+  <div class="pyr-scroll">
+    <svg viewBox="0 0 920 490" role="img" aria-labelledby="continuity-title continuity-desc" xmlns="http://www.w3.org/2000/svg">
+      <title id="continuity-title">Epistemic continuity: knowledge evolves without erasing its earlier states</title>
+      <desc id="continuity-desc">A timeline has three versions of a hypothesis, each connected to new evidence and recorded objections. The older versions remain visible, and a line labelled persistent memory connects them.</desc>
+      <text x="24" y="29" class="pyr-kicker">02 / EPISTEMIC CONTINUITY</text>
+      <text x="24" y="67" class="pyr-title">Revision without erasure.</text>
+      <text x="24" y="95" class="pyr-small">A domain keeps the history of why its claims changed.</text>
+      <line x1="125" y1="159" x2="797" y2="159" class="pyr-accent" stroke-width="2"/>
+      <path d="M789 153L802 159L789 165" class="pyr-accent" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="126" y="142" class="pyr-label">1960</text>
+      <text x="433" y="142" class="pyr-label" text-anchor="middle">NEW EVIDENCE</text>
+      <text x="796" y="142" class="pyr-label" text-anchor="end">ONGOING</text>
+      <circle cx="137" cy="159" r="7" class="pyr-accent-fill"/>
+      <circle cx="459" cy="159" r="7" class="pyr-accent-fill"/>
+      <circle cx="783" cy="159" r="7" class="pyr-accent-fill"/>
+      <rect x="54" y="187" width="249" height="127" rx="10" class="pyr-panel"/>
+      <rect x="334" y="187" width="249" height="127" rx="10" class="pyr-panel"/>
+      <rect x="614" y="187" width="249" height="127" rx="10" class="pyr-panel"/>
+      <text x="75" y="216" class="pyr-kicker">CLAIM / VERSION 01</text>
+      <text x="75" y="246" class="pyr-label">Historical extrapolation</text>
+      <text x="75" y="273" class="pyr-small">Assumptions documented</text>
+      <text x="75" y="293" class="pyr-small">Prediction preserved</text>
+      <text x="355" y="216" class="pyr-kicker">CLAIM / VERSION 02</text>
+      <text x="355" y="246" class="pyr-label">Revision after evidence</text>
+      <text x="355" y="273" class="pyr-small">New demographic signals</text>
+      <text x="355" y="293" class="pyr-small">Reasons recorded</text>
+      <text x="635" y="216" class="pyr-kicker">CLAIM / VERSION 03</text>
+      <text x="635" y="246" class="pyr-label">Current interpretation</text>
+      <text x="635" y="273" class="pyr-small">Uncertainty retained</text>
+      <text x="635" y="293" class="pyr-small">Questions remain open</text>
+      <path d="M303 245H334M583 245H614" class="pyr-accent" stroke-width="2" stroke-dasharray="4 4"/>
+      <path d="M178 322V361H740V322" class="pyr-accent" stroke-width="1.6" stroke-opacity=".75"/>
+      <path d="M458 322V361" class="pyr-accent" stroke-width="1.6" stroke-opacity=".75"/>
+      <rect x="257" y="341" width="405" height="47" rx="23.5" fill="var(--card-color)" stroke="var(--primary-color)" stroke-width="1.5"/>
+      <text x="460" y="370" text-anchor="middle" class="pyr-label">PERSISTENT, TRACEABLE MEMORY</text>
+      <text x="81" y="431" class="pyr-small">Sources  ·  decisions  ·  dissent  ·  errors  ·  model versions</text>
+      <line x1="80" y1="448" x2="839" y2="448" class="pyr-rule" stroke-width="1"/>
+      <text x="81" y="475" class="pyr-small">The previous model is not overwritten; its provenance stays inspectable.</text>
+    </svg>
+  </div>
+  <figcaption>Proposed design principle—not an existing validated AADK implementation. Each revision must preserve the original claim, its sources, the reason for change, and unresolved objections.</figcaption>
+</figure>
+
 ## What we've already tried to say
 
 We're not starting from nothing. In Pyragogy's earlier work, similar questions resurface in different forms. They're not evidence for AADK — they're precedents that help define it.
@@ -138,6 +249,50 @@ Research that continuously updates its conclusions, overwriting past ones, becom
 This is why the proposal would need operational guarantees: dated and immutable predictions. Linked successive versions. Identifiable sources. Explicit uncertainty. Preserved dissent. Holdout tests with data not used in model construction. Accountability for human and artificial contributions.
 
 A community should not be rewarded for always reaching agreement. It should be evaluated for **how well it recognizes when it is wrong**.
+
+<figure class="pyr-figure">
+  <div class="pyr-scroll">
+    <svg viewBox="0 0 920 445" role="img" aria-labelledby="gate-title gate-desc" xmlns="http://www.w3.org/2000/svg">
+      <title id="gate-title">The critical difference between agreement and evidence</title>
+      <desc id="gate-desc">Two contrasting paths. A closed feedback loop reinforces the same assumption. An evidence-gated path requires independent observations, recorded counterevidence and accountable revision before a claim is accepted.</desc>
+      <text x="24" y="29" class="pyr-kicker">03 / THE EVIDENCE GATE</text>
+      <text x="24" y="67" class="pyr-title">Agreement is not validation.</text>
+      <text x="24" y="94" class="pyr-small">Persistent collaboration needs an escape route from shared bias.</text>
+      <rect x="24" y="116" width="420" height="267" rx="13" class="pyr-panel"/>
+      <rect x="475" y="116" width="420" height="267" rx="13" class="pyr-panel"/>
+      <text x="46" y="151" class="pyr-label">A · CLOSED LOOP</text>
+      <text x="497" y="151" class="pyr-label">B · EVIDENCE-GATED REVISION</text>
+      <rect x="64" y="181" width="150" height="56" rx="8" class="pyr-panel"/>
+      <rect x="258" y="181" width="150" height="56" rx="8" class="pyr-panel"/>
+      <text x="139" y="204" text-anchor="middle" class="pyr-label">Assumption</text>
+      <text x="139" y="224" text-anchor="middle" class="pyr-small">“This must be true”</text>
+      <text x="333" y="204" text-anchor="middle" class="pyr-label">AI agreement</text>
+      <text x="333" y="224" text-anchor="middle" class="pyr-small">Same sources / bias</text>
+      <path d="M214 209H258M333 237V293H139V237" class="pyr-accent" stroke-width="2" stroke-dasharray="4 5"/>
+      <path d="M247 204l11 5-11 5M144 250l-5-13-5 13" class="pyr-accent" stroke-width="2"/>
+      <text x="235" y="323" text-anchor="middle" class="pyr-label">More coherence ≠ more truth</text>
+      <text x="235" y="347" text-anchor="middle" class="pyr-small">The loop only confirms itself.</text>
+      <rect x="499" y="182" width="108" height="65" rx="8" class="pyr-panel"/>
+      <rect x="632" y="173" width="112" height="83" rx="8" fill="var(--card-color)" stroke="var(--primary-color)" stroke-width="2"/>
+      <rect x="768" y="182" width="104" height="65" rx="8" class="pyr-panel"/>
+      <text x="553" y="208" text-anchor="middle" class="pyr-label">Hypothesis</text>
+      <text x="553" y="228" text-anchor="middle" class="pyr-small">Human / AI</text>
+      <text x="688" y="200" text-anchor="middle" class="pyr-kicker">GATE</text>
+      <text x="688" y="226" text-anchor="middle" class="pyr-label">Evidence</text>
+      <text x="688" y="242" text-anchor="middle" class="pyr-small">independent</text>
+      <text x="820" y="208" text-anchor="middle" class="pyr-label">Revision</text>
+      <text x="820" y="228" text-anchor="middle" class="pyr-small">or rejection</text>
+      <path d="M607 214H632M744 214H768" class="pyr-accent" stroke-width="2"/>
+      <path d="M623 209l9 5-9 5M759 209l9 5-9 5" class="pyr-accent" stroke-width="2"/>
+      <text x="684" y="297" text-anchor="middle" class="pyr-label">Counterevidence is retained.</text>
+      <text x="684" y="323" text-anchor="middle" class="pyr-small">Responsibility and provenance remain explicit.</text>
+      <text x="684" y="348" text-anchor="middle" class="pyr-small">An AI-generated claim is never its own proof.</text>
+      <line x1="24" y1="403" x2="895" y2="403" class="pyr-rule" stroke-width="1"/>
+      <text x="24" y="430" class="pyr-small">Design comparison · schematic, not an experimental result</text>
+    </svg>
+  </div>
+  <figcaption>Two governance patterns for human–AI inquiry: recursive agreement versus independent evidence and accountable revision. The diagram describes the proposed safeguard, not a measured outcome.</figcaption>
+</figure>
 
 ## A concrete test
 
