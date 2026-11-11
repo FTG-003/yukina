@@ -2,11 +2,11 @@
 title: "The Day Humanity Was Supposed to Become Infinite"
 published: 2026-11-13
 draft: true
-description: "From a 1960 demographic prediction to a Pyragogy hypothesis: human–AI communities that preserve, contest, and develop domain knowledge over time."
+description: "From a 1960 demographic prediction to a Pyragogy hypothesis"
 tags: [Pyragogy, Demography, Cybernetics, Adaptive Knowledge, Human-AI Collaboration]
 category: Research
 author: Fabrizio Terzi
-bannerImage: /banner/22.webp
+bannerImage: /banner/2.webp
 cover: /banner/21.webp
 ---
 
@@ -18,7 +18,7 @@ cover: /banner/21.webp
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;margin:1.25rem 0 2rem">
   <figure style="margin:0">
-    <img src="/images/heinz-von-foerster.webp" alt="Historical portrait of Heinz von Foerster" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:0.65rem" />
+    <img src="/images/heinz-von-foerster.webp" alt="Historical portrait of Heinz von Foerster" loading="lazy" decoding="async" style="display:block;width:70%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:0.65rem" />
     <figcaption style="font-size:0.85rem;line-height:1.45;opacity:0.8;margin-top:0.55rem">Heinz von Foerster (1911–2002), physicist and pioneer of cybernetics. <em>Photo credit and license to be confirmed.</em></figcaption>
   </figure>
   <div>
