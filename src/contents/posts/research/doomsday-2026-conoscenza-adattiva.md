@@ -38,7 +38,7 @@ $$
 N(t)=\frac{C}{t_0-t}
 $$
 
-Qui \(N(t)\) è la popolazione, \(C\) una costante e \(t_0\) la data della singolarità. Quando il tempo si avvicina a \(t_0\), il denominatore tende a zero e la popolazione prevista cresce senza limite. L'estrapolazione degli autori individuava proprio il **13 novembre 2026**.
+Qui $N(t)$ è la popolazione, $C$ una costante e $t_0$ la data della singolarità. Quando il tempo si avvicina a $t_0$, il denominatore tende a zero e la popolazione prevista cresce senza limite. L'estrapolazione degli autori individuava proprio il **13 novembre 2026**.
 
 Non era la dimostrazione che una popolazione materialmente infinita fosse possibile. Era la conseguenza matematica di un modello applicato oltre un limite fisicamente e socialmente sostenibile. Il titolo attirava l'attenzione; il sottotitolo ne dichiarava la condizione: *se* la crescita fosse proseguita come prima.
 
