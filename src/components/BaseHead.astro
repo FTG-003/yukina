@@ -29,6 +29,17 @@ const ogImage = new URL(image || "/og-image.png", Astro.site);
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL.toString()} />
 
+<!-- Forza tema dark di default prima del rendering per evitare flash -->
+<script is:inline>
+  (function() {
+    var theme = localStorage.getItem('yukina-theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', theme);
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    }
+  })();
+</script>
+
 <!-- Primary Meta Tags -->
 <title>{title ?? YukinaConfig.title}</title>
 <meta name="title" content={title ?? YukinaConfig.title} />
