@@ -35,10 +35,10 @@ const props = Astro.props;
   }
 
   <div class="main-container my-10">
-    <div class="flex flex-row items-start xl:space-x-4">
-      <div class="side-bar">
+    <div class="layout-columns">
+      <aside class="side-bar" aria-label="Blog sidebar">
         <SideBar />
-      </div>
+      </aside>
       <div class="transition-leaving content-wrapper space-y-8">
         <main class="content onload-animation">
           <slot />
@@ -57,18 +57,45 @@ const props = Astro.props;
     @apply xl:min-w-[var(--page-width-xl)] xl:max-w-[var(--page-width-xl)];
   }
 
-  .side-bar {
-    @apply hidden min-w-[248px] xl:block;
+  /* Keep sidebar and article in independent grid tracks. A long article,
+     formula, or SVG cannot push the sidebar out of the layout. */
+  .layout-columns {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+    min-width: 0;
   }
 
-  .content {
-    @apply w-full overflow-x-hidden;
-    @apply xl:w-[calc(var(--page-width-xl)-264px)];
+  .side-bar {
+    display: none;
+    min-width: 0;
+    width: 248px;
   }
 
   .content-wrapper {
     min-width: 0;
-    flex: 1 1 0%;
+    max-width: 100%;
+    width: 100%;
     overflow: hidden;
+  }
+
+  .content {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* 992px container + 248px sidebar + 16px gap leave sufficient room
+     for the article at the lg breakpoint, including Chromium. */
+  @media (min-width: 1024px) {
+    .layout-columns {
+      grid-template-columns: 248px minmax(0, 1fr);
+    }
+
+    .side-bar {
+      display: block;
+    }
   }
 </style>
