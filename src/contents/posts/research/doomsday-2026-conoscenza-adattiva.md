@@ -1,7 +1,7 @@
 ---
 title: "The Day Humanity Was Supposed to Become Infinite"
 published: 2026-11-13
-draft: true
+draft: false
 description: "From a 1960 demographic prediction to a Pyragogy hypothesis"
 tags: [Pyragogy, Demography, Cybernetics, Adaptive Knowledge, Human-AI Collaboration]
 category: Research
