@@ -35,11 +35,11 @@ const props = Astro.props;
   }
 
   <div class="main-container my-10">
-    <div class="flex flex-row items-start xl:space-x-4">
-      <div class="side-bar">
+    <div class="layout-columns">
+      <aside class="side-bar" aria-label="Blog sidebar">
         <SideBar />
-      </div>
-      <div class="transition-leaving w-full space-y-8">
+      </aside>
+      <div class="transition-leaving content-wrapper space-y-8">
         <main class="content onload-animation">
           <slot />
         </main>
@@ -57,12 +57,40 @@ const props = Astro.props;
     @apply xl:min-w-[var(--page-width-xl)] xl:max-w-[var(--page-width-xl)];
   }
 
+  /* The two columns have independent tracks; article overflow cannot
+     consume the sidebar width or alter its placement. */
+  .layout-columns {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+    gap: 1rem;
+    min-width: 0;
+  }
+
   .side-bar {
-    @apply hidden min-w-[248px] lg:block;
+    display: none;
+    width: 248px;
+    min-width: 0;
+  }
+
+  .content-wrapper,
+  .content {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
   }
 
   .content {
-    @apply w-full overflow-x-hidden;
-    @apply xl:w-[calc(var(--page-width-xl)-264px)];
+    overflow-x: hidden;
+  }
+
+  @media (min-width: 1024px) {
+    .layout-columns {
+      grid-template-columns: 248px minmax(0, 1fr);
+    }
+
+    .side-bar {
+      display: block;
+    }
   }
 </style>
