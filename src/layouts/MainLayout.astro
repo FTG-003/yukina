@@ -61,7 +61,12 @@ const props = Astro.props;
     @apply hidden min-w-[248px] xl:block;
   }
 
+  /* Contenuto: larghezza piena senza sidebar, ridotta se sidebar presente */
   .content {
     @apply xl:w-[calc(var(--page-width-xl)-264px)];
+  }
+
+  .layout-flex:not(:has(.side-bar)) .content {
+    @apply xl:w-full;
   }
 </style>
