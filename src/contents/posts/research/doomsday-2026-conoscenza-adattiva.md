@@ -1,7 +1,7 @@
 ---
 title: "The Day Humanity Was Supposed to Become Infinite"
 published: 2026-11-13
-draft: false
+draft: true
 description: "From a 1960 demographic prediction to a Pyragogy hypothesis"
 tags: [Pyragogy, Demography, Cybernetics, Adaptive Knowledge, Human-AI Collaboration]
 category: Research
@@ -43,7 +43,7 @@ cover: /banner/21.webp
 
 ## Friday the 13th, with a wink
 
-Heinz von Foerster was born on 13 November 1911. He scheduled the end of the world for his 115th birthday — Friday, 13 November, A.D. 2026.
+Heinz von Foerster was born on 13 November 1911 [2]. The calculation arrived at a date that happened to fall on what would have been his 115th birthday — Friday, 13 November, A.D. 2026.
 
 <small><strong>SCIENCE · 4 NOVEMBER 1960</strong></small>
 
@@ -112,7 +112,7 @@ Population $N(t)$ blows up as the date $t$ approaches the singularity $t_0$, bec
 
 ## The curve lost its nerve first
 
-The model had held for two millennia. It gave up almost exactly when the paper went to press: global growth peaked in the early 1960s and has been falling since. Fertility dropped, schooling spread, cities happened. The demographic transition took another road, and the hyperbola — not being consulted — carried on without us.
+The model had been fitted to two millennia of historical data. It gave up almost exactly when the paper went to press: global growth peaked in the early 1960s and has been falling since. Fertility dropped, schooling spread, cities happened. The demographic transition took another road, and the hyperbola — not being consulted — carried on without us.
 
 So here we are, and humanity is not infinite. The UN's medium-variant estimate for mid-2026 is about 8.3 billion [3][4]. Strictly speaking that is a model output too: it comes from the 2024 revision, and the next full one has been pushed to July 2027 [4]. The same revision sees a peak near 10.3 billion in the mid-2080s, then a slow decline [3]. A forecast, with its own *if*.
 
@@ -122,7 +122,7 @@ It would be easy to file all this under “funny old mistakes.” We'd lose the 
 
 A prediction is not a glimpse of the future. It is a relationship between data, assumptions, methods and conditions — and relationships can break. The math never became wrong. What failed was the assumption that a regularity would go on forever, which is the assumption every extrapolation makes on its way to a cliff. *At this rate.*
 
-Demographers know this and live with it in public. The UN's 2022 revision put the peak at about 10.4 billion around 2086; two years later it moved to 2084 and just under 10.3 billion, with roughly an 80% chance of peaking this century [5]. In January 2026 the same office noticed that Togo had about a million fewer people than its tables said. Censuses are rude like that [6]. And independent models disagree more: the IHME forecast in *The Lancet* peaks in the 2060s, below 10 billion [7].
+Demographers know this and live with it in public. The UN's 2022 revision put the peak at about 10.4 billion around 2086; two years later it moved to 2084 and just under 10.3 billion, with roughly an 80% chance of peaking this century [5]. In January 2026 the same office noticed that Togo had substantially fewer people than its tables said — the UN's own data portal revised the estimate after the 2022 census [6]. Censuses are rude like that. And independent models disagree more: the IHME forecast in *The Lancet* peaks in the 2060s, below 10 billion [7].
 
 Which leaves three practical questions. What do we do when knowledge that served us for decades stops explaining the world? How fast do we notice? And where do we keep the reasons we changed our minds?
 
@@ -140,7 +140,7 @@ So the question: can we design communities that keep learning about one domain f
 
 A fair amount, and it's worth saying so before claiming anything. Living systematic reviews update their conclusions as evidence arrives [8]. The UN Population Division publishes numbered editions and interim corrections. Forecasting platforms such as Metaculus and Good Judgment keep timestamped, scored predictions, and ForecastBench now puts humans and AI systems on the same questions [9]. Online learning and concept-drift monitoring are standard tools.
 
-So the claim can't be “revisions exist.” It has to be narrower. Platforms keep the prediction and the score; revisions keep the new number and a release note. What nobody keeps well is the reasoning: the objections, the dropped variables, the dissent — who argued what and why they lost.
+So the claim can't be “revisions exist.” It has to be narrower. Platforms keep the prediction and the score; revisions keep the new number and a release note. What is harder to reconstruct is the reasoning: the objections, the dropped variables, the dissent — who argued what and why they lost.
 
 Provisionally, let's call the idea **Active and Adaptive Domain Knowledge** (AADK):
 
@@ -303,17 +303,17 @@ That's not a program. It's a question worth testing.
 
 4. PopulationPyramids.org. Methodology page, using UN WPP 2024 medium-variant figures (1 July 2026) and noting the next revision postponed to 11 July 2027. [populationpyramids.org/methodology](https://www.populationpyramids.org/methodology)
 
-5. Nuttall, C. (2024). *World population set to peak decades sooner than previously projected*, bne IntelliNews. [intellinews.com](https://www.intellinews.com)
+5. United Nations, Department of Economic and Social Affairs, Population Division (2024). *World Population Prospects 2024: Summary of Results*. UN DESA/POP/2024/TR/NO. [population.un.org/wpp/](https://population.un.org/wpp/Publications/Files/WPP2024_Summary-of-Results.pdf)
 
-6. Ecofin Agency (2026). *UN revises Togo's population down to 8.13 million after 2022 census.* [ecofinagency.com](https://www.ecofinagency.com)
+6. United Nations Data Portal — Togo. Population estimates and revisions. [data.un.org/legacy/en/iso/tg.html](https://data.un.org/legacy/en/iso/tg.html)
 
-7. Vollset, S. E. et al. (2020). *Fertility, mortality, migration, and population scenarios for 195 countries and territories from 2017 to 2100.* *The Lancet*, 396, 1285–1306. [DOI to verify before publishing]
+7. Vollset, S. E. et al. (2020). *Fertility, mortality, migration, and population scenarios for 195 countries and territories from 2017 to 2100.* *The Lancet*, 396, 1285–1306. DOI: 10.1016/S0140-6736(20)30677-2
 
 8. Cochrane. *Cochrane Handbook for Systematic Reviews of Interventions*, chapter on living systematic reviews. [training.cochrane.org/handbook/current](https://training.cochrane.org/handbook/current)
 
 9. Karger, E. et al. (2024). *ForecastBench: A Dynamic Benchmark of AI Forecasting Capabilities.* arXiv:2409.19839
 
-10. Metaculus (2026). *AI forecasting in 2026: what 11 analyses say* (on retrospective backtests vs forward-looking tournaments). [lesswrong.com](https://www.lesswrong.com)
+10. LessWrong (2026). *AI forecasting in 2026: what 11 analyses say* (on retrospective backtests vs forward-looking tournaments). [lesswrong.com](https://www.lesswrong.com)
 
 11. Perdomo, J., Zrnic, T., Mendler-Dünner, C., & Hardt, M. (2020). *Performative Prediction.* *ICML 2020*, PMLR 119, 7599–7609. [proceedings.mlr.press](https://proceedings.mlr.press/v119/perdomo20a.html)
 
