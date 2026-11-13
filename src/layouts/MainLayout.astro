@@ -12,15 +12,12 @@ export interface Props {
   subTitle?: string;
   bannerImage?: string;
   slug?: string;
-  description?: string;
-  image?: string;
-  author?: string;
 }
 
 const props = Astro.props;
 ---
 
-<Base title={props.title} description={props.description} image={props.image}>
+<Base>
   <NavBar />
 
   {
@@ -35,15 +32,15 @@ const props = Astro.props;
   }
 
   <div class="main-container my-10">
-    <div class="layout-columns">
-      <aside class="side-bar" aria-label="Blog sidebar">
+    <div class="flex flex-row items-start xl:space-x-4">
+      <div class="side-bar">
         <SideBar />
-      </aside>
-      <div class="transition-leaving content-wrapper space-y-8">
+      </div>
+      <div class="transition-leaving w-full space-y-8">
         <main class="content onload-animation">
           <slot />
         </main>
-        <Footer author={props.author} />
+        <Footer />
       </div>
     </div>
   </div>
@@ -51,46 +48,15 @@ const props = Astro.props;
 
 <style>
   .main-container {
-    @apply mx-auto w-full max-w-full px-4;
-    @apply md:max-w-[90%];
-    @apply lg:min-w-[var(--page-width-lg)] lg:max-w-[var(--page-width-lg)] lg:px-0;
-    @apply xl:min-w-[var(--page-width-xl)] xl:max-w-[var(--page-width-xl)];
-  }
-
-  /* The two columns have independent tracks; article overflow cannot
-     consume the sidebar width or alter its placement. */
-  .layout-columns {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr);
-    align-items: start;
-    gap: 1rem;
-    min-width: 0;
+    @apply w-full md:min-w-[80%] md:max-w-[80%] lg:min-w-[var(--page-width-lg)] lg:max-w-[var(--page-width-lg)] xl:min-w-[var(--page-width-xl)] xl:max-w-[var(--page-width-xl)];
+    @apply md:mx-auto;
   }
 
   .side-bar {
-    display: none;
-    width: 248px;
-    min-width: 0;
-  }
-
-  .content-wrapper,
-  .content {
-    width: 100%;
-    min-width: 0;
-    max-width: 100%;
+    @apply hidden min-w-[248px] xl:block;
   }
 
   .content {
-    overflow-x: hidden;
-  }
-
-  @media (min-width: 1024px) {
-    .layout-columns {
-      grid-template-columns: 248px minmax(0, 1fr);
-    }
-
-    .side-bar {
-      display: block;
-    }
+    @apply xl:w-[calc(var(--page-width-xl)-264px)];
   }
 </style>

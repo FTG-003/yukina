@@ -3,6 +3,8 @@ import YukinaConfig from "../../yukina.config";
 import { i18n } from "../locales/translation";
 
 import { Icon } from "astro-icon/components";
+import SearchBar from "./SearchBar.svelte";
+import MobileSearchBar from "./MobileSearchBar.svelte";
 import "astro-pagefind";
 
 const navCount = YukinaConfig.navigators.length;
@@ -17,7 +19,6 @@ const navCount = YukinaConfig.navigators.length;
         id="menu-switcher"
         type="button"
         class="h-[40px] w-[44px] content-center"
-        aria-label="Apri menu"
       >
         <Icon
           id="menu-icon-closed"
@@ -32,75 +33,48 @@ const navCount = YukinaConfig.navigators.length;
           class="mx-auto hidden"
         />
       </button>
-      <a
-        class="title"
-        href={YukinaConfig.brandLink}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label={`${YukinaConfig.brandTitle} - Link esterno`}
-      >
+      <a class="title" href="/">
         {YukinaConfig.brandTitle}
       </a>
     </div>
-    <a
-      class="brand-lg"
-      href={YukinaConfig.brandLink}
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label={`${YukinaConfig.brandTitle} - Link esterno`}
-    >
+    <a class="brand-lg" href="/">
       <div class="title space-x-2">
-        <Icon
-          name={YukinaConfig.brandIcon ?? "heroicons:home"}
-          size={32}
-          aria-hidden="true"
-        />
+        <Icon name="heroicons:home" size={32} />
         <p>{YukinaConfig.brandTitle}</p>
       </div>
     </a>
     <div class="menu">
       {
         YukinaConfig.navigators.map((nav) => (
-          <a
-            href={nav.href}
-            target={nav.href.startsWith("http") ? "_blank" : undefined}
-            rel={
-              nav.href.startsWith("http") ? "noopener noreferrer" : undefined
-            }
-            aria-label={
-              nav.href.startsWith("http")
-                ? `${i18n(nav.nameKey)} - Link esterno`
-                : i18n(nav.nameKey)
-            }
-          >
+          <a href={nav.href}>
             <p>{i18n(nav.nameKey)}</p>
           </a>
         ))
       }
     </div>
-
     <div class="toolbar">
-      <a
-        href="/rss.xml"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="flex w-11 justify-center rounded-lg py-2 text-[var(--text-color)] transition-all hover:bg-[var(--primary-color-hover)] hover:text-[var(--primary-color)]"
-        aria-label="RSS Feed"
-        title="RSS Feed"
-      >
-        <Icon name="line-md:rss" size={24} aria-hidden="true" />
-      </a>
-      <!-- theme toggle -->
-      <button
-        id="theme-toggle"
-        type="button"
-        class="flex w-11 justify-center rounded-lg py-2 text-[var(--text-color)] transition-all hover:bg-[var(--primary-color-hover)] hover:text-[var(--primary-color)]"
-        aria-label="Toggle theme"
-        title="Toggle theme"
-      >
-        <svg id="theme-icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hidden"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-        <svg id="theme-icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hidden"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-      </button>
+      <div class="lg:hidden">
+        <MobileSearchBar client:only="svelte" />
+      </div>
+      <div class="hidden lg:block">
+        <SearchBar client:only="svelte" />
+      </div>
+      <div class="theme">
+        <button type="button" id="theme-switcher">
+          <Icon
+            id="theme-icon-light"
+            name="line-md:moon-alt-to-sunny-outline-loop-transition"
+            size={24}
+            class="hidden"
+          />
+          <Icon
+            id="theme-icon-dark"
+            name="line-md:sunny-outline-to-moon-alt-loop-transition"
+            size={24}
+            class="hidden"
+          />
+        </button>
+      </div>
     </div>
   </div>
   <div id="mobile-menu" class="px-3 transition-all">
@@ -111,14 +85,7 @@ const navCount = YukinaConfig.navigators.length;
       {
         YukinaConfig.navigators.map((nav) => (
           <li class="mt-1">
-            <a
-              href={nav.href}
-              class="mobile-nav-item"
-              target={nav.href.startsWith("http") ? "_blank" : undefined}
-              rel={
-                nav.href.startsWith("http") ? "noopener noreferrer" : undefined
-              }
-            >
+            <a href={nav.href} class="mobile-nav-item">
               <div class="flex flex-row items-center space-x-2">
                 <span class="text-[var(--primary-color)]">·</span>
                 <span>{i18n(nav.nameKey)}</span>
@@ -303,8 +270,47 @@ const navCount = YukinaConfig.navigators.length;
     }
   });
 
+  // Theme switcher
+  // Get elements
+  const themeSwitcher = document.getElementById(
+    "theme-switcher",
+  ) as HTMLButtonElement;
+  let themeIconLight = document.getElementById(
+    "theme-icon-light",
+  ) as any as SVGElement;
+  let themeIconDark = document.getElementById(
+    "theme-icon-dark",
+  ) as any as SVGElement;
+
+  // Record the current theme
+  let currentTheme = localStorage.getItem("theme") || "light";
+
+  // Set theme
+  const setTheme = (theme: string) => {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+    currentTheme = theme;
+
+    // Show/hide icons for different themes
+    themeIconDark.style.display = theme === "dark" ? "block" : "none";
+    themeIconLight.style.display = theme === "light" ? "block" : "none";
+
+    // If the theme is dark, update the dark icon; otherwise, update the light icon
+    if (theme === "dark") themeIconDark = reinitializeIcon(themeIconDark);
+    else themeIconLight = reinitializeIcon(themeIconLight);
+
+    // Toggle dark class
+    document.documentElement.classList.toggle("dark", theme === "dark");
+  };
+
+  // Click to switch theme
+  themeSwitcher.addEventListener("click", () => {
+    setTheme(currentTheme === "light" ? "dark" : "light");
+  });
+
   // Initialize
   document.addEventListener("DOMContentLoaded", () => {
+    setTheme(currentTheme);
     menuIconClosed.style.display = "block";
   });
 
@@ -335,43 +341,4 @@ const navCount = YukinaConfig.navigators.length;
     pagefind.search("");
   }
   loadPagefind();
-</script>
-
-<script>
-  // theme toggle
-  const themeToggle = document.getElementById('theme-toggle');
-  const sunIcon = document.getElementById('theme-icon-sun');
-  const moonIcon = document.getElementById('theme-icon-moon');
-
-  function setTheme(theme) {
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('yukina-theme', theme);
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
-      sunIcon.classList.remove('hidden');
-      moonIcon.classList.add('hidden');
-    } else {
-      document.documentElement.classList.remove('dark');
-      sunIcon.classList.add('hidden');
-      moonIcon.classList.remove('hidden');
-    }
-  }
-
-  function initTheme() {
-    const theme = document.documentElement.getAttribute('data-theme') || 'light';
-    if (theme === 'dark') {
-      sunIcon.classList.remove('hidden');
-    } else {
-      moonIcon.classList.remove('hidden');
-    }
-  }
-
-  if (themeToggle) {
-    themeToggle.addEventListener('click', function() {
-      const current = document.documentElement.getAttribute('data-theme');
-      setTheme(current === 'dark' ? 'light' : 'dark');
-    });
-  }
-
-  document.addEventListener('DOMContentLoaded', initTheme);
 </script>
