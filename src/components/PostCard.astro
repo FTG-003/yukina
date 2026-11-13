@@ -70,7 +70,7 @@ const loadingType = props.isFirst ? "eager" : "lazy";
   </a>
   <div class="flex h-[128px] flex-row lg:h-[212px]">
     <div
-      class="flex w-full flex-col justify-between pb-5 pl-5 pr-6 pt-3 lg:w-[calc(var(--page-width-lg)-404px)] lg:py-7 lg:pr-0 xl:w-[calc(var(--page-width-xl)-676px)]"
+      class="flex w-full flex-col justify-between pb-5 pl-5 pr-6 pt-3 lg:w-[calc(100%-404px)] lg:py-7 lg:pr-0"
     >
       <div class="flex w-full flex-row items-center">
         <div
@@ -211,8 +211,9 @@ const loadingType = props.isFirst ? "eager" : "lazy";
   }
 
   .cover-container {
-    @apply relative ml-2 hidden h-[212px] min-w-[404px] max-w-[404px] select-none lg:block;
-    clip-path: polygon(0 0%, 100% 0%, 100% 100%, 10% 100%);
+    @apply relative ml-2 hidden h-[212px] w-[404px] min-w-[404px] select-none lg:block;
+    mask-image: linear-gradient(to left, #000 90%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to left, #000 90%, transparent 100%);
   }
 
   .cover-wrapper {
