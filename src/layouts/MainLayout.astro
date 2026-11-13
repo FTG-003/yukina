@@ -39,7 +39,7 @@ const props = Astro.props;
       <div class="side-bar">
         <SideBar />
       </div>
-      <div class="transition-leaving content-wrapper w-full space-y-8">
+      <div class="transition-leaving content-wrapper space-y-8">
         <main class="content onload-animation">
           <slot />
         </main>
@@ -69,5 +69,6 @@ const props = Astro.props;
   .content-wrapper {
     min-width: 0;
     flex: 1 1 0%;
+    overflow: hidden;
   }
 </style>

@@ -29,12 +29,12 @@ cover: /banner/21.webp
   .pyr-math-explainer { margin: 2.15rem 0; padding: clamp(18px,3vw,30px); border: 1px solid var(--primary-color-lighten); border-left: 3px solid var(--primary-color); border-radius: 12px; background: var(--card-color); }
   .pyr-math-explainer .math-label { color: var(--primary-color); font-size: .76rem; letter-spacing: .12em; text-transform: uppercase; font-weight: 750; }
   .pyr-math-explainer + .katex-display { font-size: 1.55em; }
-  .article .katex-display { font-size: clamp(1.3rem,3vw,2rem); margin: 1.8rem 0 1.2rem; padding: 1.35rem .8rem; border: 1px solid var(--primary-color-lighten); border-radius: 12px; background: var(--card-color); }
-  .pyr-legend { margin: .75rem 0 1.55rem; padding: .6rem 0 .6rem 1.25rem; border-left: 2px solid var(--primary-color); }
+  .article .katex-display { font-size: clamp(1.15rem,4vw,1.85rem); margin: 1.5rem 0; padding: clamp(0.85rem,2vw,1.35rem) clamp(0.6rem,1.5vw,0.8rem); border: 1px solid var(--primary-color-lighten); border-radius: 12px; background: var(--card-color); text-align: center; }
+  .pyr-legend { margin: .5rem 0 1.25rem; padding: .6rem 0 .6rem 1.25rem; border-left: 2px solid var(--primary-color); }
   .pyr-legend p { margin: .45rem 0; }
   @media (max-width: 640px) {
     .pyr-biblio { grid-template-columns: 1fr !important; }
-    .pyr-biblio figure { max-width: 320px; }
+    .pyr-biblio figure { max-width: 320px; margin: 0 auto; }
     .pyr-figure .pyr-scroll { padding: 12px; }
     .pyr-figure svg { min-width: 610px; }
     .pyr-figure figcaption { font-size: .82rem; }
