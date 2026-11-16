@@ -49,7 +49,7 @@ cover: /banner/21.webp
 <div class="pyr-biblio" style="display:grid;grid-template-columns: minmax(0,0.85fr) minmax(0,1.15fr);gap:clamp(1rem,3vw,2rem);align-items:start;margin:1.25rem 0 2rem">
   <figure style="margin:0">
     <img src="/images/heinz-von-foerster.webp" alt="Historical portrait of Heinz von Foerster" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;object-fit:contain;border-radius:0.65rem" />
-    <figcaption style="font-size:0.85rem;line-height:1.45;opacity:0.8;margin-top:0.55rem">Heinz von Foerster (1911–2002), physicist and pioneer of cybernetics. <em>Photo credit and license to be confirmed.</em></figcaption>
+    <figcaption style="font-size:0.85rem;line-height:1.45;opacity:0.8;margin-top:0.55rem">Heinz von Foerster (1911–2002), physicist and pioneer of cybernetics.</figcaption>
   </figure>
   <div>
     <h3 style="margin:0 0 1.1rem;font-size:clamp(1.35rem,2.8vw,1.85rem);line-height:1.25">Doomsday: Friday, 13 November, A.D. 2026</h3>
@@ -71,7 +71,7 @@ They weren't writing science fiction. They took two thousand years of censuses, 
 A simplified version of that pattern:
 
 $$
-N(t)=\frac{C}{t_0-t}
+N(t) = \frac{C}{t_0 - t}
 $$
 
 <div class="pyr-legend">
@@ -112,7 +112,7 @@ It wasn't a demonstration that infinite population was materially possible. It w
 
 For decades the curve stayed surprisingly close to reality. Then fertility declined, education expanded, cities transformed. The demographic transition took another path.
 
-Today the world population stands at **8.3 billion** people — not infinite. The UN's 2024 projections speak of **10.3 billion around the mid-2080s**, then a slight decline [2]. That too is a conditional prediction, not a certainty.
+Today the world population stands at **8.3 billion** people — not infinite. The UN's 2026 projections speak of **10.3 billion around the mid-2080s**, then a slight decline [2]. That too is a conditional prediction, not a certainty.
 
 It would be easy to dismiss the story as a curiosity. A missed prediction, an interesting mistake. But we'd lose the question worth asking.
 
