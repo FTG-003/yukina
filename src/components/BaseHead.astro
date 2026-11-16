@@ -23,11 +23,22 @@ const ogImage = new URL(image || "/og-image.png", Astro.site);
 <!-- CSP -->
 <meta
   http-equiv="Content-Security-Policy"
-  content="default-src 'self'; img-src 'self' https://c.pxhere.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://plausible.pyragogy.org; connect-src 'self' https://plausible.pyragogy.org; style-src 'self' 'unsafe-inline' https://fastly.jsdelivr.net https://fonts.bunny.net; font-src 'self' https://fonts.bunny.net;"
+  content="default-src 'self'; img-src 'self' https://c.pxhere.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://plausible.pyragogy.org; connect-src 'self' https://plausible.pyragogy.org https://api.iconify.design https://api.unisvg.com https://api.simplesvg.com; style-src 'self' 'unsafe-inline' https://fastly.jsdelivr.net https://fonts.bunny.net; font-src 'self' https://fonts.bunny.net data:;"
 />
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL.toString()} />
+
+<!-- Forza tema dark di default prima del rendering per evitare flash -->
+<script is:inline>
+  (function() {
+    var theme = localStorage.getItem('yukina-theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', theme);
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    }
+  })();
+</script>
 
 <!-- Primary Meta Tags -->
 <title>{title ?? YukinaConfig.title}</title>

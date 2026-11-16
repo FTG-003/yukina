@@ -1,4 +1,6 @@
 ---
+import "katex/dist/katex.min.css";
+
 import Main from "../layouts/MainLayout.astro";
 import Markdown from "../components/Markdown.astro";
 import CopyRight from "../components/misc/CopyRight.astro";
@@ -30,12 +32,8 @@ const { title, subTitle, bannerImage, published, license, author, sourceLink, de
   author={author}
   description={description}
   image={image}
+  hideSidebar={true}
 >
-  <link
-    slot="head"
-    rel="stylesheet"
-    href="https://fastly.jsdelivr.net/npm/katex/dist/katex.min.css"
-  />
   <div class="article-wrapper">
     <div class="article">
       <Markdown>
